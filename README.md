@@ -12,10 +12,9 @@ The material in this booklet is _skin deep_, and I have consciously avoided big 
 
 > I strongly believe that programming is best learnt by:     
     - Executing concrete examples rather than reading abstract theories    
-    - Doodling illustrative figures that graphically represents the key concepts      
-  
+    - Doodling illustrative figures that graphically represents the key concepts        
   Expect plenty of them throughout this mini booklet.
-  Also, please don't ignore the small drills that I have embedded in the material.
+  Also, please __don't ignore the small drills__ that I have embedded in the material - they reinforce the concepts.
 
 
 ## Table of Content
