@@ -5,7 +5,7 @@
 > _"Any application that can be written in JavaScript, will eventually be written in JavaScript."_  
 >                                      - Jeff Atwood - Co-founder of Stack Overflow; July, 2007        
                                           
-Umm... good question! Here are some reasons: 
+So you need some motivation! Umm... here you go:  
   - __Necessity__ - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) is the _only_ programming language (apart from [WebGL](https://en.wikipedia.org/wiki/WebGL)) supported by the common web browsers. It's the tool you need to make your web pages alive and interactive. 
   - __Popularity__ - It's insanely popular! From technology giants to primary school students - everyone uses JavaScript. It's the most loved, discussed, and hated programming language globally. Based on [Stack Overflow Developer Survey 2018](https://insights.stackoverflow.com/survey/2018), nearly 70% of all questions asked on the platform are related to JavaScript. 
   - __Employability__ - Millions of programmers use JavaScript; for many, it is the first programming language they learned. They had charted out glittering careers as developers, bloggers, product mangers, analysts, etc. Learning JavaScript makes you employable in almost any corner of the planet where internet has pervaded.
