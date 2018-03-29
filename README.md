@@ -1,4 +1,4 @@
-# GETTING STARTED WITH JAVASCRIPT.    
+# GETTING  STARTED  WITH  JAVASCRIPT.    
 > A gentle introduction to JavaScript; written by a newbie, for other newbies.    
 
 ![cover image](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/download.png)      
