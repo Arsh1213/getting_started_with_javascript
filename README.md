@@ -10,7 +10,7 @@ There are plenty of awesome tutorials on the internet that promises to help you 
 
 The material in this booklet is _skin deep_, and I have consciously avoided big chunks of conventional Javascript basics. The intended audience are people with absolutely _no programming experience_, except familiarity with the basics of the web like HTML and CSS. If you are an experienced programmer who wants to learn JavaScript, you will be disappointed by the lack of coverage, both in terms of breadth and depth.  
 
-> I strongly believe that programming is best learnt by: 
+> I strongly believe that programming is best learnt by:     
     - Executing concrete examples rather than reading abstract theories
     - Doodling illustrative figures that graphically represents the key concepts
   Expect plenty of them throughout this mini booklet.
