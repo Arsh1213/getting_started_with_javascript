@@ -1,7 +1,7 @@
 # Getting Started With JavaScript 
 > A gentle introduction to JavaScript; written by a newbie, for other newbies.           
 
-![](https://cdn-images-1.medium.com/max/1600/1*OF0xEMkWBv-69zvmNs6RDQ.gif)
+![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/cover.gif)
 
 ### Introduction
 There are plenty of awesome tutorials on the internet that promises to help you get started with JavaScript. I neither claim to be at par with them, nor do I intend to. I wrote this tutorial for two reasons:
