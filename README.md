@@ -22,4 +22,4 @@ This material is _skin deep_, and I have consciously avoided big chunks of conve
   9. [Glimpse of Client-side JavaScript](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/9_glimpse_of_clientside_javascript.md)
   10. [Further Reading](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/10_further_reading.md)
 
-[1]((https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/1_welcome_to_javascript.md))
+[1](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/1_welcome_to_javascript.md)
