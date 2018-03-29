@@ -1,5 +1,5 @@
 # Getting Started With JavaScript 
-> By a newbie, for the newbies.           
+#### _By a newbie, for the newbies._           
 
 ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/cover.gif)
 
