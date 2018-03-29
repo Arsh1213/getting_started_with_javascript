@@ -1,1 +1,1 @@
-## Glimpse of client-side JavaScript
+# Glimpse of Client-side JavaScript
