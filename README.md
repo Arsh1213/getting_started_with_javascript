@@ -1,5 +1,5 @@
 # Getting Started With JavaScript 
-> A gentle introduction to JavaScript; written by a newbie, for other newbies.           
+> By a newbie, for the newbies.           
 
 ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/cover.gif)
 
