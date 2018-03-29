@@ -2,9 +2,8 @@
 
 ## Whu should you learn JavaScript?    
 
-> _"Any application that can be written in JavaScript, will eventually be written in JavaScript."_ 
-
-                                          - Jeff Atwood - co-founder of Stack Overflow; July, 2007    
+> _"Any application that can be written in JavaScript, will eventually be written in JavaScript."_     
+>                                      - Jeff Atwood - Co-founder of Stack Overflow; July, 2007        
                                           
 Umm... good question! Here are some reasons: 
   - __Necessity__ - [JavaScript]((https://en.wikipedia.org/wiki/JavaScript)) is the _only_ programming language (apart from [WebGL](https://en.wikipedia.org/wiki/WebGL)) supported by the common web browsers. It's the tool you need to make your web pages alive and interactive. 
