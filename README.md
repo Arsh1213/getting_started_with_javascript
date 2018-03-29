@@ -14,7 +14,7 @@ The material in this booklet is _skin deep_, and I have consciously avoided big 
     - Executing concrete examples rather than reading abstract theories    
     - Doodling illustrative figures that graphically represents the key concepts        
   Expect plenty of them throughout this mini booklet.    
-  Also, please __don't ignore the small drills__ that I have embedded in the material - they reinforce the concepts.
+  Also, please __don't ignore the questions I ask you to think about and the small drills that I ask you to do__. They reinforce the concepts while you learn. They had served me good, and I hope they will be helpful for you too! 
 
 
 ## Table of Content
