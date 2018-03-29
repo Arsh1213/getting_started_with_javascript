@@ -19,5 +19,6 @@ This tutorial is _skin deep_, and I have consciously avoided big chunks of conve
   6. [Objects]()
   7. [Arrays]()
   8. [Constructors and Inheritance]()
-  9. [Further Reading]()
+  9. [Glimpse of Client-side JavaScript]()
+  10. [Further Reading]()
 
