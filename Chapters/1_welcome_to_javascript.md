@@ -1,1 +1,16 @@
-# Welcome to JavaScript
+# Welcome to JavaScript    
+
+## Whu should you learn JavaScript?    
+
+> _"Any application that can be written in JavaScript, will eventually be written in JavaScript."_ 
+                                          - Jeff Atwood - co-founder of Stack Overflow; July, 2007    
+                                          
+Umm... good question! Here are some reasons: 
+  - __Necessity__ - [JavaScript]((https://en.wikipedia.org/wiki/JavaScript)) is the _only_ programming language (apart from [WebGL](https://en.wikipedia.org/wiki/WebGL)) supported by the common web browsers. It's the tool you need to make your web pages alive and interactive. 
+  - __Popularity__ - It's insanely popular! From technology giants to primary school students - everyone uses JavaScript. It's the most loved, discussed, and hated programming language globally. Based on [Stack Overflow Developer Survey 2018](https://insights.stackoverflow.com/survey/2018), nearly 70% of all questions asked on the platform are related to JavaScript. 
+  - __Employability__ - Millions of programmers use JavaScript; for many, it is the first programming language they learned. They had charted out glittering careers as developers, bloggers, product mangers, analysts, etc. Learning JavaScript well makes you employable in almost any corner of the planet where internet has pervaded.
+  - __Applicability__ - Modern JavaScript allows us to write extremely complex and rich web applications, covering everything from backend code running on the server to frontend code running on the browsers. _Learn one, rule all!_. But beware of the deadly trap - professional JavaScript programmers are clustered in highly fragmented communities, each following a framework like a religion. The funny part is - they change their religion as soon as a new hot religion emerges.
+  - __Freedom__ - It's free, open source, and standardised by a committee behind ECMAScript. You don't need to pay anything to learn and apply it.
+  - __Embarrasment__ - Not knowing the basics of JavaScript is embarrasing if you work in a technology company, and especially if the company has build it's product based on JavaScript.    
+  
+Lorem Ipsum
