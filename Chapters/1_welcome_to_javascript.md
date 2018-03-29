@@ -3,6 +3,7 @@
 ## Whu should you learn JavaScript?    
 
 > _"Any application that can be written in JavaScript, will eventually be written in JavaScript."_ 
+
                                           - Jeff Atwood - co-founder of Stack Overflow; July, 2007    
                                           
 Umm... good question! Here are some reasons: 
