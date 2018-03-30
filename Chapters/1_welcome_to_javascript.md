@@ -34,6 +34,6 @@ Oooff... that's quite a heavy and geeky definition! But what does it really mean
     
     For now, it's enough to know that JavaScript primarily supports _procedural_ and _object oriented_ styles of programming very well, and may be with some tweaks can support basic _functional_ programming too.         
   
-  - ``scripting web applications``     
+  - `scripting web applications`     
   JavaScript makes the web pages delightfully interactive for the users. In fact, the reason JavaScript is so popular despite it's severe shortcomings is that it's the only programming language that the web browsers understand (barring some text-only browsers like [elinks](http://elinks.or.cz/)). JavaScript empowers you to do almost anything you want with your web pages, once the pages are recieved by the browsers from the server. We shall discuss client-side programming in the chapter [Glimpse of client-side JavaScript](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/9_glimpse_of_clientside_javascript.md). On the servers, you can use frameworks like [node.js](https://nodejs.org/en/) without learning an extra programming language. 
  
