@@ -24,7 +24,7 @@ Oooff... that's quite a heavy and geeky definition! But what does it really mean
   There are two categories of programming languages when it comes to strictness of typecasting data - _statically typed_, and _loosely/dynamically typed_. JavaScript belongs to the later category, although JavaScript fanboys prefer to call it "duck typing", which roughly translates "sacrificing rigor of typecasting in favour of flexibility in writing code logic and managing memory".    
   - __interpreted__     
   There are two types of programming languages - _interpreted_, and _compiled_. Most scripting languages like JavaScript, Python, Bash, Lua, etc. are interpreted, while the programming langages like C++, C, etc. are compiled. Java is somewhere in between - it gets compiled to produce bytecode, which runs on a [Java virtual machine (JVM)](https://en.wikipedia.org/wiki/Java_virtual_machine) and not on the native processor.     
-  > We shall discuss the above two topics in detail in the chapter [Programming 101](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/2_programming101.md).
+  > __NOTE__: We shall discuss the above two topics in detail in the chapter [Programming 101](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/2_programming101.md).
   - __object oriented__     
   There are three dominant programming paradigms that drives the philosophy of how software software should be written:
     - Procedural
