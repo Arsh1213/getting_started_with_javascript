@@ -20,17 +20,19 @@ So you need some motivation! Umm... I'm sure there are many more, but right now 
 
 Oooff... that's quite a heavy and geeky definition! But what does it really mean? Let's break it into chunks and understand what they mean at a very high level. In due course, you will also learn some of the things that are common with other programming languages like Python, Java, etc.
 
-  - __loosely typed__     
-  There are two categories of programming languages when it comes to strictness of typecasting data - _statically typed_, and _loosely/dynamically typed_. JavaScript belongs to the later category, although JavaScript fanboys prefer to call it "duck typing", which roughly translates into "sacrificing rigour of typecasting data in favour of flexibility of writing logic and managing memory".    
-  - __interpreted__     
+  - `loosely typed`    
+  There are two categories of programming languages when it comes to strictness of typecasting data - _statically typed_, and _loosely/dynamically typed_. JavaScript belongs to the later category, although JavaScript fanboys prefer to call it "duck typing", which roughly translates into "sacrificing rigour of typecasting data in favour of flexibility of writing logic and managing memory".      
+  
+  - `interpreted`     
   There are two types of programming languages - _interpreted_, and _compiled_. Most scripting languages like JavaScript, Python, Bash, Lua, etc. are interpreted, while the programming langages like C++, C, etc. are compiled. Java is somewhere in between - it gets compiled to produce bytecode, which runs on a [Java virtual machine (JVM)](https://en.wikipedia.org/wiki/Java_virtual_machine) and not on the native processor.     
   > __NOTE__: I know what you are thinking - "... same gibberish filled with technical jargons without imparting proper understanding or some practical skills... ". We shall discuss the above two topics in detail in the next chapter [Programming 101](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/2_programming101.md), which I hope will give you some clarity.
-  - __object oriented__     
+  - `object oriented`     
   There are three dominant programming paradigms that drives the philosophy of how software software should be written:
     - __Procedural__ - Programs can be written as procedures, or a sequence of steps/logic that you want the computer to perform on some data. Throughout the history of programming and software engineering, this has been one of the strongest philosophies, and will continue to do so for the foreseeable future.         
-    - __Object Oriented__ - In this paradigm, software is written to imitate the nature where each entity has some properties and capabilities/behaviour. Java made this philosophy highly popular, and most big modern software are written keeping this approach in mind. To promote code reuse, modularity, ease of maintenance, etc., enterprise software are often designed by software architects using their darling paradigm - OOP. In context of JavaScript, OOP is discussed in chapters [Objects](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/6_objects.md) and [Constructors and Inheritance](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/8_constructors_and_inheritance.md).         
-    - __Functional__ -     
-  For now, it's enough to know that JavaScript primarily supports _procedural_ and _object oriented_ styles of programming very well, and may be with some tweaks can support basic _functional_ programming too.
-  - __scripting web applications__     
+    - __Object Oriented__ - In this paradigm, software is written to imitate the nature where each entity has some properties and capabilities/behaviour. Java made this philosophy highly popular, and most big modern software are written keeping this approach in mind. To promote code reuse, modularity, ease of maintenance, etc., enterprise software are often designed by software architects using their darling paradigm - OOP. In context of JavaScript, OOP is discussed in chapters [Objects](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/6_objects.md) and [Constructors and Inheritance](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/8_constructors_and_inheritance.md).       
+    - __Functional__ -     
+  For now, it's enough to know that JavaScript primarily supports _procedural_ and _object oriented_ styles of programming very well, and may be with some tweaks can support basic _functional_ programming too.    
+  
+  - `scripting web applications`     
   JavaScript makes the web pages delightfully interactive for the users
  
