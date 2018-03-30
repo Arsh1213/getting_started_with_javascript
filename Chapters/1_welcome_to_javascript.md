@@ -20,16 +20,16 @@ So you need some motivation! Umm... I'm sure there are many more, but right now 
 
 Oooff... that's quite a heavy and geeky definition! But what does it really mean? Let's break it into chunks and understand what they mean at a very high level. In due course, you will also learn some of the things that are common with other programming languages like Python, Java, etc.
 
-  - __loosely typed__ 
+  - __loosely typed__     
   To understand the concept of "typed" we need to revisit the basics of computers.     
-  - __interpreted__ 
+  - __interpreted__     
   There are two types of programming languages - _interpreted_, and _compiled_. Most scripting languages like JavaScript, Python, Bash, Lua, etc. are interpreted, while the programming langages like C++, C, etc. are compiled. Java is somewhere in between - it gets compiled to produce bytecode, which runs on a Java virtual machine    
-  - __object oriented__ 
+  - __object oriented__     
   There are three dominant programming paradigms that drives the philosophy of how software software should be written:
     - Procedural
     - Object Oriented
     - Functional
   bla bla
-  - __scripting web applications__ 
+  - __scripting web applications__     
   JavaScript makes the web pages delightfully interactive for the users
  
