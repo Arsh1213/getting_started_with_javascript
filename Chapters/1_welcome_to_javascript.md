@@ -16,6 +16,12 @@ So you need some motivation! Umm... I'm sure there are many more, but right now 
   
 ## What's JavaScript?    
 
-> JavaScript is a loosely typed and interpreted programming language widely used for scripting. It supports the Object Oriented Programming (OOP) paradigm, and is the ubiquitous king of web programming.     
+> JavaScript is a __loosely typed__, __interpreted__, and __object oriented__ programming language widely used for __scripting web applications__.
 
 Oooff... that's quite a heavy and geeky definition! But what does it really mean? Let's break it into chunks and understand what they mean at a very high level. In due course, you will also learn some of the things that are common with other programming languages like Python, Java, etc.
+
+loosely typed - 
+interpreted - 
+object oriented - 
+scripting web applications - 
+ 
