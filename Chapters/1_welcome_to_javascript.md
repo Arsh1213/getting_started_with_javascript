@@ -20,8 +20,8 @@ So you need some motivation! Umm... I'm sure there are many more, but right now 
 
 Oooff... that's quite a heavy and geeky definition! But what does it really mean? Let's break it into chunks and understand what they mean at a very high level. In due course, you will also learn some of the things that are common with other programming languages like Python, Java, etc.
 
-loosely typed - 
-interpreted - 
-object oriented - 
-scripting web applications - 
+  - __loosely typed__ -     
+  - __interpreted__ -     
+  - __object oriented__ -     
+  - __scripting web applications__ -     
  
