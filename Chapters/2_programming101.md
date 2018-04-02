@@ -69,7 +69,9 @@ Block diagram of a basic computer with uniprocessor CPU.
 Don't worry if you didn't understand the details presented in the illustration above. It's crux is that there are different components of a processor that handles the instructions/logic and the data, both of which are electric currents carried by dedicated wires called _"bus"_. The electrical circuits present in a CPU responds only to voltage levels, either by transmitting current or blocking it. At this level, all we have are the analog equivalent of the binary - `-5 volt` and `+5 volt`. It is very difficult to implement an abstract human construct like data type at the hardware level. However, not all hopes are lost, as the __allocation of memory chunks of different sizes for different types of data__ can serve as a distinguishing factor!    
 
 ### Can compilers/interpreters help?
-We will probe this possibility of solving our problem from the other end of the spectrum, which is essentially a top-down approach. Let's invite the compilers and the interpreters into the game and spice it up!
+We will probe this possibility of solving our problem from the other end of the spectrum, which is essentially a top-down approach. Let's invite the compilers and the interpreters into the game and spice it up!    
+
+Compilers and interpreters are special programs that has the grammar of the programming language embedded in it. Although compilers and interpreters are technically very different pieces of software in terms of functionality and scope, they share some common functions in terms of handling the code. For the sake of simplicity, in this discussion we will club them together and try to find solution from the common subset of their functions.
 
 To get an intuitive feeling of the possible role of compilers/interpreters in solving this problem, think about the following:    
   - The compilers and interpreters are responsible for generating the correct sequence of `0`s and `1`s.    
@@ -78,8 +80,7 @@ To get an intuitive feeling of the possible role of compilers/interpreters in so
   
 If the circuits are incapable of handling abstractions, then it must be the entity producing the machine code that has the onus of responsibility to dumb down things at a level that electrical engineering can address! In fact, it only makes sense that an abstraction like distinction between data types is handled by something more abstract than the bare circuits.     
 
-### The help arrives...
-Although compilers and interpreters are technically very different in the way they handle source code, they share some common functions in terms of handling the code. For the sake of simplicity, in this sub-section we will club them together and try to find solution from the common subset of their functions.    
+### The help arrives...    
 
 Although not a complete list, given below are some tasks that compilers and interpreters perform when they are invoked:    
 
@@ -93,3 +94,12 @@ var name = "John";
 var age = 30;
 ```
 
+The above lines of JavaScript code are syntactically correct and are contained within one source file. When the JavaScript interpreter is invoked, the code readily passes the first two tests of syntactical correctness and module references. Since the code does not warrant an output, the 4th task is not performed by the interpreter. What remains is the all-important 3rd item on the list, which we shall closely inspect.    
+
+As with most interpreted languages, the JavaScript interpreter goes through a source code file line by line. Let me take you through the same journey that the interpreter goes through, when our code is fed into it:        
+  1. The first line starts with `//`, and is thus ignored by the interpreter as a comment for humans.     
+  2. The second line does not have the `//` signs at it's begining, and the interpreter senses that this is a legitimate line of code.     
+  3. The line is parsed for lexical sanity, which our code passes with flying colours.    
+  4. Once the syntactical correctness is ensured, the interpreter starts deciphering it's meaning.     
+    1. The first word it encounters is `var`, which triggers an anticipation that a variable is on the way! You can visualize variables as entities in a program that occupies a certain range of memory locations, based on the type of the value it contains.     
+    2. In our first legitimate line of code, the name of the variable is `name`, and it contains a value `John`. On recieving these information, the interpreter lays out a memory map, which is roughly illustrated below:     
