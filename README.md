@@ -27,7 +27,7 @@ The material in this booklet is _skin deep_, and I have consciously avoided big 
   7. [Arrays](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/7_arrays.md)
   8. [Constructors and Inheritance](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/8_constructors_and_inheritance.md)
   9. [Glimpse of Client-side JavaScript](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/9_glimpse_of_clientside_javascript.md)    
-  10. [Further Reading](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/10_further_reading.md)     
+  10. [Further Reading](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/10_further_reading.md)     
 
 
 [__Welcome to JavaScript =>>__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/1_welcome_to_javascript.md)
