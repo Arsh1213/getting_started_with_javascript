@@ -54,7 +54,7 @@ Most modern computers are manufactured using the [Von Neumann architecture](http
 
 Globally, numerical quantities are expressed by the decimal number system. Standards defined by [ASCII](https://en.wikipedia.org/wiki/ASCII) and [Unicode](https://en.wikipedia.org/wiki/Unicode) gives us a way to represent non-numerical characters as decimal numbers. Thus, we have an agreed way to represent everything as decimal numbers, and convert them uniformly into binary numbers. Although such standardisation is a good first step, it still does not solves our problem. To appreciate the problem, let's take a bottom-up approach and understand what's happening at a hardware level.    
 
-![](https://upload.wikimedia.org/wikipedia/commons/d/d8/ABasicComputer.gif)    
+![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/ABasicComputer.gif)    
 
 ```
 Block diagram of a basic computer with uniprocessor CPU. 
