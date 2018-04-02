@@ -50,10 +50,13 @@ The mechanisms of source code execution for interpreted and compiled programming
 
 There is no shame in revisiting the the basics of computers, especially when we are newbies in the world of programming computers to automatically perform tasks for us. What we are about to do is same as stalwarts like Elon Musk do - _thinking from first principles_.     
 
+### The problem with data types...    
 Most modern computers are manufactured using the [Von Neumann architecture](https://en.wikipedia.org/wiki/Von_Neumann_architecture), which implies that data resides in the memory, and computation is performed by the processor. These dumb but useful beasts see everything as `0` and `1`; be it a beautiful piece of code or your favourite porn - they are incapable of appreciating anything beyond those two numbers. And that's a serious problem! We need to write programs for calculating salary of employees, and we also need to write programs for displaying their name on the monitor. If both salary and name are series of `0`s and `1`s in the computer's memory, how do we ask the computer to differentiate between the two? In a generalised rephrasing of the question, how do we ask the computers to differentiate between the binary equivalents of __different types of data__?     
 
+### Who can help?
 Globally, numerical quantities are expressed by the decimal number system. Standards defined by [ASCII](https://en.wikipedia.org/wiki/ASCII) and [Unicode](https://en.wikipedia.org/wiki/Unicode) gives us a way to represent non-numerical characters as decimal numbers. Thus, we have an agreed way to represent everything as decimal numbers, and convert them uniformly into binary numbers. Although such standardisation is a good first step, it still does not solves our problem. To appreciate the problem, let's take a bottom-up approach and understand what's happening at a hardware level.    
 
+### Electrical Engineering and Programming
 ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/ABasicComputer.gif)    
 
 ```
@@ -65,6 +68,7 @@ Block diagram of a basic computer with uniprocessor CPU.
 
 Don't worry if you didn't understand the details presented in the illustration above. It's crux is that there are different components of a processor that handles the instructions/logic and the data, both of which are electric currents carried by dedicated wires called _"bus"_. The electrical circuits present in a CPU responds only to voltage levels, either by transmitting current or blocking it. At this level, all we have are the analog equivalent of the binary - `-5 volt` and `+5 volt`. It is very difficult to implement an abstract human construct like data type at the hardware level. However, not all hopes are lost, as the __allocation of memory chunks of different sizes for different types of data__ can serve as a distinguishing factor!    
 
+### Can compilers/interpreters help?
 We will probe this possibility of solving our problem from the other end of the spectrum, which is essentially a top-down approach. Let's invite the compilers and the interpreters into the game and spice it up!
 
 To get an intuitive feeling of the possible role of compilers/interpreters in solving this problem, think about the following:    
