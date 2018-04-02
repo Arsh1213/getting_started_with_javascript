@@ -4,10 +4,9 @@ In this chapter, you will learn the following basics of programming:
   - Why programming is more about thinking and less about typing
   - Computer architecture and memory in context of program execution; compilation versus interpretation   
   - Data types, and why they are important        
-  - Some best practices of programming    
-  - Software engineering - it's overlap and differences with programming       
+  - Some best practices of programming and software engineering               
 
-While I will try my best to present the material in an objective fashion, it might get contaminated with my biases and subjective opinions. Feel free to discard my opinions and form your own based on your experiences.    
+While I will try my best to present the material in an objective fashion, it might get contaminated with my biases. Feel free to discard my opinions and form your own based on your experiences.    
 
 
 ## Think more, type less     
