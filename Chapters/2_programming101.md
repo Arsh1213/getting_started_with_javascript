@@ -45,3 +45,4 @@ Block diagram of a basic computer with uniprocessor CPU.
   - Arrows indicate direction of flow.
 ```    
 
+The electrical circuits present in a CPU responds only to voltage levels, either by transmitting current or block it. at this level, there is no concept of different types of data, and all we have are the analog equivalent of the binary `0` and `1` - `-5 volt` and `+5 volt`.
