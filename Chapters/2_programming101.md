@@ -101,5 +101,5 @@ As with most interpreted languages, the JavaScript interpreter goes through a so
   2. The second line does not have the `//` signs at it's begining, and the interpreter senses that this is a legitimate line of code.     
   3. The line is parsed for lexical sanity, which our code passes with flying colours.    
   4. Once the syntactical correctness is ensured, the interpreter starts deciphering it's meaning.     
-    1. The first word it encounters is `var`, which triggers an anticipation that a variable is on the way! You can visualize variables as entities in a program that occupies a certain range of memory locations, based on the type of the value it contains.     
-    2. In our first legitimate line of code, the name of the variable is `name`, and it contains a value `John`. On recieving these information, the interpreter lays out a memory map, which is roughly illustrated below:     
+      1. The first word it encounters is `var`, which triggers an anticipation that a variable is on the way! You can visualize variables as entities in a program that occupies a certain range of memory locations, based on the type of the value it contains.     
+      2. In our first legitimate line of code, the name of the variable is `name`, and it contains a value `John`. On recieving these information, the interpreter lays out a memory map, which is roughly illustrated below:     
