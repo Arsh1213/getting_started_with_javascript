@@ -2,9 +2,9 @@
 
 In this chapter, you will learn the following basics of programming:
   - Why programming is more about thinking and less about typing
-  - Computer architecture and memory in context of program execution; compilation versus interpretation   
-  - Data types, and why they are important        
-  - Some best practices of programming and software engineering               
+  - Computer architecture and memory in context of data types    
+  - Compilation versus Interpretation        
+  - Best practices of programming and software engineering               
 
 While I will try my best to present the material in an objective fashion, it might get contaminated with my biases. Feel free to discard my opinions and form your own based on your experiences.    
 
@@ -27,7 +27,7 @@ A big chunk of the work is done, but a programmer still needs to go miles before
 The mechanisms of source code execution for interpreted and compiled programming languages are very different, and usually compiled source code executes a lot faster than the interpreted ones. The interpreted languages make up for the loss of speed by offering some facilities to develop software faster. In fact, lots of companies favour languages like Python over C++ because they think that developer's time is much more costly than processor's time. In many cases, such a philosophy saves a lot of money for the companies. However, very large scale enterprise software, safety-critical or mission-critical software, etc. are better written in statically typed languages.     
 
 
-## Importance of Data Types     
+## Computer Architecture and Data Types     
 
 There is no shame in revisiting the the basics of computers, especially when we are newbies in the world of programming computers to automatically perform tasks for us. What we are about to do is same as stalwarts like Elon Musk do - _thinking from first principles_.     
 
