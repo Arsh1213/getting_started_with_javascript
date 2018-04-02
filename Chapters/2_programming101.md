@@ -81,4 +81,8 @@ If the circuits are incapable of handling abstractions, then it must be the enti
 ### The help arrives...
 Although compilers and interpreters are technically very different in the way they handle source code, they share some common functions in terms of handling the code. For the sake of simplicity, in this sub-section we will club them together and try to find solution from the common subset of their functions.    
 
-Although not a complete list, given below are some tasks that compilers and interpreters perform when they are invoked:
+Although not a complete list, given below are some tasks that compilers and interpreters perform when they are invoked:    
+
+![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/roleOfCompilers.png)    
+
+kkk
