@@ -79,4 +79,6 @@ To get an intuitive feeling of the possible role of compilers/interpreters in so
 If the circuits are incapable of handling abstractions, then it must be the entity producing the machine code that has the onus of responsibility to dumb down things at a level that electrical engineering can address! In fact, it only makes sense that an abstraction like distinction between data types is handled by something more abstract than the bare circuits.     
 
 ### The help arrives...
-Although compilers and interpreters are technically very different in the way they handle source code, they share some common functions in terms of handling the code. For the sake of simplicity, in this sub-section we will club them together and try to find solution from the common subset of their functions.
+Although compilers and interpreters are technically very different in the way they handle source code, they share some common functions in terms of handling the code. For the sake of simplicity, in this sub-section we will club them together and try to find solution from the common subset of their functions.    
+
+Although not a complete list, given below are some tasks that compilers and interpreters perform when they are invoked:
