@@ -85,4 +85,11 @@ Although not a complete list, given below are some tasks that compilers and inte
 
 ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/roleOfCompilers.png)    
 
-kkk
+What interests is the 3rd item on the list, and to some extent the 4th item too. To understand what the 3rd item means, let's write two lines of code:
+```javascript
+// var means variable in the JavaScript world
+
+var name = "John";
+var age = 30;
+```
+
