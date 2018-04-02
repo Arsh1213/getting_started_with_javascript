@@ -2,8 +2,8 @@
 
 In this chapter, you will learn the following basics of programming:
   - Why programming is more about thinking and less about typing    
-  - Computer architecture and memory in context of data types     
-  - Compilation versus Interpretation            
+  - Computer architecture and memory in context of data types     
+  - Compilation versus Interpretation            
   - Best practices of programming and software engineering                   
 
 While I will try my best to present the material in an objective fashion, it might get contaminated with my biases. Feel free to discard my opinions and form your own based on your experiences.    
