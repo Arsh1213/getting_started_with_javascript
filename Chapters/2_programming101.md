@@ -67,11 +67,11 @@ Don't worry if you didn't understand the details presented in the illustration a
 
 We will probe this possibility of solving our problem from the other end of the spectrum, which is essentially a top-down approach. Let's invite the compilers and the interpreters into the game and spice it up!
 
-Think about the following:    
+To get an intuitive feeling of the possible role of compilers/interpreters in solving this problem, think about the following:    
   - The compilers and interpreters are responsible for generating the correct sequence of `0`s and `1`s.    
   - Once generated, the circuits take it up.    
   - There is no entity between the compilers/interpreters and the processor that meddles with the machine code.     
   
-If the circuits are incapable of handling abstractions, then it must be the entity producing the machine code that has to deal with it! In fact, it only makes sense that an abstraction like distinction between data types is handled by something more abstract than the bare circuits.    
+If the circuits are incapable of handling abstractions, then it must be the entity producing the machine code that has the onus of responsibility to dumb down things at a level that electrical engineering can address! In fact, it only makes sense that an abstraction like distinction between data types is handled by something more abstract than the bare circuits.    
 
 
