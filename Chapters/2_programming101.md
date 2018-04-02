@@ -6,7 +6,26 @@ In this chapter, you will learn the following basics of programming:
   - Compilation versus Interpretation            
   - Best practices of programming and software engineering                   
 
-While I will try my best to present the material in an objective fashion, it might get contaminated with my biases. Feel free to discard my opinions and form your own based on your experiences.    
+While I will try my best to present the material in an objective fashion, it might get contaminated with my biases. Feel free to discard my opinions and form your own based on your experiences.     
+
+```
+NOTE TO READER:
+===============
+
+It's tempting to skip chapters when you see large chunks of text. 
+
+When (not if) this happens - do one simple exercise:
+  1. Read the next chapters and get a feel of your understanding.
+  2. Come back to this chapter, internalise the material presented here, 
+and the revisit the subsequent chapters. I bet that you will experience 
+the difference.
+
+I guarantee that preparing a strong foundation by internalising the material
+presented in this chapter will contribute immensely to your understanding of 
+many of the "why" of programming. Remember that the questions no one raises 
+are the ones that are most important in having a complete understanding.
+
+```
 
 
 ## Think more, type less     
