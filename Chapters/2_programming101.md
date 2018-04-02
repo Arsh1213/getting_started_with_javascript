@@ -2,8 +2,7 @@
 
 In this chapter, you will learn the following basics of programming:
   - Why programming is more about thinking and less about typing    
-  - Computer architecture and memory in context of data types     
-  - Compilation versus Interpretation            
+  - Computer architecture and memory in context of data types                 
   - Best practices of programming and software engineering                   
 
 While I will try my best to present the material in an objective fashion, it might get contaminated with my biases. Feel free to discard my opinions and form your own based on your experiences.     
@@ -102,4 +101,6 @@ As with most interpreted languages, the JavaScript interpreter goes through a so
   3. The line is parsed for lexical sanity, which our code passes with flying colours.    
   4. Once the syntactical correctness is ensured, the interpreter starts deciphering it's meaning.     
       1. The first word it encounters is `var`, which triggers an anticipation that a variable is on the way! You can visualize variables as entities in a program that occupies a certain range of memory locations, based on the type of the value it contains.     
-      2. In our first legitimate line of code, the name of the variable is `name`, and it contains a value `John`. On recieving these information, the interpreter lays out a memory map, which is roughly illustrated below:     
+      2. In our first legitimate line of code, the name of the variable is `name`, and it contains a value `John`. Since the value `John` is enclosed within `""`, the interpreter knows that the value is a string, which is a continuous chain of characters. On recieving these information, the interpreter lays out a __memory map__. A rough, truncated view of the map is  illustrated below:    
+      > __NOTE__: Advanced readers may find some real insight in [this answer](https://softwareengineering.stackexchange.com/questions/262389/memory-needed-to-store-a-function-in-javascript)!    
+  5. Step 4 and it's sub-steps are repeated for the next line of code. However, since the value of the variable in this case is a number, a different memory map is laid out. 
