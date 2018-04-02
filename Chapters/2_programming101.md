@@ -38,3 +38,7 @@ Globally, numerical quantities are expressed by the decimal number system. Stand
 
 ![](https://upload.wikimedia.org/wikipedia/commons/d/d8/ABasicComputer.gif)    
 
+```
+Block diagram of a basic computer with uniprocessor CPU. Black lines indicate data flow, whereas red lines indicate control flow. Arrows indicate direction of flow.
+```    
+
