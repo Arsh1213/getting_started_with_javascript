@@ -119,6 +119,8 @@ As with most interpreted languages, the JavaScript interpreter goes through a so
   
 ### The solution emerges... 
 
+As with most human endeavours, the solution finally emerges from cooperation between different layers of software.    
+
 Most modern programming and software engineering is based on the philosophy of "_standing on the shoulders of the giants..._". In other words, from the bare hardware to the browser (which contains the JavaScript interpreter), there are multiple layers of abstraction. Each of these layers provide a service to the layer above by exposing an Application Programming Interface (API). The chain of abstraction/programmatic services starting from the uppermost layer (the part of the stack where a __call__ generates) to the layer who finally ends the call by responding to it without passing the buck further, is called __call stack__. Let's take a look the call stack involved for most JavaScript code that starts in a browser environment:    
 
 <img
@@ -156,7 +158,12 @@ All high level programming languages like JavaScript tackle the challenge of mak
 
 > __The few activities mentioned above is the crux of any programming task, irrespective of the language you choose.__    
 
-ll
+
+## Best Practices of Programming and Software Engineering     
+
+What the industry calls "_best practices_" is essentially a mix of habits and attitude towards solving problems in an elegant yet efficient way. As with anything else, good habits yield immense benefits in the long run, and great attitude gives a perspective of the human efforts that goes into creating software. In that sense, programming is not much different from practicing art, mathematics, or any other creative pursuits.    
+
+In this section, we discuss some timeless gems of programming that has emerged from the collective experience of billions of man-hours. If you inculcate the suggested habits, your efficiency in programming will increase manifold.
 
 
 
