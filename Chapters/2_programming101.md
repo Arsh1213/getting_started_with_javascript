@@ -134,7 +134,12 @@ Most modern programming and software engineering is based on the philosophy of "
     <td text-align = center>
       <li>
         <ul>
-          When the interpreter starts laying out the memory map, what it actually does is invoking/calling the low, system level facilities provided by the operating system to do the actual job. The calls are moderated by the browser engine, which acts as a mediator between the high and low levels of abstraction.
+          When the interpreter starts laying out the memory map, 
+          what it actually does is invoking/calling the low, 
+          system level facilities provided by the operating system 
+          to do the actual job. The calls are moderated by the browser 
+          engine, which acts as a mediator between the high and low 
+          levels of abstraction.
         </ul>
         <ul>
         </ul>
