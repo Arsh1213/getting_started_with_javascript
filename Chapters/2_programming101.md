@@ -70,7 +70,7 @@ Don't worry if you didn't understand the details presented in the illustration a
 ### Can compilers/interpreters help?
 We will probe this possibility of solving our problem from the other end of the spectrum, which is essentially a top-down approach. Let's invite the compilers and the interpreters into the game and spice it up!    
 
-> Compilers and interpreters are special programs that has the grammar of the programming language embedded in it. Although compilers and interpreters are technically very different pieces of software in terms of functionality and scope, they share some common functions in terms of handling the code. For the sake of simplicity, in this discussion we will club them together and try to find solution from the common subset of their functions.
+> __Compilers__ and __interpreters__ are special programs that has the grammar of the programming language embedded in it. Although compilers and interpreters are technically very different pieces of software in terms of functionality and scope, they share some common functions in terms of handling the code. For the sake of simplicity, in this discussion we will club them together and try to find solution from the common subset of their functions.
 
 To get an intuitive feeling of the possible role of compilers/interpreters in solving this problem, think about the following:    
   - The compilers and interpreters are responsible for generating the correct sequence of `0`s and `1`s.    
@@ -128,11 +128,25 @@ Most modern programming and software engineering is based on the philosophy of "
   align = center 
 />    
 
-When the interpreter is handed the job of laying out and managing the memory map, what it actually does is invoking/calling the low, system level facilities provided by the operating system.    
-The calls are moderated by the browser engine, which acts as a mediator between the high and low levels of abstraction.    
-When the system calls are _invoked_, they ask the operating system (the very low level C and assembly code) to translate the high level data and instructions to _machine code_ - something that the processor understands.        
-The memory chunks are allocated at a physical level and data is put inside the memory. The size of the chunks depend on the type of data going inside.
-At this level, assemb
+```
+  - When the interpreter is handed the job of laying out and managing the memory map, 
+    what it actually does is invoking the low, system level facilities provided by the
+    operating system.    
+
+  - The calls are moderated by the browser engine, which acts as a mediator between the
+    high and low levels of abstraction.    
+
+  - When the system calls are _invoked_, they ask the operating system (the very low 
+    level C and assembly code) to translate the high level data and instructions to 
+    machine code - something that the processor understands. 
+       * At this level, assembly instructions are specific to the processor type 
+         and architecture.
+
+  - The memory chunks are allocated at a physical level and data is put inside the memory. 
+
+  - The size of the chunks depend on the type of data going inside.
+```
+
 
 
 
