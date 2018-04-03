@@ -121,6 +121,10 @@ As with most interpreted languages, the JavaScript interpreter goes through a so
 
 Most modern programming and software engineering is based on the philosophy of "_standing on the shoulders of the giants..._". In other words, from the bare hardware to the browser (which contains the JavaScript interpreter), there are multiple layers of abstraction. Each of these layers provide a service to the layer above by exposing an Application Programming Interface (API). The chain of abstraction/programmatic services starting from the uppermost layer (the part of the stack where a __call__ generates) to the layer who finally ends the call by responding to it without passing the buck further, is called __call stack__. Let's take a look the call stack involved for most JavaScript code that starts in a browser environment:    
 
+<img
+  src = "https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/callstack.png" 
+  height = 20px 
+  weight = 14px>
 ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/callstack.png)     
 
 bjhi
