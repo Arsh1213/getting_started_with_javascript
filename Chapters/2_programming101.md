@@ -16,8 +16,8 @@ It's tempting to skip chapters when you see large chunks of text.
 When (not if) this happens - do one simple exercise:
   1. Read the next chapters and get a feel of your understanding.
   2. Come back to this chapter, internalise the material presented here, 
-and the revisit the subsequent chapters. I bet that you will experience 
-the difference.
+     and the revisit the subsequent chapters. I bet that you will experience 
+     the difference.
 
 I guarantee that preparing a strong foundation by internalising the material
 presented in this chapter will contribute immensely to your understanding of 
@@ -137,7 +137,7 @@ Most modern programming and software engineering is based on the philosophy of "
   - The calls are moderated by the browser engine, which acts as a mediator between the
     high and low levels of abstraction.    
 
-  - When the system calls are _invoked_, they ask the operating system (the very low 
+  - When the system calls are invoked, they ask the operating system (the very low 
     level C and assembly code) to translate the high level data and instructions to 
     machine code - something that the processor understands. 
        * At this level, assembly instructions are specific to the processor type 
@@ -162,8 +162,12 @@ All high level programming languages like JavaScript tackle the challenge of mak
 
 What the industry calls "_best practices_" is essentially a mix of habits and attitude towards solving problems in an elegant yet efficient way. As with anything else, good habits yield immense benefits in the long run, and great attitude gives a perspective of the human efforts that goes into creating software. In that sense, programming is not much different from practicing art, mathematics, or any other creative pursuits.    
 
-In this section, we discuss some timeless gems of programming that has emerged from the collective experience of billions of man-hours. If you inculcate the suggested habits, your efficiency in programming will increase manifold.
+In this section, we discuss some timeless gems of programming that has emerged from the collective experience of billions of man-hours. If you inculcate the suggested habits right from the beginning, your efficiency in programming will increase manifold.
 
+  - Code for humans: Source code, written in high level programming languages like JavaScript, are for the consumption of humans. The machine will never complain if you can program it directly in machine code. But humans, especially the intelligent breed of programmers, are intolerant to gibberish. 
+  - Write Readable Code: In continuation to the point above, always write readable code. Readability comprises of the following:
+      - Self-explanatory naming conventions: Which is better - `var name = "John"` or `var n = "John"`? Does `n` even mean  anything?
+      - Indentation: 
 
 
 
