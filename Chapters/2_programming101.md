@@ -114,7 +114,8 @@ As with most interpreted languages, the JavaScript interpreter goes through a so
       and differentiate between types of value or data.
       ```
       > __BONUS__: Advanced readers may find some real insight in [this answer](https://softwareengineering.stackexchange.com/questions/262389/memory-needed-to-store-a-function-in-javascript) of Stack Overflow.             
-  5. Step 4 and it's sub-steps are repeated for the next line of code. However, since the value of the variable in this case is a number, a different memory map is laid out. *__The size of the memory chunk allocated for a numerical value is different than that of string value__*.             
+  5. Step 4 and it's sub-steps are repeated for the next line of code. However, since the value of the variable in this case is a number, a different memory map is laid out. *__The size of the memory chunk allocated for a numerical value is different than that of string value__*.      
+  
     > __BONUS__: There is a beautiful but slightly technical [article](http://2ality.com/2012/04/number-encoding.html) that explains in detail the nuances of numbers in JavaScript.        
   
 ### The solution surfaces through call stack... 
