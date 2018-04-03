@@ -162,12 +162,16 @@ All high level programming languages like JavaScript tackle the challenge of mak
 
 What the industry calls "_best practices_" is essentially a mix of habits and attitude towards solving problems in an elegant yet efficient way. As with anything else, good habits yield immense benefits in the long run, and great attitude gives a perspective of the human efforts that goes into creating software. In that sense, programming is not much different from practicing art, mathematics, or any other creative pursuits.    
 
-In this section, we discuss some timeless gems of programming that has emerged from the collective experience of billions of man-hours. If you inculcate the suggested habits right from the beginning, your efficiency in programming will increase manifold.
+In this section, we discuss some timeless gems of programming that has emerged from the collective experience of billions of man-hours. If you inculcate the suggested habits right from the beginning, your efficiency in programming will increase manifold. Don't worry if you can't understand all of them right now, but it's really important that you keep them at the back of your mind.
 
-  - Code for humans: Source code, written in high level programming languages like JavaScript, are for the consumption of humans. The machine will never complain if you can program it directly in machine code. But humans, especially the intelligent breed of programmers, are intolerant to gibberish. 
-  - Write Readable Code: In continuation to the point above, always write readable code. Readability comprises of the following:
-      - Self-explanatory naming conventions: Which is better - `var name = "John"` or `var n = "John"`? Does `n` even mean  anything?
-      - Indentation: 
+  - __Code for humans__: Source code, written in high level programming languages like JavaScript, are for the consumption of humans. The machine will never complain if you can program it directly in machine code. But humans, especially the intelligent breed of programmers, are intolerant to gibberish.     
+  - __Write Readable Code__: In continuation to the point above, always write readable code. Readability primarily comprises of the following:    
+      - `Self-explanatory naming conventions`: Which is better - `var name = "John"` or `var n = "John"`? Does `n` even mean  anything?    
+      - `Indentation`: Generously use the `Tab` and `Shift+Tab` keys, but follow a definite convention. In course of this book, you will come accross many examples of well indented code.    
+      - `Writing simple constructs`: Your code is not a place to show-off how clever you are. The guy who will inherit and maintain your code will bless you for writing simple code.    
+  - __Do One Thing Well__: Good code chunks are like packets of logic that does only one thing and does it really well. This also enhances your code's reliability and ease of testing. For example, don't write gigantic functions that calculates all deductions of an employee's salary - dedicate one function each for loan deduction, provident fund deduction, etc.     
+  - __Test Your Code__: Untested code is equivalent to no code at all. Write unit tests!     
+  - __Design Your Software__: Every minute spent on designing and architecting your software saves you weeks in the implementation phase, and more so when your applications are extended to include new features. Remember that typing the syntax is the easiest part, and that's not programming in true sense.     
 
 
 
