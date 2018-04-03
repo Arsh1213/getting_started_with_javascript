@@ -123,8 +123,8 @@ Most modern programming and software engineering is based on the philosophy of "
 
 <img
   src = "https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/callstack.png" 
-  height = 200px 
-  weight = 140px>
+  height = 500px 
+  weight = 250px>
 ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/callstack.png)     
 
 bjhi
