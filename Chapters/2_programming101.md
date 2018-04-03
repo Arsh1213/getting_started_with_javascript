@@ -117,7 +117,7 @@ As with most interpreted languages, the JavaScript interpreter goes through a so
   5. Step 4 and it's sub-steps are repeated for the next line of code. However, since the value of the variable in this case is a number, a different memory map is laid out. *__The size of the memory chunk allocated for a numerical value is different than that of string value__*.    
   > __BONUS__: There is a beautiful but slightly technical [article](http://2ality.com/2012/04/number-encoding.html) that explains in detail the nuances of numbers in JavaScript.        
   
-### The solution surfaces through call stack... 
+### The solution emerges... 
 
 Most modern programming and software engineering is based on the philosophy of "_standing on the shoulders of the giants..._". In other words, from the bare hardware to the browser (which contains the JavaScript interpreter), there are multiple layers of abstraction. Each of these layers provide a service to the layer above by exposing an Application Programming Interface (API). The chain of abstraction/programmatic services starting from the uppermost layer (the part of the stack where a __call__ generates) to the layer who finally ends the call by responding to it without passing the buck further, is called __call stack__. Let's take a look the call stack involved for most JavaScript code that starts in a browser environment:    
 
@@ -128,7 +128,11 @@ Most modern programming and software engineering is based on the philosophy of "
   align = center 
 />    
 
-When the interpreter starts laying out the memory map, what it actually does is invoking/calling the low, system level facilities provided by the operating system to do the actual job. The calls are moderated by the browser engine, which acts as a mediator between the high and low levels of abstraction.
+When the interpreter is handed the job of laying out and managing the memory map, what it actually does is invoking/calling the low, system level facilities provided by the operating system.    
+The calls are moderated by the browser engine, which acts as a mediator between the high and low levels of abstraction.    
+When the system calls are _invoked_, they ask the operating system (the very low level C and assembly code) to translate the high level data and instructions to _machine code_ - something that the processor understands.        
+The memory chunks are allocated at a physical level and data is put inside the memory. The size of the chunks depend on the type of data going inside.
+At this level, assemb
 
 
 
