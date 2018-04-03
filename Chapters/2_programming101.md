@@ -104,6 +104,15 @@ As with most interpreted languages, the JavaScript interpreter goes through a so
       2. In our first legitimate line of code, the name of the variable is `name`, and it contains a value `John`. Since the value `John` is enclosed within `""`, the interpreter knows that the value is a string, which is a continuous chain of characters. On recieving these information, the interpreter lays out a __memory map__. A schematic and truncated view of the map is  illustrated below:     
       ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/pointer_illustration.png)    
       
+      ```
+      For each of the characters "J", "o", "h", and "n", the size of the memory chunk
+      allocated by the interpreter is equal. However, the chunk size is different than
+      what the interpreter allocates for numbers like 0, 1, 2, ..., 9.    
+      
+      As we shall see soon, this variation in the size of allocated memory chunks helps 
+      the lower levels in the call stack (a phrase that you will know soon) to identify
+      and differentiate different types of value or data.
+      ```
       > __NOTE__: Advanced readers may find some real insight in [this answer](https://softwareengineering.stackexchange.com/questions/262389/memory-needed-to-store-a-function-in-javascript) of Stack Overflow.             
-  5. Step 4 and it's sub-steps are repeated for the next line of code. However, since the value of the variable in this case is a number, a different memory map is laid out.     
-  > __NOTE__: There is also a [beautiful blog post](http://2ality.com/2012/04/number-encoding.html) that explains in detail the nuances of numbers in JavaScript.
+  5. Step 4 and it's sub-steps are repeated for the next line of code. However, since the value of the variable in this case is a number, a different memory map is laid out. *__The size of the memory chunk allocated for a numerical value is different than that of string value__*.         
+  > __NOTE__: There is a beautiful but slightly technical [article](http://2ality.com/2012/04/number-encoding.html) that explains in detail the nuances of numbers in JavaScript.
