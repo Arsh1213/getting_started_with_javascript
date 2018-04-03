@@ -123,7 +123,7 @@ Most modern programming and software engineering is based on the philosophy of "
 
 <table>
   <tr>
-    <td>
+    <td colspan = 2>
       <img
         src = "https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/callstack.png" 
         height = 500px 
