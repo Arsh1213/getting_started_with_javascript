@@ -111,8 +111,17 @@ As with most interpreted languages, the JavaScript interpreter goes through a so
       
       As we shall see soon, this variation in the size of allocated memory chunks helps 
       the lower levels in the call stack (a phrase that you will know soon) to identify
-      and differentiate different types of value or data.
+      and differentiate between types of value or data.
       ```
-      > __NOTE__: Advanced readers may find some real insight in [this answer](https://softwareengineering.stackexchange.com/questions/262389/memory-needed-to-store-a-function-in-javascript) of Stack Overflow.             
+      > __BONUS__: Advanced readers may find some real insight in [this answer](https://softwareengineering.stackexchange.com/questions/262389/memory-needed-to-store-a-function-in-javascript) of Stack Overflow.             
   5. Step 4 and it's sub-steps are repeated for the next line of code. However, since the value of the variable in this case is a number, a different memory map is laid out. *__The size of the memory chunk allocated for a numerical value is different than that of string value__*.         
-  > __NOTE__: There is a beautiful but slightly technical [article](http://2ality.com/2012/04/number-encoding.html) that explains in detail the nuances of numbers in JavaScript.
+  > __BONUS__: There is a beautiful but slightly technical [article](http://2ality.com/2012/04/number-encoding.html) that explains in detail the nuances of numbers in JavaScript.        
+  
+### The solution surfaces through call stack... 
+
+Most modern programming and software engineering is based on the philosophy of "_standing on the shoulders of the giants..._". In other words, from the bare hardware to the browser (which contains the JavaScript interpreter), there are multiple layers of abstraction. Each of these layers provide a service to the layer above by exposing an Application Programming Interface (API). The chain of abstraction/programmatic services starting from the uppermost layer (the part of the stack where a __call__ generates) to the layer who finally ends the call by responding to it without passing the buck further, is called __call stack__. Let's take a look the call stack involved for most JavaScript code that starts in a browser environment:    
+
+![]()     
+
+bjhih
+
