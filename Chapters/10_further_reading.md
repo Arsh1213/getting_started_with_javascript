@@ -5,7 +5,7 @@ The world of software (as the end result) and programming (as the effort behind 
 However, I cannot emphasize enough the importance of the following statement:    
 > __Programming is best learned by writing programs.__    
 
-No matter how many books and tutorials you read, or how many videos you watch, all of them amounts to nothing if you can't create the software you want to create. Having said that, I would like to present before you my learning resources of choice. Alongside, I will also mention what purpose each of those resources serve, so that you can pick the right one when you need more clarity on something.    
+No matter how many books and tutorials you read, or how many videos you watch, all of them amounts to nothing if you can't create the software you want to create. Having said that, I would like to present before you my __learning resources of choice for JavaScript__. Alongside, I will also mention what purpose each of those resources serve, so that you can pick the right one when you need more clarity on something.    
 
 > You are free to discard any or all of those resources and pick your own - it's your journey, and your preferences are what matters.    
 
@@ -17,6 +17,8 @@ No matter how many books and tutorials you read, or how many videos you watch, a
 
 ## Offline Resources/Books
 
-> __FINAL NOTE:__ Programming is like learning to walk as a toddler - you are bound to fall down, and sometimes even hurt yourself, but you must never give up walking. Also, if you observe closely how babies walk, you will notice that they own tend to run before they can exercise the finer motor controls and master walking steadily. The learning curve for any newbie in the world of programming will be the same - they will hurry before they become steady. It means that you will be eager to see the end results of your program and will dig up the internet looking for help. Do so to your heart's content, for it is the natural way humans learn. Never let the fire of curiosity be dampened by the fancy philosophies.     
+## Signing Off... 
+
+> Learning programming is like learning to walk as a toddler - you are bound to fall down, and sometimes even hurt yourself, but you must never give up walking. Also, if you observe closely how babies walk, you will notice that they own tend to run before they can exercise the finer motor controls and master walking steadily. The learning curve for any newbie in the world of programming will be the same - they will hurry before they become steady. It means that you will be eager to see the end results of your program and will dig up the internet looking for help. Do so to your heart's content, for it is the natural way humans learn. Never let the fire of curiosity be dampened by the fancy philosophies.     
 
 __*Enjoy programming, and good luck!*__
