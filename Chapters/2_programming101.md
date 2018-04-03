@@ -147,8 +147,8 @@ Most modern programming and software engineering is based on the philosophy of "
   - The size of the chunks depend on the type of data going inside.
 ```
 
-All high level programming languages like JavaScript tackle the challenge of making the processor understand about different data types by delegating the heavy lifting to the system calls. The system calls, in turn, translate the high level instructions to very low level instructions (assembly code). The assembly code tells the processor to: 
-  - Jump around memory locations    
+All high level programming languages like JavaScript tackle the challenge of making the processor understand about different data types by delegating the heavy lifting to the system calls. The system calls, in turn, translate the high level instructions to very low level instructions (assembly code). The assembly code tells the processor to:     
+  - Jump around memory locations        
   - Read/write memory locations and values     
   - Perform arithmetic and logical operations    
   - Store the results     
