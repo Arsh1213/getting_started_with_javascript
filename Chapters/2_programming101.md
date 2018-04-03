@@ -72,19 +72,19 @@ We will probe this possibility of solving our problem from the other end of the 
 > __Compilers__ and __interpreters__ are special programs that has the grammar of the programming language embedded in it. Although compilers and interpreters are technically very different pieces of software in terms of functionality and scope, they share some common functions in terms of handling the code. For the sake of simplicity, in this discussion we will club them together and try to find solution from the common subset of their functions.
 
 To get an intuitive feeling of the possible role of compilers/interpreters in solving this problem, think about the following:    
-  - The compilers and interpreters are responsible for generating the correct sequence of `0`s and `1`s.    
+  - The compilers and interpreters are responsible for triggering the process of generating the correct sequence of `0`s and `1`s.    
   - Once generated, the circuits take it up.    
-  - There is no entity between the compilers/interpreters and the processor that meddles with the machine code.     
+  - There is one entity, the operating system layer, between the compilers/interpreters and the processor that meddles with the machine code.     
   
 If the circuits are incapable of handling abstractions, then it must be the entity producing the machine code that has the onus of responsibility to dumb down things at a level that electrical engineering can address! In fact, it only makes sense that an abstraction like distinction between data types is handled by something more abstract than the bare circuits.     
 
-### The help arrives...    
+### Help is on the way...    
 
 Although not a complete list, given below are some tasks that compilers and interpreters perform when they are invoked:    
 
 ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/roleOfCompilers.png)    
 
-What interests is the 3rd item on the list, and to some extent the 4th item too. To understand what the 3rd item means, let's write two lines of code:
+Although not technically accurate, what interests is the 3rd item on the list. To understand what the 3rd item means, let's write two lines of code:
 ```javascript
 // var means variable in the JavaScript world
 
