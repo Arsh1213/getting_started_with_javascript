@@ -64,4 +64,22 @@ Bring your mind back to JavaScript if the topic reminds you of _X Men_ - the the
 
 To get a feel of mutation in JavaScript, consider the following illustration from the JavaScript interpreter embedded within the Chrome browser:
 
+<table>
+  <tr>
+    <th>Immutable <-> Primitive</th>
+    <td>
+      <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/immutableNumber.png" 
+           width= 
+           height=
+       />
+    </td>
+    <th>Mutable <-> Reference</th>
+    <td>
+      <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/mutableObject.png"
+           width= 
+           height= 
+       />      
+    </td>
+  </tr>
+</table>
 ![]()
