@@ -67,17 +67,20 @@ To get a feel of mutation in JavaScript, consider the following illustration fro
 <table>
   <tr>
     <td>
-      <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/immutableNumber.png" 
-           width= 
-           height=
-       />
+      <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/immutableNumber.png"/>
     </td>
     <td>
-      <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/mutableObject.png"
-           width= 
-           height= 
-       />      
+      <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/mutableObject.png"/>      
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <img src=""/>
+    </td>
+    <td>
+      <img src=""/>      
     </td>
   </tr>
 </table>
-![]()
+
