@@ -4,4 +4,6 @@ If you have read the previous chapter [Programming 101](https://github.com/datas
 
 ## Data Types in JavaScript
 
+![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/dataTypes.png)    
 
+lorem ipsum
