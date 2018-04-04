@@ -30,8 +30,24 @@ var goal; // The variable named goal becomes an undefined variable
 /*
 Arrays and Objects can be heterogenous and nested.
 You will see what it means in the following examples.
-BTW, /* ... */ is suitable for long-form comments.
+BTW, this is an example of long-form comment.
 */
 // Example of Array
 var wish_list = ["billionaire", [0, 'binary', 1], 69, {thisObject : "isAwesOme"}];
+var another_array = [0,1,2,
+                     3,4,5,
+                     6,7,8];
+                     
+// Example of Object
+// Also, example of well indented code
+var data_point = {
+                  x_axis : {
+                            label : "Year", 
+                            values : ["1990", "1995", "2000", "2005", "2010", "2015", "2012"],
+                            },
+                  y_axis : {
+                            label : "Revenue (in million USD)",
+                            values : [0, 25, 50, 75, 100, 125, 150, 175, 200, 250, 300, 350, 400],
+                            },
+                 }
 ```
