@@ -171,7 +171,11 @@ In this section, we discuss some timeless gems of programming that has emerged f
       - `Writing simple constructs`: Your code is not a place to show-off how clever you are. The guy who will inherit and maintain your code will bless you for writing simple code.    
   - __Do One Thing Well__: Good code chunks are like packets of logic that does only one thing and does it really well. This also enhances your code's reliability and ease of testing. For example, don't write gigantic functions that calculates all deductions of an employee's salary - dedicate one function each for loan deduction, provident fund deduction, etc.     
   - __Test Your Code__: Untested code is equivalent to no code at all. Write unit tests!     
-  - __Design Your Software__: Every minute spent on designing and architecting your software saves you weeks in the implementation phase, and more so when your applications are extended to include new features. Remember that typing the syntax is the easiest part, and that's not programming in true sense.     
+  - __Design Your Software__: Every minute spent on designing and architecting your software saves you weeks in the implementation phase, and more so when your applications are extended to include new features. Remember that typing the syntax is the easiest part, and that's not programming in true sense.      
+  
+  
+[__<<= Welcome to JavaScript__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/1_welcome_to_javascript.md)     
 
+[__Primitive and Reference Types =>>__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/3_primitive_and_reference_types.md)
 
 
