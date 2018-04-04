@@ -78,10 +78,10 @@ To get a feel of mutation in JavaScript, consider the following illustration fro
     </tr>
     <tr>
       <td>
-        <img src=""/>
+        <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/immutableText.png"/>
       </td>
       <td>
-        <img src=""/>      
+        <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/mutableText.png"/>      
       </td>
   </tr>  
   </tbody>
