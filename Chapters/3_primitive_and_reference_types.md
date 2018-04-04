@@ -65,7 +65,9 @@ Bring your mind back to JavaScript if the topic reminds you of _X Men_ - the the
 To get a feel of mutation in JavaScript, consider the following illustration from the JavaScript interpreter embedded within the Chrome browser:
 
 <table>
-  <thead>"Immutable <-> Primitive" versus "Mutable <-> Reference"</head>
+  <thead text-align=center>
+    <strong>"Immutable <-> Primitive" versus "Mutable <-> Reference"<strong>
+  </head>
   <tbody>
     <tr>
       <td>
