@@ -52,5 +52,16 @@ var data_point = {
                  };
 ```
 
-> __NOTE:__ Don't worry if you feel that you have been thrown into the deep end of the pool and you know nothing about swimming. As you progress in your journey of become a programmer, frustration will be your partner and [imposter syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome) will be your spouse. In his chapter and the subsequent ones, we will slowly go through the details of each of the elements mentioned above, and some more.    
+> __NOTE:__ Don't worry if you feel that you have been thrown into the deep end of the pool and you know nothing about swimming. As you progress in your journey of become a programmer, frustration will be your partner and [imposter syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome) will be your spouse. In this chapter and the subsequent ones, we will slowly go through the details of each of the elements mentioned above, and some more.    
 
+## Data Types and Mutation
+
+JavaScript data types are categorized under two themes - __Primitive__ and __Reference__. There is a profound reason behind this categorization. In this section, we shall explore _why, or on what basis, the data types are categorized_.
+
+### Mutation
+
+Bring your mind back to JavaScript if the topic reminds you of _X Men_ - the theme of several blockbuster Hollywood movies. In context of programming, __mutation__ implies the phenomenon of changing or overriding the originally defined values and capabilities of entities involved in a program. When mentioned as a property of data types, we use the terms __mutable__ and __immutable__, depending on whether the concerned data types can be mutated or not. The core concept of mutation is common accross all programming languages, although the specifics of applicability may vary depending on the context.
+
+To get a feel of mutation in JavaScript, consider the following illustration from the JavaScript interpreter embedded within the Chrome browser:
+
+![]()
