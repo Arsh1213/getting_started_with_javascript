@@ -51,3 +51,6 @@ var data_point = {
                             },
                  }
 ```
+
+> __NOTE:__ Don't worry if you feel that you have been thrown into the deep end of the pool and you know nothing about swimming. As you progress in your journey of become a programmer, frustration will be your partner and imposter syndrome will be your spouse. In his chapter and the subsequent ones, we will slowly go through the details of each of the elements mentioned above, and some more.    
+
