@@ -49,8 +49,8 @@ var data_point = {
                             label : "Revenue (in million USD)",
                             values : [0, 25, 50, 75, 100, 125, 150, 175, 200, 250, 300, 350, 400],
                             },
-                 }
+                 };
 ```
 
-> __NOTE:__ Don't worry if you feel that you have been thrown into the deep end of the pool and you know nothing about swimming. As you progress in your journey of become a programmer, frustration will be your partner and imposter syndrome will be your spouse. In his chapter and the subsequent ones, we will slowly go through the details of each of the elements mentioned above, and some more.    
+> __NOTE:__ Don't worry if you feel that you have been thrown into the deep end of the pool and you know nothing about swimming. As you progress in your journey of become a programmer, frustration will be your partner and [imposter syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome) will be your spouse. In his chapter and the subsequent ones, we will slowly go through the details of each of the elements mentioned above, and some more.    
 
