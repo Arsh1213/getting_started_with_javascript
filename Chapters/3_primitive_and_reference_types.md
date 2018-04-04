@@ -17,7 +17,7 @@ var a_fraction = -0.54;
 
 // Examples of String
 var language = "JavaScript";
-var intial = 'J';
+var initial = 'J';
 
 // Examples of Boolean
 var newbie = true;
