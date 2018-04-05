@@ -92,4 +92,10 @@ To get a feel of mutation in JavaScript, consider the following illustration fro
 As a summary, remember the following:  
 > The __Primitive__ types are __immutable__, because they are _not referenced_. On the other hand, __Reference__ types are obviously _referenced via pointers_, and are therefore __mutable__.    
 
-
+```
+EXERCISE
+==========
+Go back to the chapter Programming 101 and revise the concepts of data types and memory locations. 
+Then doodle block diagrams like the ones you found in that chapter in context of mutability, as presented in the above illustration. 
+As you do it, talk it out loud and explain it to an imaginary laymen in front of you. 
+Do such exercises often, especially whenever you encounter a concept that is difficult to grasp first time - it brings immense clarity and confidence.
