@@ -91,7 +91,7 @@ Outsourcing the JavaScript code to a file and the referencing it from the `.html
   <head></head>
   <body>
     <button id="time" onclick="myFunction()">See Current Time</button>
-    <script type="text/javascript" src="main.js">
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
 ```
