@@ -79,6 +79,17 @@ There are two ways to include JavaScript code in a `.html` file - _inline_, and 
   </body>
 </html>
 ```
+```
+Exercise
+========
+Copy the above code and save it as an html file.
+Comment out the lines of code where external JavaScript files are referenced.
+Open the file on browser and click on the button that you see on the webpage.
+Do you like what you see? Jot down what improvement you would like to have.
+Go back to the html source code, read it very carefully and think about what
+you see on the webpage. Can you relate parts of the code with the final outcome?
+Which part of the code does what? How can you modify the behaviour of the button?
+```
 
 ### JavaScript file
 
