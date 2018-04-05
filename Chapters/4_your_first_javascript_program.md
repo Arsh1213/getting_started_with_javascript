@@ -12,11 +12,11 @@ The purpose of introducing you to those concepts is to prepare a strong foundati
 
 > __Debugging__ is the activity of figuring out what's wrong with your program in terms of syntax, logic, dependencies, etc. You will debug a lot in course of your journey to become a programmer - be mentally prepared for arduous sessions. In fact, a lot of exercises you will encounter in this booklet will involve analytical debugging, which is one of the best ways to forge a deep understanding of your programs and the environment in which they execute.
 
-In this chapter, you will learn the following:
-Where to write JavaScript code
-What are the right tools for writing code
-Some trivial examples of JavaScript code
-Some generic techniques for program flow and control
+In this chapter, you will learn the following:    
+  - Where to write JavaScript code    
+  - What are the right tools for writing code    
+  - Some trivial examples of JavaScript code    
+  - Some generic techniques for program flow and control    
 
 ## Where to write JavaScript code
 
