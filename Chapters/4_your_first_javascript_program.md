@@ -115,3 +115,4 @@ While browser consoles are adequate as a playground, no serious coding can be do
   - [Sublime Text](https://www.sublimetext.com/)    
   - [Atom](https://atom.io/)    
   - [Visual Studio Code](https://code.visualstudio.com/)(you can also use the behemoth IDE [Visual Studio](https://www.visualstudio.com/), but that amount of firepower will rarely be required in the initial stages)
+
