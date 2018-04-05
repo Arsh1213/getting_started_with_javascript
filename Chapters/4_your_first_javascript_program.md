@@ -13,8 +13,7 @@ The purpose of introducing you to those concepts is to prepare a strong foundati
 > __Debugging__ is the activity of figuring out what's wrong with your program in terms of syntax, logic, dependencies, etc. You will debug a lot in course of your journey to become a programmer - be mentally prepared for arduous sessions. In fact, a lot of exercises you will encounter in this booklet will involve analytical debugging, which is one of the best ways to forge a deep understanding of your programs and the environment in which they execute.
 
 In this chapter, you will learn the following:    
-  - Where to write JavaScript code    
-  - What are the right tools for writing code    
+  - Where to write JavaScript code        
   - Some trivial examples of JavaScript code    
   - Some generic techniques for program flow and control    
 
@@ -47,7 +46,7 @@ There are two ways to include JavaScript code in a `.html` file - _inline_, and 
     <!-- The following line of code shows you can ask the browser to load a 
     "JavaScript file" even before the content of the page, i.e., the html 
     is loaded. You can point the browser towards a JavaScript file by passing
-    the path to your file as a vaue for the "src" attribute of the "script" tag.
+    the path to your file as a value for the "src" attribute of the "script" tag.
 
     However, such activities of the browser often makes the 
     page load painfully slow, and is thus not recommended unless absolutely
@@ -59,7 +58,7 @@ There are two ways to include JavaScript code in a `.html` file - _inline_, and 
   </head>
   
   <body>
-    <h1>JavaScript Demo</h1>
+    <h3>JavaScript Demo</h3>
     <button id="time" onclick="myFunction()">See Current Time</button>
   
     <!-- The following line of code shows usage of inline JavaScript,
@@ -79,4 +78,26 @@ There are two ways to include JavaScript code in a `.html` file - _inline_, and 
   
   </body>
 </html>
+```
+
+### JavaScript file
+
+Outsourcing the JavaScript code to a file and the referencing it from the `.html` file using the `<script></script>` tag makes sense, because it keeps the `.html` file clean and readable. An example of such usage is given below:
+```html
+<DOCTYPE html>
+<html>
+  <!-- This html file contains just a button.
+  It refernces a JavaScript file called "main.js"-->
+  <head></head>
+  <body>
+    <button id="time" onclick="myFunction()">See Current Time</button>
+    <script type="text/javascript" src="main.js">
+  </body>
+</html>
+```
+```javascript
+// This is the main.js file
+function myFunction() {
+  document.getElementById("time").innerHTML = Date();
+}
 ```
