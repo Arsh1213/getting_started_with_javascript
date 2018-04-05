@@ -90,11 +90,13 @@ Outsourcing the JavaScript code to a file and the referencing it from the `.html
   It refernces a JavaScript file called "main.js"-->
   <head></head>
   <body>
-    <button id="time" onclick="myFunction()">See Current Time</button>
     <script type="text/javascript" src="main.js"></script>
+    <button id="time" onclick="myFunction()">See Current Time</button>
   </body>
 </html>
 ```
+> __NOTE__: Notice carefully the usage of the `<script></script>` tag in the above html - the external JavaScript file is loaded before any html content, like the button. The reason is that we want to control the behaviour of the button when it is clicked. As you can see, the `button` element has an `onclick` attribute, which is technically an __event listener__. The value of the `onclick` attribute is an entity which is not defined in the rest of the html file, but is defined in the external JavaScript file referenced from the `script` element. Therefore, for the browser to know what the value `myFunction` means, it must have it's definition readily available even before it encounters the `button` element in the html. In such cases, it is absolutely necessary to reference a external JavaScript file 
+
 ```javascript
 // This is the main.js file
 function myFunction() {
