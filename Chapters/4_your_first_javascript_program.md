@@ -103,3 +103,9 @@ function myFunction() {
   document.getElementById("time").innerHTML = Date();
 }
 ```
+```
+EXERCISE
+========
+Research on "DOM" and "event listeners" can prepare your own conceptual notes - it will be invaluable to have a good mental model of how DOM is created, and what are role does event listeners (and other things of the same breed, like "event handlers") play in the interactivity of your web pages. 
+Essentially, all of front-end web development is DOM manipulation in some form or the other.
+```
