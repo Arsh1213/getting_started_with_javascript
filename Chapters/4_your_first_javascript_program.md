@@ -10,4 +10,27 @@ If you have read the previous chapters carefully, then you should know the follo
 
 The purpose of introducing you to those concepts is to prepare a strong foundation for programming. Even without writing a single line code yourself, you are in a position to think deeply about solving problems using programs, and also debug your programs analytically. 
 
-> __Debugging__ is the activity of figuring out what's wrong with your program in terms of syntax, logic, dependencies, etc. You will debug a lot in course of yor journey to become a programmer - be mentally prepared for arduous sessions. In fact, a lot of exercises you will encounter in this booklet will involve analytical debugging, which is one of the best ways to forge a deep understanding of your programs and the environment in which they execute.
+> __Debugging__ is the activity of figuring out what's wrong with your program in terms of syntax, logic, dependencies, etc. You will debug a lot in course of your journey to become a programmer - be mentally prepared for arduous sessions. In fact, a lot of exercises you will encounter in this booklet will involve analytical debugging, which is one of the best ways to forge a deep understanding of your programs and the environment in which they execute.
+
+In this chapter, you will learn the following:
+Where to write JavaScript code
+What are the right tools for writing code
+Some trivial examples of JavaScript code
+Some generic techniques for program flow and control
+
+## Where to write JavaScript code
+
+Based on the situation you will be in, you might write JavaScript code in one or more of the following places:
+The `interactive console` of the interpreter embedded in browser
+A `.html` file
+A `.js` file
+> __NOTE__: Except when we discuss client-side JavaScript, we wll write code either in the console (which is ideal for testing out concepts), or in `.js` files (which is ideal for saving the code yo wrote and refer to it later).
+
+### Interactive Console
+Although all modern browsers provide a console, in this booklet we shall follow the console provided by Google Chrome. I have no particular reason for adopting it, except that it is highly popular and has a very nice interface for other tasks involved with JavaScript programming. I would recommend that you use it too, but ultimately it's upto you to decide. 
+
+To find the console on Google Chrome:
+  1. From Chrome's Menu (the three vertical dots at the same level of the URL bar), navigate to __More Tools > Developer Tools__.    
+  ![]()
+  2. Click the __Console__ tab.
+  ![]()
