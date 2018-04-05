@@ -31,6 +31,6 @@ Although all modern browsers provide a console, in this booklet we shall follow 
 
 To find the console on Google Chrome:
   1. From Chrome's Menu (the three vertical dots at the same level of the URL bar), navigate to __More Tools > Developer Tools__.    
-  ![]()
+  ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/chromeMenu.png)
   2. Click the __Console__ tab.
-  ![]()
+  ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/consoleImageChrome.png)
