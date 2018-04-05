@@ -110,6 +110,7 @@ Research on "DOM" and "event listeners" and prepare your own conceptual notes - 
 Essentially, all of front-end web development is DOM manipulation in some form or the other.
 ```
 
-> __NOTE on Tools for writing JavaScript code__
-.................................................
-lor
+> __NOTE on Tools for writing JavaScript code__: While browser consoles are adequate as a playground, no serious coding can be done without a good text editor, or even better, an IDE (Integrated Development Environment). It is strongly recommended that you pick __any one__ of the following and master it while you learn coding:
+  - [Sublime Text](https://www.sublimetext.com/)    
+  - [Atom](https://atom.io/)    
+  - [Visual Studio Code](https://code.visualstudio.com/)(you can also use the behemoth IDE [Visual Studio](https://www.visualstudio.com/), but that amount of firepower will rarely be required in the initial stages)
