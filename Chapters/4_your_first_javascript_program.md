@@ -20,10 +20,10 @@ Some generic techniques for program flow and control
 
 ## Where to write JavaScript code
 
-Based on the situation you will be in, you might write JavaScript code in one or more of the following places:
-The `interactive console` of the interpreter embedded in browser
-A `.html` file
-A `.js` file
+Based on the situation you will be in, you might write JavaScript code in one or more of the following places:    
+  - The `interactive console` of the interpreter embedded in browser    
+  - A `.html` file    
+  - A `.js` file    
 > __NOTE__: Except when we discuss client-side JavaScript, we wll write code either in the console (which is ideal for testing out concepts), or in `.js` files (which is ideal for saving the code yo wrote and refer to it later).
 
 ### Interactive Console
