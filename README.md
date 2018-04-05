@@ -15,10 +15,10 @@ The material in this booklet is _skin deep_, and I have consciously avoided big 
 The concepts are presented using a _bottom-up_ approach - the core concepts of programming have been prioritized over the JavaScript syntax. Another way of looking into it is to think of programming as the main activity, and JavaScript as a tool to express your thoughts. In fact, the best way to learn programming is to practice language-agnostic thinking. An advantage of this approach is that you can transfer the same concepts when you use other programming languages.
 
 ## How to read this book?
-This book is meant to be read sequentially, as each chapter depends on the foundation of the preceding chapters. That said, experienced readers can jump back and forth between the chapters, since the chapters are reasonably self-contained. If you are a beginner, I _strongly recommend you to go through the chapters sequentially_.
+This book is meant to be read sequentially, as each chapter depends on the foundation of the preceding chapters. That said, experienced readers can jump back and forth between the chapters, since the chapters are reasonably self-contained. If you are a beginner, I _strongly recommend you to go through the chapters sequentially_. Also, please engage actively when you read this book - think about the concepts presented, doodle them, write a few lines of code to verify your idea. Never read any technical material passively like you would read a novel.
 
 > I strongly believe that programming is best learnt by:     
-    - Executing concrete examples rather than reading abstract theories    
+    - Executing concrete examples     
     - Doodling illustrative figures that graphically represents the key concepts        
   Expect plenty of them throughout this mini booklet.    
   Also, please __don't ignore the questions I ask you to think about, and the small drills that I ask you to do__. They reinforce the concepts while you learn. They had served me good, and I hope they will be helpful for you too! 
