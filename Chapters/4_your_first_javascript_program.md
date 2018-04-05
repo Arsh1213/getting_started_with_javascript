@@ -24,7 +24,7 @@ Based on the situation you will be in, you might write JavaScript code in one or
   - The `interactive console` of the interpreter embedded in browser    
   - A `.html` file    
   - A `.js` file    
-> __NOTE__: Except when we discuss client-side JavaScript, we wll write code either in the console (which is ideal for testing out concepts), or in `.js` files (which is ideal for saving the code yo wrote and refer to it later).
+> __NOTE__: Except when we discuss client-side JavaScript, we will write code either in the console (which is ideal for testing out concepts), or in `.js` files (which is ideal for saving the code yo wrote and refer to it later).
 
 ### Interactive Console
 Although all modern browsers provide a console, in this booklet we shall follow the console provided by Google Chrome. I have no particular reason for adopting it, except that it is highly popular and has a very nice interface for other tasks involved with JavaScript programming. I would recommend that you use it too, but ultimately it's upto you to decide. 
@@ -33,4 +33,28 @@ To find the console on Google Chrome:
   1. From Chrome's Menu (the three vertical dots at the same level of the URL bar), navigate to __More Tools > Developer Tools__.    
   ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/chromeMenu.png)
   2. Click the __Console__ tab.
-  ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/consoleImageChrome.png)
+  ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/consoleImageChrome.png)    
+  
+### HTML file
+There are two ways to include JavaScript code in a `.html` file - _inline_, and _pointer to another `.js` file_. Both the approaches are shown in the following snippet:
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Basic JavaSript Demo Page</title>
+    <!-- The following line of code shows you can ask the browser to load a 
+    JavaScript file even before the content of the page, i.e., the html 
+    is loaded. However, such activities of the browser often makes the 
+    page load painfully slow, and is thus not recommended unless absolutely
+    necessary. As a best practice, load javascript files after the content 
+    has been loaded, by placing them near the end of the "body" tag. -->
+    <script type="text/javascript" src="dependency/fusioncharts/js/fusioncharts.js"></script
+  </head>
+  <body>
+    <h1>JavaScript Demo</h1>
+    <button>See Current Time</button>
+    <>
+  </body>
+</html>
+```
