@@ -43,18 +43,40 @@ There are two ways to include JavaScript code in a `.html` file - _inline_, and 
   <head>
     <meta charset="UTF-8">
     <title>Basic JavaSript Demo Page</title>
+  
     <!-- The following line of code shows you can ask the browser to load a 
-    JavaScript file even before the content of the page, i.e., the html 
-    is loaded. However, such activities of the browser often makes the 
+    "JavaScript file" even before the content of the page, i.e., the html 
+    is loaded. You can point the browser towards a JavaScript file by passing
+    the path to your file as a vaue for the "src" attribute of the "script" tag.
+
+    However, such activities of the browser often makes the 
     page load painfully slow, and is thus not recommended unless absolutely
     necessary. As a best practice, load javascript files after the content 
     has been loaded, by placing them near the end of the "body" tag. -->
-    <script type="text/javascript" src="dependency/fusioncharts/js/fusioncharts.js"></script
+  
+    <script type="text/javascript" src="dependency/fusioncharts/js/fusioncharts.js"></script>
+  
   </head>
+  
   <body>
     <h1>JavaScript Demo</h1>
-    <button>See Current Time</button>
-    <>
+    <button id="time" onclick="myFunction()">See Current Time</button>
+  
+    <!-- The following line of code shows usage of inline JavaScript,
+    which is appropriate when you code snippets are small. 
+    Don't worry even if you don't understand the meaning of the code. -->
+  
+    <script>
+      function myFunction() {
+        document.getElementById("time").innerHTML = Date();
+      }
+    </script>
+    
+    <!-- The following line of code shows a best practice of loading JavaScript files 
+    after the content is loaded -->
+  
+    <script type="text/javascript" src="dummy.js"></script>
+  
   </body>
 </html>
 ```
