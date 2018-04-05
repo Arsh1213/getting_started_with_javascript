@@ -120,7 +120,7 @@ keep the memory location of the variable empty when it is declared and initializ
 
 
 ### undefined
-> In general, a variable is __undefined__ in JavaScript if the interpreter finds that after declaring the name of the variable, no value has been assigned to it. The reason is quite obvious - without an assigned value, the interpreter cannot decide what kind of data the variable is supposed to contain, and how much memory should be allocated to the variable initially.     
+In general, a variable is __undefined__ in JavaScript if the interpreter finds that after declaring the name of the variable, no value has been assigned to it. The reason is quite obvious - without an assigned value, the interpreter cannot decide what kind of data the variable is supposed to contain, and how much memory should be allocated to the variable initially.     
 
 ```javascript
 
