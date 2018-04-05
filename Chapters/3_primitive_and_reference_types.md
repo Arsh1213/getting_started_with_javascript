@@ -125,7 +125,14 @@ If you look closely at the code illustrations in the section for __mutation__, y
   2. As expected, it next sees a whitespace and ignores it. It keeps looking on for a string and gets `a_number`. It now knows what to do next - allocate a memory for the newly minted variable, and it does exactly that. However, just after it allocates the memory without having any idea what kind of a variable (based on data type) it is handling, it becomes curious and looks inside the memory locations. Sure enough, it finds nothing there, because it has not got anything to put inside it yet! But being the impatient kid it is in the _console_ mode (when it's interactive), it jumps to a conclusion - the variabe has not been defined properly!     
   3. Next thing you know, it spits out `undefined` on the console.    
   4. Then it goes on looking for other things till it encounters `;`, which indicates _end of statement_. As we are the programmers who can do no wrong, we have given it food for thought - the `=` operator that indicates __assignment__, and then a number `9` that indicates the __assigned value__. The interpreter realizes it's mistake and puts the value `9` inside the memory location allocated for `a_number`, keeping it ready for subsequent instructions. However, the egoistic personality it is, it never bothers to tell us that it had done a mistake of jumping to conclusion too quickly! But when asked again, it corrects its mistake and reveals the correct value of a well-defined variable.
-  ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/undefinedSelfCorrection.png)
+  <table>
+    <tr>
+      <td>
+      https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/undefinedSelfCorrection.png
+      </td>
+    </tr>
+  </table>
+  
   
 > __NOTE__: In the console mode, the interpreter even handles __null__ the same way it would handle other data types. 
 ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/nullUndefined%20Console.png)     
