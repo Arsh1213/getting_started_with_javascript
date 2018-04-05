@@ -128,7 +128,8 @@ If you look closely at the code illustrations in the section for __mutation__, y
   <table>
     <tr>
       <td>
-      https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/undefinedSelfCorrection.png
+        <img          src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/undefinedSelfCorrection.png"
+        />
       </td>
     </tr>
   </table>
