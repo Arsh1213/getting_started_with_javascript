@@ -109,7 +109,12 @@ We haven't discussed much about these two mysterious data types, although you mi
 > In general, a variable is __undefined__ in JavaScript if the interpreter finds that after declaring the name of the variable, no value has been assigned to it. The reason is quite obvious - without an assigned value, the interpreter cannot decide what kind of data the variable is supposed to contain, and how much memory should be allocated to the variable initially.     
 
 ```javascript
-var name = "John"; // The variable is defined and if not in the console mode, the interpreter treats this perfectly fine.
+
+/* 
+The following variable is defined. If not in the console mode, 
+the interpreter treats this perfectly fine.
+*/
+var name = "John"; 
 var age; // This is an undefined variable. 
 ```
 
