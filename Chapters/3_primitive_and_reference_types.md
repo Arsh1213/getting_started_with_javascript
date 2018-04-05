@@ -103,7 +103,21 @@ Do such exercises often, especially whenever you encounter a concept that is dif
 ## Notes on "null" and "undefined"
 We haven't discussed much about these two mysterious data types, although you might have seen enough clues that indicate they are somewhat special and different than the others. In the subsequent chapters we will see some usage of these two data types, but this is a nice opportunity to give a basic explanation of what they are, and how they work.
 
-> __null__ and __undefined__ are unique values themselves, and not a data types per se - not at least like _Number_ and _String_ data types. For example, 2 and -5.7 are both numbers, and although they belong to the same data type, they are different in their magnitude, and hence their possible effects on the program. However, __null__ and __undefined__ are unique values themselves, and a type in their own right since JavaScript interpreters handle them differently than other kids on the block.    
+__null__ and __undefined__ are unique values themselves, and not a data types per se - not at least like _Number_ and _String_ data types. For example, 2 and -5.7 are both numbers, and although they belong to the same data type, they are different in their magnitude, and hence their possible effects on the program. However, __null__ and __undefined__ are unique values themselves, and a type in their own right since JavaScript interpreters handle them differently than other kids on the block.    
+
+### null
+
+__null__ is a special value that we assign to variables when our intention is to keep the memory allocated for the variable empty after it is declared. This is a perfectly defined behaviour for the interpreter to asses. The use cases for __null__ might not be apparent, but in the subsequent chapter you will encounter some examles where it's needed.
+
+```javascript
+var empty_variable = null; // We deliberately want the variable to be empty.
+
+/* 
+This is a way telling the interpreter that we know exactly what we want to do - 
+keep the memory location of the variable empty when it is declared and initialized.
+*/
+```
+
 
 ### undefined
 > In general, a variable is __undefined__ in JavaScript if the interpreter finds that after declaring the name of the variable, no value has been assigned to it. The reason is quite obvious - without an assigned value, the interpreter cannot decide what kind of data the variable is supposed to contain, and how much memory should be allocated to the variable initially.     
