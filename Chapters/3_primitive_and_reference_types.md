@@ -62,6 +62,7 @@ JavaScript data types are categorized under two themes - __Primitive__ and __Ref
 
 Bring your mind back to JavaScript if the topic reminds you of _X Men_ - the theme of several blockbuster Hollywood movies. In context of programming, __mutation__ implies the phenomenon of changing or overriding the originally defined values and capabilities of entities involved in a program. When mentioned as a property of data types, we use the terms __mutable__ and __immutable__, depending on whether the concerned data types can be mutated or not. The core concept of mutation is common accross all programming languages, although the specifics of applicability may vary depending on the context.
 
+### Mutation in JavaScript
 To get a feel of mutation in JavaScript, consider the following illustration from the JavaScript interpreter embedded within the Chrome browser:
 
 <table>
@@ -86,5 +87,9 @@ To get a feel of mutation in JavaScript, consider the following illustration fro
   </tr>  
   </tbody>
 </table>
+
+
+As a summary, remember the following:  
+> the __Primitive__ types are __immutable__, because they are _not referenced_. On the other hand, __Reference__ types are obviously _referenced via pointers_, and are therefore __mutable__.    
 
 
