@@ -170,7 +170,7 @@ function calcSqRoot(num) { // Notice the function name - it's called camelCase.
   };
 ```
 
-Let's break down our little function and inspect it's different components:
+Let's break down our little function and inspect it's different components:    
   1. 
 
 Once we write our function, we can _call_(invoke) it and pass a value corresponding to the _parameter_. Here's an example:
@@ -179,4 +179,4 @@ calSqRoot(41); // Evaluates to 6.4031242374328485
 ```
 ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/sqRootFunction.png)    
 
-> __Statements__ and __Expressions__: This is a common topic in all programming languages, but at the same time beginners often lack a proper understanding of their meaning and difference. Expressions are  
+> __Statements__ and __Expressions__: This is a common topic in all programming languages, but at the same time beginners often lack a proper understanding of their meaning and difference. __Expressions__ are those pieces of code that evaluates to something. In other words,  
