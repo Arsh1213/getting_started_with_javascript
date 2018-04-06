@@ -178,7 +178,8 @@ Let's break down our little function and inspect it's different components, espe
     functionBody // write your logical code here
     };
   ```
-  3. The `Math` object has a property `sqrt` 
+  3. The `Math` object has a property `sqrt`, which computes the square root of real number passed on to it.
+  4. By definition, functions in JavaScript must produce an output. In technical parlance, it must return a value
 
 Once we write our function, we can _call_(invoke) it and pass a value corresponding to the _parameter_. Here's an example:
 ```javascript
