@@ -137,3 +137,12 @@ While browser consoles are adequate as a playground, no serious coding can be do
 
 ## Some Trivial Programs
 
+### Hello World!
+Keeping the tradition intact, write your first JavaScript program.
+  1. Go to the browser console, type the following lines of code, and hit Enter.
+      ```javascript
+      console.log("Hello, World!");
+      ```
+  2. You will see that the console returns the string `Hello, World!`.
+      ![]()
+      
