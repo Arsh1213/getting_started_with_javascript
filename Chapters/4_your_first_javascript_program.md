@@ -151,10 +151,12 @@ The single lines of code that you wrote just now might be trivial, but it is pow
   1. `console` - It is a representative of the king in the JavaScript world - _Object_. Objects in JavaScript represents entities programmatically, and sometimes they are so beautifully designed that they represent physical entities. _Objects_ have _properties_ or characteristics, and they also have _methods_ or capabilities. For example, we can construct a _programmer_ object, and give a property _favouriteLanguage_ whose value is _JavaScript_. We can also give it methods or capabilities like _design()_, _writeCode()_, and _debugCode()_. 
   2. `.` - Read as "dot", this notation is extremely powerful and pervades major programming languages like JavaScript, Python, C++, Java, C#, etc. It sits between an object and the invoked method, and denotes the association of the two. In our case, it sits between the object _console_ and its method _log_. The combination _console.log()_ is therefore an instance of the generic concept of _object.method()_, and means that the method _log()_ associated with the object _console_ is invoked when the expression is evaluated by the interpreter.
   3. `log()` - As discussed, _log_ is the name of a method associated with the object _console_. Methods are functions associated with objects that gives them capabilities to do certain things. Functions are programming constructs very similar to Mathematics, where you pass an input to it and it produces an output. In our case, you pass a value to _log_ within the _()_, and it prints the same value on the browser's console. 
-  4. `;` - The semicolon at the end of a statement or expression indicates its termination. It's a common characteristic  
+  4. `;` - The semicolon at the end of a statement or expression indicates its termination. It's a common characteristic that you will find across many programming languages. There are some cases where you can get away without using it, but you are better off using it always rather than remembering the cases where it's not mandatory. 
   
 ### A Simple Function
-In this example, we shall write a function to find the square root of a number you pass on to it. At the same time, you will see how not thinking about the edge cases can be dangerous!
+
+In this example, we shall write a function to find the square root of a number you pass on to it. At the same time, you will see how not thinking about the edge cases can be dangerous!    
+
 Here's the first version of the function:
 ```javascript
 /*
@@ -167,3 +169,12 @@ function calcSqRoot(num) { // Notice the function name - it's called camelCase.
   return sq_root;
   }
 ```
+
+Let's break down our little function and inspect it's different components:
+  1. 
+
+Once we write our function, we can _call_(invoke) it and pass a value corresponding to the _parameter_. Here's an example:
+```javascript
+calSqRoot(41); // Evaluates to 6.4031242374328485
+```
+![]()
