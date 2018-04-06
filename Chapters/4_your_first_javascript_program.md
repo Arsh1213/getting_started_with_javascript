@@ -177,4 +177,4 @@ Once we write our function, we can _call_(invoke) it and pass a value correspond
 ```javascript
 calSqRoot(41); // Evaluates to 6.4031242374328485
 ```
-![]()
+![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/sqRootFunction.png)
