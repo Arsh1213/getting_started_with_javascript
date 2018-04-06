@@ -170,7 +170,7 @@ function calcSqRoot(num) { // Notice the function name - it's called camelCase.
   };
 ```
 
-Let's break down our little function and inspect it's different components:    
+Let's break down our little function and inspect it's different components, especially those that has not been discussed yet in this book:    
   1. 
 
 Once we write our function, we can _call_(invoke) it and pass a value corresponding to the _parameter_. Here's an example:
@@ -179,4 +179,6 @@ calSqRoot(41); // Evaluates to 6.4031242374328485
 ```
 ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/sqRootFunction.png)    
 
-> __Statements__ and __Expressions__: This is a common topic in all programming languages, but at the same time beginners often lack a proper understanding of their meaning and difference. __Expressions__ are those pieces of code that evaluates to something. In other words,  
+> __Statements__ and __Expressions__: This is a common topic in all programming languages, but at the same time beginners often lack a proper understanding of their meaning and difference. __Expressions__ are those pieces of code that evaluates to something. In other words, when an _expression_ gets interpreted, a value is returned. For example, `calSqRoot(41);` is an _expression_, because it returns a number. On the other hand, __statements__ are those lines of code that might trigger memory management activities or dictate the control flow of the program, but does not evaluate to anything. For example, `var sq_root = Math.sqrt(num);` is a statement that triggers memory management, but does not return any value. Off course, you may argue that the console returns _undefined_ for the statement we discussed. The reason for such strange behaviour has already been discussed [earlier in this book](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/3_primitive_and_reference_types.md#strange-behaviour-in-the-console-mode).    
+
+> __NOTES on Naming Conventions__: Each and every programming language has its own quirks about naming its programming constructs like variabes, functions, and objects. JavaScript is no exception to this rule, and you can always memorize a bunch of rules about nomenclature. However, I assure you that remembering three things will keep you safe from troubled waters - names should be simple, make sense, and not start with numbers or special characters. There is also another restriction of not mixing JavaScript keywords with variable names. For example, don't write code like `var Array = [];`, as _Array_ is one of the reserved keywords for which the JavaScript interpreter have special significance. Apart from this, you will become more wise about nomenclature when you learn about _variable scopes_ in the next chapter.
