@@ -171,7 +171,14 @@ function calcSqRoot(num) { // Notice the function name - it's called camelCase.
 ```
 
 Let's break down our little function and inspect it's different components, especially those that has not been discussed yet in this book:    
-  1. 
+  1. The keyword `function` initializes a function with a name that we give, which in this case is `calcSqRoot`.    
+  2. The function accepts value corresponding to the _parameter_ `num` as its _argument_ or input value, when the function is called. At the time of defining functions, we also define its parameters. Generally, we can construct a function with as many parameters as we want. The general form is:
+  ```
+  function functionName(paramete1, parameter2, ...) {
+    functionBody // write your logical code here
+    };
+  ```
+  3. The `Math` object has a property `sqrt` 
 
 Once we write our function, we can _call_(invoke) it and pass a value corresponding to the _parameter_. Here's an example:
 ```javascript
