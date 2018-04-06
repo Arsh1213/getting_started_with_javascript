@@ -167,7 +167,7 @@ making the code readable and contextual.
 function calcSqRoot(num) { // Notice the function name - it's called camelCase.
   var sq_root = Math.sqrt(num); // Such variable_names_can beMoreReadable.
   return sq_root;
-  }
+  };
 ```
 
 Let's break down our little function and inspect it's different components:
@@ -177,4 +177,6 @@ Once we write our function, we can _call_(invoke) it and pass a value correspond
 ```javascript
 calSqRoot(41); // Evaluates to 6.4031242374328485
 ```
-![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/sqRootFunction.png)
+![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/sqRootFunction.png)    
+
+> __Statements__ and __Expressions__: This is a common topic in all programming languages, but at the same time beginners often lack a proper understanding of their meaning and difference. Expressions are 
