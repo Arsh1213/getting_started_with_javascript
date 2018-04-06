@@ -118,14 +118,22 @@ function myFunction() {
 EXERCISE
 ========
 What does DOM stands for?
-Research on "DOM" and "event listeners" and prepare your own conceptual notes - it will be invaluable to have a good mental model of how DOM is created, and what are role does event listeners (and other things of the same breed, like "event handlers") play in the interactivity of your web pages. 
-Essentially, all of front-end web development is DOM manipulation in some form or the other. So how exactly is DOM related to the concept of call stack? 
+Research on "DOM" and "event listeners" and prepare your own conceptual notes. 
+It will be invaluable to have a good mental model of how DOM is created, and 
+what are role does event listeners (and other things of the same breed, like 
+"event handlers") play in the interactivity of your web pages. 
+Essentially, all of front-end web development is DOM manipulation in some form 
+or the other. So how exactly is DOM related to the concept of call stack? 
 What is the relationship between the interpreter and the DOM?
 ```
 
-##### NOTE on Tools for writing JavaScript code
+#### Tools for Coding
 While browser consoles are adequate as a playground, no serious coding can be done without a good text editor, or even better, an IDE (Integrated Development Environment). It is strongly recommended that you pick __any one__ of the following and master it while you learn coding:
   - [Sublime Text](https://www.sublimetext.com/)    
   - [Atom](https://atom.io/)    
-  - [Visual Studio Code](https://code.visualstudio.com/)(you can also use the behemoth IDE [Visual Studio](https://www.visualstudio.com/), but that amount of firepower will rarely be required in the initial stages)
+  - [Visual Studio Code](https://code.visualstudio.com/)(you can also use the behemoth IDE [Visual Studio](https://www.visualstudio.com/), but that amount of firepower will rarely be required in the initial stages)    
+> You can also use the online tool [JSFiddle](https://jsfiddle.net/) to test some concepts quickly or demonstrate an idea using small code snippets.
+
+
+## Some Trivial Programs
 
