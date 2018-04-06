@@ -145,4 +145,5 @@ Keeping the tradition intact, write your first JavaScript program.
       ```
   2. You will see that the console returns the string `Hello, World!`.
       ![]()
+      > `console.log()` is just like the `print` or equivalent statements found in almost all major programming languages. All it does is printing the value you have passed to it (within the parenthesis) on the console. Experiment with `console.log` as much as you want. I have done some for you - see the image above.
       
