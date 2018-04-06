@@ -179,4 +179,4 @@ calSqRoot(41); // Evaluates to 6.4031242374328485
 ```
 ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/sqRootFunction.png)    
 
-> __Statements__ and __Expressions__: This is a common topic in all programming languages, but at the same time beginners often lack a proper understanding of their meaning and difference. Expressions are 
+> __Statements__ and __Expressions__: This is a common topic in all programming languages, but at the same time beginners often lack a proper understanding of their meaning and difference. Expressions are  
