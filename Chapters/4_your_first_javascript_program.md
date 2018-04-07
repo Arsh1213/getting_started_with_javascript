@@ -114,6 +114,7 @@ function myFunction() {
   document.getElementById("time").innerHTML = Date();
 }
 ```
+
 ```
 EXERCISE
 ========
