@@ -229,7 +229,7 @@ function calcSqRoot(num) {
     typeof() is a function that returns the data type of value passed on to it.   
     "&&" means logical AND operation. In other words, it means an expression 
     containing two parts is true if and only if both the parts are true.
-    In our case, the two parts are typeof(num) and (num >= 0).
+    Here, the two parts are typeof(num) and (num >= 0).
     */
     }
   else {
