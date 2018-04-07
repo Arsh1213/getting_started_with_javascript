@@ -225,11 +225,12 @@ function calcSqRoot(num) {
   */
   if ((typeof(num) == "Number") && num >= 0) {
     return Math.sqrt(num);
-  }
+    }
   else {
     var error_message = "Invalid input! Try with a non-negative number!";
     return error_message;
+    }
   };
 ```
 
-Although there are some usages of _conditionals_ (the if-else blocks) to which you haven't been formally introduced, the code is quite self-explanatory and you should be able to understand the logic we are trying to build. Let's see how our improvement fares against the different possible inputs.
+Although there are some usages of _conditionals_ (the __if-else__ blocks) to which you haven't been formally introduced, the code is quite self-explanatory and you should be able to understand the logic we are trying to build. Let's see how our improvement fares against the different possible inputs.
