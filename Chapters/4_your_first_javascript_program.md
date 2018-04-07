@@ -212,4 +212,24 @@ Now that we haved defined and called our function while passing a legitimate inp
 
 ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/testingFunction.png)
 
-> Seems like we are done here - we have tested our functions with all possible types of inputs, and have tried to understand the results. Also, we have made some interesting observations and raised some good questions. Always do such things with your code - this is the only way to learn about programming, and the programming language as well.
+> Seems like we are done here - we have tested our functions with all possible types of inputs, and have tried to understand the results. Also, we have made some interesting observations and raised some good questions. Always do such things with your code - this is the only way to learn about programming, and the programming language as well.    
+
+#### Improving the Function
+We have travelled quite a distance since we wrote our function. But is our definition of the function adequate? Think of a situation where your program is getting its input from values submitted by a curious user through an html form. The user submits a value, your program processes it, and the output is displayed back on the webpage. For a non-technical user, will `NaN` make any sense? In such cases, it is the programmer's responsibility to thik ahead of the situations and include mechanisms in the code so that a meaningful output is returned. Let's explore on of the very obvious ways to improve our code.    
+
+```javascript
+function calcSqRoot(num) {
+  /* 
+  The function should execute only if the input is a non-negative number.
+  Otherwise, it should return a message that is easily understood.
+  */
+  if ((typeof(num) == "Number") && num >= 0) {
+    return Math.sqrt(num);
+  }
+  else {
+    var error_message = "Invalid input! Try with a non-negative number!";
+    return error_message;
+  };
+```
+
+Although there are some usages of _conditionals_ (the if-else blocks) to which you haven't been formally introduced, the code is quite self-explanatory and you should be able to understand the logic we are trying to build. Let's see how our improvement fares against the different possible inputs.
