@@ -210,6 +210,6 @@ Where do they live, or how/from which layer of abstraction can we access them?
 #### Testing a Function
 Now that we haved defined and called our function while passing a legitimate input (a real number), let us experiment other kinds of inputs as well! While pure computer science gives you mathematical frameworks to prove that your code is correct and robust, testing your code with myriad inputs is the practical way to ensure that your code works _reliably_. 
 
-![]()
+![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/testingFunction.png)
 
 > Seems like we are done here - we have tested our functions with all possible types of inputs, and have tried to understand the results. Also, we have made some interesting observations and raised some good questions. Always do such things with your code - this is the only way to learn about programming, and the programming language as well.
