@@ -240,3 +240,37 @@ function calcSqRoot(num) {
 ```
 
 Although there are some usages of _conditionals_ (the __if-else__ blocks) to which you haven't been formally introduced, the code is quite self-explanatory and you should be able to understand the logic we are trying to build. Let's see how our improvement fares against the different possible inputs.
+
+![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/improvedFunction.png)    
+
+We are doing good, aren't we! Our function has improved quite a bit - it is gracefully filtering out all inputs except a non-negative number, and is also returning meaningful error message instead of the cryptic `NaN`.     
+
+However mnually testing a function with all sorts of possible input, every time it is modified, is a bit time consuming and stupid at the same time. We should think of automating the testing of our function. How can we do that? Let's explore in the next sub-section.
+
+#### Writing Unit Test
+Functions are, by definition, packets of logic that we repeatedly need to execute. Can we, therefore, write a function to test our function automatically? Sure we can! Also, when we automate tests for each unit of code we write (our square root calculating function can be considered as an unit), we call it _unit test_. Here's our function that can unit test the square root calculator:
+```javascript
+function test_calcSqRoot() {
+  var test_inputs = [999999, 0.0065, 0/0, -1.8/0, -2, -0.7, 
+                    "test", true, false, null, undefined];                    
+  for (var input in test_inputs) {  
+    var result = calcSqRoot(input); // calSqRoot() is called for each item in the array
+    var error_string = "Invalid input! Try with a non-negative number!";    
+    // We must be very sure of the input!
+    var expected_input_condition = (typeof(input) == "number") 
+                                  && (input >= 0)
+                                  && (typeof(result) == "number") 
+                                  && (result == Math.sqrt(input));                                
+    var unexpected_input_condition = (input < 0) 
+                                    || (typeof(input) != "number) 
+                                    && (result == error_string);
+    if ((expected_input_condition) || (unexpected_input_condition)) {
+      return "OK; test pass.";
+    }
+    else {
+      return "Test FAIL!";
+    }
+  }
+};
+    
+```
