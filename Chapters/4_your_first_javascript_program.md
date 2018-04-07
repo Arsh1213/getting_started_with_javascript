@@ -252,14 +252,16 @@ Functions are, by definition, packets of logic that we repeatedly need to execut
 ```javascript
 function test_calcSqRoot() {
 
-  var test_inputs = [999999, 0.0065, 0/0, -1.8/0, -2, -0.7, 
-                    "test", true, false, null, undefined];  
+  //var test_inputs = [999999, 0.0065, 0/0, -1.8/0, -2, -0.7, 
+                    //"test", true, false, null, undefined];  
+  var test_inputs = [-9];
                     
   for (var input in test_inputs) {  
-    var result = calcSqRoot(input); // calSqRoot() is called for each item in the array
+    var result = calcSqRoot(input); // calcSqRoot() is called for each item in the array
     var error_string = "Invalid input! Try with a non-negative number!"; 
     
     // We must be very sure of the input!
+    // Don't get scared by the chaining of logical AND and OR operations
     var expected_input_condition = (typeof(input) == "number") 
                                   && (input >= 0)
                                   && (typeof(result) == "number") 
