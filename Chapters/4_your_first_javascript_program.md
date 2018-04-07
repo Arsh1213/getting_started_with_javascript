@@ -262,7 +262,7 @@ function test_calcSqRoot() {
                                   && (typeof(result) == "number") 
                                   && (result == Math.sqrt(input));                                
     var unexpected_input_condition = (input < 0) 
-                                    || (typeof(input) != "number) 
+                                    || (typeof(input) != "number") 
                                     && (result == error_string);
     if ((expected_input_condition) || (unexpected_input_condition)) {
       return "OK; test pass.";
