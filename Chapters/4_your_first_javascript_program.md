@@ -182,11 +182,26 @@ Let's break down our little function and inspect it's different components, espe
   3. The `Math` object has a property `sqrt`, which computes the square root of real number passed on to it.
   4. By definition, functions in JavaScript must produce an output (except when it is in the form of a method associated with a constructor definition - a topic you will learn in the chapter [Constructors and Inheritance](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/8_constructors_and_inheritance.md)). In technical parlance, it must return a value. The `return` keyword, followed by a suitable entity, determines what should the function yield as an output. In our example, the function returns the square root of the number we pass on to it.
 
+#### Calling a Function 
 Once we write our function, we can _call_(invoke) it and pass a value corresponding to the _parameter_. Here's an example:
 ```javascript
 calSqRoot(41); // Evaluates to 6.4031242374328485
 ```
 ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/sqRootFunction.png)    
+
+```
+EXERCISE
+========
+What would happen if we call a function without defining it? Try it out!
+What did you see? What do you think such messages are called?
+Can you think of any other such messages? Try to find some more.
+
+"Math" is an object, but we never defined that object anywhere in our code.
+However, it did not stopped us from using it. Logically, this implies that 
+the Math object is something predefined - something we can use readily.
+What are such things called? Are there more like this? Who defines these?
+Where do they live, or how/from which layer of abstraction can we access them?
+```
 
 > __Statements__ and __Expressions__: This is a common topic in all programming languages, but at the same time beginners often lack a proper understanding of their meaning and difference. __Expressions__ are those pieces of code that evaluates to something. In other words, when an _expression_ gets interpreted, a value is returned. For example, `calSqRoot(41);` is an _expression_, because it returns a number. On the other hand, __statements__ are those lines of code that might trigger memory management activities or dictate the control flow of the program, but does not evaluate to anything. For example, `var sq_root = Math.sqrt(num);` is a statement that triggers memory management, but does not return any value. Off course, you may argue that the console returns _undefined_ for the statement we discussed. The reason for such strange behaviour has already been discussed [earlier in this book](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/3_primitive_and_reference_types.md#strange-behaviour-in-the-console-mode).    
 
