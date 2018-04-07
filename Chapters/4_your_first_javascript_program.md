@@ -215,7 +215,7 @@ Now that we haved defined and called our function while passing a legitimate inp
 > Seems like we are done here - we have tested our functions with all possible types of inputs, and have tried to understand the results. Also, we have made some interesting observations and raised some good questions. Always do such things with your code - this is the only way to learn about programming, and the programming language as well.    
 
 #### Improving the Function
-We have travelled quite a distance since we wrote our function. But is our definition of the function adequate? Think of a situation where your program is getting its input from values submitted by a curious user through an html form. The user submits a value, your program processes it, and the output is displayed back on the webpage. For a non-technical user, will `NaN` make any sense? In such cases, it is the programmer's responsibility to thik ahead of the situations and include mechanisms in the code so that a meaningful output is returned. Let's explore on of the very obvious ways to improve our code.    
+We have travelled quite a distance since we wrote our function. But is our definition of the function adequate? Think of a situation where your program is getting its input from values submitted by a curious user through an html form. The user submits a value, your program processes it, and the output is displayed back on the webpage. For a non-technical user, will `NaN` make any sense? In such cases, it is the programmer's responsibility to think ahead of the situation and include mechanisms in the code so that a meaningful output is returned. Let's explore on of the very obvious ways to improve our code.    
 
 ```javascript
 function calcSqRoot(num) {
