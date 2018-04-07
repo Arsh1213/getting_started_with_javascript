@@ -223,7 +223,7 @@ function calcSqRoot(num) {
   The function should execute only if the input is a non-negative number.
   Otherwise, it should return a message that is easily understood.
   */
-  if ((typeof(num) == "Number") && num >= 0) {
+  if ((typeof(num) == "number") && num >= 0) {
     return Math.sqrt(num);
     }
   else {
