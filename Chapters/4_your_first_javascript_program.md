@@ -176,7 +176,7 @@ Let's break down our little function and inspect it's different components, espe
   2. The function accepts value corresponding to the _parameter_ `num` as its _argument_ or input value, when the function is called. At the time of defining functions, we also define its parameters. Generally, we can construct a function with as many parameters as we want. The general form is:     
   ```
       function functionName(paramete1, parameter2, ...) {
-      functionBody // write your logical code here
+        functionBody   // write your logical code here, within the braces {}
       };
   ```
   3. The `Math` object has a property `sqrt`, which computes the square root of real number passed on to it.
