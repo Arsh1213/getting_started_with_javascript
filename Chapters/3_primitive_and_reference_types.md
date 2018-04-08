@@ -151,3 +151,6 @@ If you look closely at the code illustrations in the section for __mutation__, y
 [__<<= Programming 101__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/2_programming101.md)    
 
 [__Your First JavaScript Program =>>__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/4_your_first_javascript_program.md)
+
+## Notes on == and ===
+Lorem Ipsum
