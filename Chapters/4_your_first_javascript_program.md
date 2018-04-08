@@ -272,7 +272,7 @@ function test_calcSqRoot() {
                                     || (typeof(input) != "number") 
                                     && (result == error_string);
     
-    The test input can either be a non-negative real number (expected input), or anything unexpected.
+    // The test input can either be a non-negative real number (expected input), or anything unexpected.
     if ((expected_input_condition) || (unexpected_input_condition)) {
       return "OK; test pass.";
     }
