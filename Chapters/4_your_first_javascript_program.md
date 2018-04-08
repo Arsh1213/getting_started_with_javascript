@@ -298,3 +298,8 @@ The next step would be to call the unit test function so that it can tell us abo
     <td><img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/unitTestFail.png"/></td>
   </tr>
 </table>
+
+
+[__<<= Primitive and Reference Types__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/3_primitive_and_reference_types.md)    
+
+[__Functions =>>__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/5_functions.md)
