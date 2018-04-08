@@ -261,6 +261,8 @@ function test_calcSqRoot() {
     
     // We must be very sure of the input!
     // Don't get scared by the chaining of logical AND and OR operations
+    // The symbol && stands for logical AND; a chain of && is true iff every part is true.
+    // The symbol || stands for logical OR; a chain of || is true if any one part is true.
     var expected_input_condition = (typeof(input) == "number") 
                                   && (input >= 0)
                                   && (typeof(result) == "number") 
@@ -269,12 +271,13 @@ function test_calcSqRoot() {
     var unexpected_input_condition = (input < 0) 
                                     || (typeof(input) != "number") 
                                     && (result == error_string);
-                                    
+    
+    The test input can either be a non-negative real number (expected input), or anything unexpected.
     if ((expected_input_condition) || (unexpected_input_condition)) {
-      console.log("OK; test pass.");
+      return "OK; test pass.";
     }
     else {
-      console.log("Test FAIL!");
+      return "Test FAIL!";
     }
   }
 };
