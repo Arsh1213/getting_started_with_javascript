@@ -253,7 +253,7 @@ Functions are, by definition, packets of logic that we repeatedly need to execut
 function test_calcSqRoot() {
 
   var test_inputs = [999999, 0.0065, 0/0, -1.8/0, -2, -0.7, 
-                    //"test", true, false, null, undefined];  
+                    "test", true, false, null, undefined];  
                     
   for (var input in test_inputs) {  
     var result = calcSqRoot(input); // calcSqRoot() is called for each item in the array
