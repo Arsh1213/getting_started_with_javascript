@@ -165,14 +165,12 @@ age; // Evaluates to 35
     <td><strong>=== implies both value and type comparison; no type conversion<strong></td>
   </tr>
   <tr>
-    <td><img src=""></td>
-    <td><img src=""></td>
+    <td><img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/%3D%3Dtest.png"></td>
+    <td><img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/%3D%3D%3Dtest.png"></td>
   </tr>
 </table>
 
-
-
-> In the chapter [Your First JavaScript Program](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/4_your_first_javascript_program.md), where we shall discuss about a function to calculate square root, you will see more instances of type conversion happening under the hood.
+> __NOTE__: In the above example, you can say that `===` yields more accurate results than `==`, because `null` and `undefined` are obviously not same, no matter how many times the `==` test tells us that their equivalence is `true`. In the chapter [Your First JavaScript Program](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/4_your_first_javascript_program.md), where we shall discuss about a function to calculate square root, you will see more instances of type conversion happening under the hood.
 
 
 
