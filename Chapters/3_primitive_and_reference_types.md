@@ -149,7 +149,9 @@ If you look closely at the code illustrations in the section for __mutation__, y
 
 
 ## Notes on =, ==, and ===
-It's extremenly important to understand the difference between the three operators =, ==, and ===. Very rarely do beginners develop a clear understanding of == and ===, although = is somewhat well understood. However, having a clear concept of the distinction between the two very similar operators can save a lots of time when you proceed to advanced stages of your programming journey. 
+
+It's extremenly important to understand the difference between the three operators =, ==, and ===. Very rarely do beginners develop a clear understanding of == and ===, although = is somewhat well understood. However, having a clear concept of the distinction between the two very similar operators can save a lots of time when you proceed to advanced stages of your programming journey.    
+
 `=` represents assignment; what ever is on the right of the sign is assigned to the one on the left. For example:
 ```javascript
 var age = 25; // Initial age is 25
