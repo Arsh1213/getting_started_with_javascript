@@ -290,8 +290,8 @@ The next step would be to call the unit test function so that it can tell us abo
 
 <table>
   <tr>
-    <td><style text-align=center><strong>Test Pass<strong></style></td>
-    <td><style text-align=center><strong>Test Fail<strong></style></td>
+    <td><strong>Test Pass<strong></td>
+    <td><strong>Test Fail<strong></td>
   </tr>
   <tr>
     <td><img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/unitTestPass.png"/></td>
