@@ -288,8 +288,8 @@ function test_calcSqRoot() {
 The next step would be to call the unit test function so that it can tell us about the correctness of the square root calculator. Two situations can arise, and in both the cases we show how effective unit tests are!
 > __NOTE__: For illustration, we have shown the unit test function twice, but in prcatice you have to write only once!    
 
-##### Square Root Calculator is Correct
+##### Square Root Calculator is Correct - Passes the Test
 ![]()
 
-##### Square Root Calculator is Modified and Incorrect
+##### Square Root Calculator is Modified and Incorrect - Fails the Test
 ![]()
