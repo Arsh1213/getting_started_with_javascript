@@ -293,3 +293,14 @@ The next step would be to call the unit test function so that it can tell us abo
 
 ##### Square Root Calculator is Modified and Incorrect - Fails the Test
 ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/unitTestFail.png)
+
+<table>
+  <tr>
+    <td><strong>Test Pass<strong></td>
+    <td><strong>Test Fail<strong></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/unitTestPass.png"/></td>
+    <td><img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/unitTestFail.png"/></td>
+  </tr>
+</table>
