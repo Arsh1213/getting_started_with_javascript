@@ -148,7 +148,7 @@ If you look closely at the code illustrations in the section for __mutation__, y
 ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/nullUndefined%20Console.png)     
 
 
-## Notes on == and ===
+## Notes on =, == and ===
 Lorem Ipsum
 
 
