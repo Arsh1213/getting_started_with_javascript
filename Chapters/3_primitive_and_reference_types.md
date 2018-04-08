@@ -149,7 +149,30 @@ If you look closely at the code illustrations in the section for __mutation__, y
 
 
 ## Notes on =, ==, and ===
-Lorem Ipsum
+It's extremenly important to understand the difference between the three operators =, ==, and ===. Very rarely do beginners develop a clear understanding of == and ===, although = is somewhat well understood. However, having a clear concept of the distinction between the two very similar operators can save a lots of time when you proceed to advanced stages of your programming journey. 
+`=` represents assignment; what ever is on the right of the sign is assigned to the one on the left. For example:
+```javascript
+var age = 25; // Initial age is 25
+age = 30; // Then, the value 30 is assigned to the variable "age".
+var age_future = 35; // A new variable is initialized
+age = age_future; // Whatever value is in "age_future" is now assigned to "age"
+age; // Evaluates to 35
+```
+`==` represents comparison, and evaluates to either `true` or `false`. But this comparison is rather loose in nature - only the values of the entities on either side of the sign are compared, but not their individual types. Rather, the types are converted whenever possible to make the comparison a valid operation. On the other hand, `===` introduces strong type-checking In other words, type conversion is not allowed for `===` test. This is, therefore, more strict than the `==` operation. For example:
+<table>
+  <tr>
+    <td><strong>== implies only value comparison; type conversion allowed<strong></td>
+    <td><strong>=== implies both value and type comparison; no type conversion<strong></td>
+  </tr>
+  <tr>
+    <td><img src=""></td>
+    <td><img src=""></td>
+  </tr>
+</table>
+
+
+
+> In the chapter [Your First JavaScript Program](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/4_your_first_javascript_program.md), where we shall discuss about a function to calculate square root, you will see more instances of type conversion happening under the hood.
 
 
 
