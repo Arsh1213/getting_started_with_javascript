@@ -289,7 +289,7 @@ The next step would be to call the unit test function so that it can tell us abo
 > __NOTE__: For illustration, we have shown the unit test function twice, but in prcatice you have to write only once!    
 
 ##### Square Root Calculator is Correct - Passes the Test
-![]()
+![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/unitTestPass.png)
 
 ##### Square Root Calculator is Modified and Incorrect - Fails the Test
-![]()
+![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/unitTestFail.png)
