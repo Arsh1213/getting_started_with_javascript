@@ -259,10 +259,12 @@ function test_calcSqRoot() {
     var result = calcSqRoot(input); // calcSqRoot() is called for each item in the array
     var error_string = "Invalid input! Try with a non-negative number!"; 
     
-    // We must be very sure of the input!
-    // Don't get scared by the chaining of logical AND and OR operations
-    // The symbol && stands for logical AND; a chain of && is true iff every part is true.
-    // The symbol || stands for logical OR; a chain of || is true if any one part is true.
+    /*
+    We must be very sure of the input!
+    Don't get scared by the chaining of logical AND and OR operations
+    The symbol && stands for logical AND; a chain of && is true iff every part is true.
+    The symbol || stands for logical OR; a chain of || is true if any one part is true.
+    */
     var expected_input_condition = (typeof(input) == "number") 
                                   && (input >= 0)
                                   && (typeof(result) == "number") 
