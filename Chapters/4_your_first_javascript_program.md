@@ -288,16 +288,10 @@ function test_calcSqRoot() {
 The next step would be to call the unit test function so that it can tell us about the correctness of the square root calculator. Two situations can arise, and in both the cases we show how effective unit tests are!
 > __NOTE__: For illustration, we have shown the unit test function twice, but in prcatice you have to write only once!    
 
-##### Square Root Calculator is Correct - Passes the Test
-![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/unitTestPass.png)
-
-##### Square Root Calculator is Modified and Incorrect - Fails the Test
-![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/unitTestFail.png)
-
 <table>
   <tr>
-    <td><strong>Test Pass<strong></td>
-    <td><strong>Test Fail<strong></td>
+    <td><style text-align=center><strong>Test Pass<strong></style></td>
+    <td><style text-align=center><strong>Test Fail<strong></style></td>
   </tr>
   <tr>
     <td><img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/unitTestPass.png"/></td>
