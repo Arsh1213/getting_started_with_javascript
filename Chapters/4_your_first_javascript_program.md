@@ -252,9 +252,8 @@ Functions are, by definition, packets of logic that we repeatedly need to execut
 ```javascript
 function test_calcSqRoot() {
 
-  //var test_inputs = [999999, 0.0065, 0/0, -1.8/0, -2, -0.7, 
+  var test_inputs = [999999, 0.0065, 0/0, -1.8/0, -2, -0.7, 
                     //"test", true, false, null, undefined];  
-  var test_inputs = [-9];
                     
   for (var input in test_inputs) {  
     var result = calcSqRoot(input); // calcSqRoot() is called for each item in the array
@@ -272,10 +271,10 @@ function test_calcSqRoot() {
                                     && (result == error_string);
                                     
     if ((expected_input_condition) || (unexpected_input_condition)) {
-      return "OK; test pass.";
+      console.log("OK; test pass.");
     }
     else {
-      return "Test FAIL!";
+      console.log("Test FAIL!");
     }
   }
 };
