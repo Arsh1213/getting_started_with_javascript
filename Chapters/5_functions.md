@@ -101,6 +101,10 @@ function should_i_learn_js(infoMatrix) {
 should_i_learn_js(infoMatrix);
 ```
 
-![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/nestedifelse.png)
+<table>
+  <tr>
+    <td><img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/nestedifelse.png"></td>
+  </tr>
+</table>
 
 ## Loops
