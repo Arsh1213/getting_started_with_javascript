@@ -81,10 +81,10 @@ EXERCISE
     // When the element is clicked, reveal the rest of the content that was hidden initially
       title.onclick = function() {
         if (elt.className == "reveal") {
-        elt.className = "revealed";
+          elt.className = "revealed";
           } 
         else if (elt.className == "revealed") {
-        elt.className = "reveal";
+          elt.className = "reveal";
           }
         }
       }
@@ -92,10 +92,10 @@ EXERCISE
   </script>
 </head>
 <body>
-	<div class="reveal">
-		<button class="handle">Toggle me to reveal and hide text</button>
-		<p>This paragraph is hidden. It appears when you click on the title.</p>
-	</div>
+  <div class="reveal">
+    <button class="handle">Toggle me to reveal and hide text</button>
+    <p>This paragraph is hidden. It appears when you click on the title.</p>
+  </div>
 </body>
 </html>
 ```
