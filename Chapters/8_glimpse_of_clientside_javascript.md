@@ -59,7 +59,7 @@ EXERCISE
 
 This example demonstrates how you can use JavaScript to hide and reveal content. One very common application of the technique demonstrated in the code is to create toggle buttons that reveals and hides content on the page. 
 
-Also, by now you should be in a position to read and understand the code just with the help of the comments. Therefore, this example is devoid of any explanation accompanying it. In your life as a pprogrammer, you will spend more time reading and understanding other people's code than writing new ones. Thus, the often underrated ability of reading and understanding code is extremenly important for good programming.
+Also, by now you should be in a position to __read and understand code__ just with the help of the comments. Therefore, this example is devoid of any explanation accompanying it. In your life as a pprogrammer, you will spend more time reading and understanding other people's code than writing new ones. Thus, the often underrated ability of reading and understanding code is extremenly important for good programming.
 
 ```html
 <!DOCTYPE html>
@@ -109,3 +109,25 @@ Also, by now you should be in a position to read and understand the code just wi
 ```
 
 ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/revealHideTextToggle.png)
+
+```
+EXERCISE
+========
+1. Create a webpage that:
+
+   (i) Has an html form to take your date of birth as an input (DDMMYYYY).
+   (ii) A checkbox named "Provide Future Date" that, when checked, displays another html form asking for a future date   (DDMMYYYY).
+   (iii) A button that says "Calculate Age"
+   
+   If the user does not check "Provide Future Date" and clicks "Calculate Age", a JavaScript program should 
+   calculate and return the age based on the current date. 
+   Else if the user checks "Provide Future Date" and provides the future date from the then displayed form 
+   correctly, the age should be calculated based on the furure date.
+   
+   The result, in either case, should be displayed back in the webpage.
+   
+   Remember to implement:
+    - Sanity check of the inputs before you go on to calculate the age
+    - The age calculating program in a seperate JavaScript file
+    - Write unit test for the age calculation program.
+```
