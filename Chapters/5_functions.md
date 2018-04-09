@@ -69,7 +69,7 @@ In a world of connected programs, where output of one function often becomes inp
 When required, you can nest the conditional statements, as illustrated below:
 
 ```javascript
-/ Another layer of information is added to this object
+// Another layer of information is added to this object
 var infoMatrix = {
   programmingAptitude : {
     goodAtLogic : false,
@@ -88,7 +88,7 @@ function should_i_learn_js(infoMatrix) {
       focusOnJavaScript = "Yes";
     }
     else {
-      focusOnJavaScript = "May be!"
+      focusOnJavaScript = "May be!";
     }
   }
   else {
