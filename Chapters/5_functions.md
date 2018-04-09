@@ -50,3 +50,7 @@ else {
   takeActionN
 }
 ```
+
+### NOTE on the Importance of "else" 
+
+It is often observed that programmers omit the `else` statements - they only include the `if` statement and think that else statement is not required. It's an awfully bad practice, and you must never develop that habit. The most important reason behind including the `else` statement is that you control the outcome of the program when the `if` condition is not true.For example, see what happens when you omit the `else` statement in the should_
