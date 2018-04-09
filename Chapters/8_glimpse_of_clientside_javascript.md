@@ -113,11 +113,11 @@ Also, by now you should be in a position to __read and understand code__ just wi
 ```
 EXERCISE
 ========
-1. Create a webpage that:
+1. Create a webpage that has:
 
-   (i) Has an html form to take your date of birth as an input (DDMMYYYY).
+   (i) An html form to take your date of birth as an input (DDMMYYYY)
    (ii) A checkbox named "Provide Future Date" that, when checked, displays another html 
-   form asking for a future date (DDMMYYYY).
+   form asking for a future date (DDMMYYYY)
    (iii) A button that says "Calculate Age"
    
    If the user does not check "Provide Future Date" and clicks "Calculate Age", a 
