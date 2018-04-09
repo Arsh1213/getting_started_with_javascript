@@ -57,6 +57,17 @@ else {
 
 It is often observed that programmers omit the `else` statements - they only include the `if` statement and think that else statement is not required. It's an awfully bad practice, and you must never develop that habit. The most important reason behind including the `else` statement is that you control the outcome of the program when the `if` condition is not true. For example, see what happens when you omit the `else` statement in the `should_i_learn_js()` function:
 
-![]()
+![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/shouldIlearnJS_returnsNull.png)
+
+Our function returned `null`, because the default value of the variable `focusOnJavaScript` was `null`, and when the conditions failed to pass the `if` statement, our program had no specific instructions for assigning any meaningful value to the variable `focusOnJavaScript`.
+
+In a world of connected programs, where output of one function often becomes input to another, imagine what would happen if the output of `should_i_learn_js()` is passed on to a function that displays the result as HTML in a webpage! The end . user sees the cryptic `null`, which does not add value to his quest of making a solid decision!
+
 
 ### Example of Nested Conditional Statements
+
+When required, you can nest the conditional statements, as illustrated below:
+
+```javascript
+
+```
