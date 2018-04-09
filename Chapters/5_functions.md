@@ -31,3 +31,22 @@ In real life, the process of making decisions involves considering each of the f
     </td>
   </tr>
 </table>
+
+When there are more than two conditions to consider, you can chain the `if-else` statements to include all of them.
+```javascript
+if (condition1 is true) {
+  takeAction1
+} 
+else if (condition2 is true) {
+  takeAction2
+}
+else if (condition3 is true) {
+  takeAction3
+}
+.
+.
+.
+else {
+  takeActionN
+}
+```
