@@ -6,7 +6,13 @@ The possibilities of what can be done on the client-side using JavaScript is alm
 
 In this chapter, we shall discuss some very rudimentary capabilities of JavaScript in context of the client-side scripting. Thick books have been written to cover only a fraction of client-side JavaScript, and __*there is no way you will develop even a faint idea of the entire spectrum of possibilities after reading this chapter*__. What's possible though is to fuel your curiosity and imagination, and to provide you the nudge for following your instinct.
 
-The code snippets in this chapter are heavily commented. Copy the code and run it on your computer to see the output. Supplement it by going through the code carefully to understand what it does, and how it does. Try to write somethng similar, or even better, extend the functionality of the code. Godspeed!
+To get the maximum out of this chapter:
+  - Copy the code and run it on your computer to see the output.
+  - Supplement it by going through the code carefully to understand what it does, and how it does.
+  - Try to write somethng similar, or even better, extend the functionality of the code.
+  - Do the exercises given with each of the examples. You are expected to consult the internet and other books.
+
+Godspeed!
 
 ## Example - Script a Button to Generate an Alert
 
@@ -33,3 +39,16 @@ In this example, we shall see how you can script an html element to produce aler
   > Screenshot taken from the Chrome browser; actual rendering may vary depending on your chosen browser and its version.
 
 Let's consider a practical use-case of this code-snippet. When you do Internet Banking and right-click on a certain html element, a pop-up/warning is displayed, saying that `"For security reasons, right-click is disabled"`. Bank websites, and many other web pages, use simlar techniques to create meaningful alerts. 
+
+```
+EXERCISE
+========
+1. What are the other possible attributes for a "button" element?
+2. Apart from creating alerts, what else can you do with the "onclick" attribute?
+   Is there a difference between "onclick" and "onClick"?  
+3. Write code to send the user to an external webpage when a button is clicked.
+4. The "alert()" function create something on the web page. In the JavaScript world, 
+   the webpage is often called "window". Find out as much as you can about the "window"
+   in JavaScript. 
+5. What is the relationship between a "window" and "alert()"?
+```
