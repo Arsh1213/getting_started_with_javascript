@@ -34,11 +34,13 @@ In this example, we shall see how you can script an html element to produce aler
 </html>
 ```
 
+![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/alert.png)
+
   - The `button` element has an attribute `onclick`, which is technically an [Event Listener](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events).
   - We pass on a JavaScript statement containing the function `alert()` (notice the `;` at the end) as the the value of the `onclick` attribute.
   - The `alert()` function accepts a string as an argument - in our case it's `"You are learning!`.    
   - When the button is clicked, the browser executes the value for the `onclick` attribute, thus producing an alert.
-  ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/alert.png)
+  
   
 Let's consider a practical use-case of this code-snippet. When you do Internet Banking and right-click on a certain html element, a pop-up/warning is displayed, saying that `"For security reasons, right-click is disabled"`. Bank websites, and many other web pages, use simlar techniques to create meaningful alerts. 
 
@@ -101,6 +103,17 @@ The code will be heavily commented to help you understand the parts that are not
 ```
 
 ![]()
+
+```
+EXERCISE
+========
+1. What are the different ways to format the time displayed on the clock?
+2. Enhance the clock with the following features:
+   (i) Display the time in 12 hour format, with AM/PM based on the time.
+   (ii) Display the year, month, date, day of week alongside the clock.
+   (iii) Add an option to let the user select 24 hour/12 hour format, 
+         and change the clock's display based on the chosen format.
+```
   
 
 ## Example - Manipulate Page Elements to Reveal Content
