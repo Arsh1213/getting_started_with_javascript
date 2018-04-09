@@ -4,30 +4,33 @@
 
 
 
-// An object that captures information relevant to the decision.
-// Any change in the values of the object's properties will affect the decision.
+// Another layer of information is added to this object
 var infoMatrix = {
-  programmingAptitude : true,
+  programmingAptitude : {
+    goodAtLogic : false,
+    loveComputers : true
+  },
   interestInWeb: false
 };
 
-// A logic bundle that helps us arrive at a good decision.
+// Nested if-else block added
 function should_i_learn_js(infoMatrix) {
   // The initial decision on whether to learn JavaScript or not!
   var focusOnJavaScript = null;
   // The following if-else block determines whether you should learn JavaScript 
-  if ((infoMatrix.programmingAptitude == true) && (infoMatrix.interestInWeb == true)) {
-    focusOnJavaScript = "Yes";
+  if (infoMatrix.programmingAptitude.loveComputers == true) {
+    if (infoMatrix.programmingAptitude.goodAtLogic == true) {
+      focusOnJavaScript = "Yes";
+    }
+    else {
+      focusOnJavaScript = "May be!"
+    }
   }
-  /* Commenting out the else block
   else {
     focusOnJavaScript = "No";
   }
-  */
   return focusOnJavaScript;
 };
-
-
 
 // Call the function
 should_i_learn_js(infoMatrix);
