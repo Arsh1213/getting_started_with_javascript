@@ -80,6 +80,10 @@ EXERCISE
       var title = elt.getElementsByClassName("handle")[0];
     // When the element is clicked, reveal the rest of the content that was hidden initially
       title.onclick = function() {
+      /*
+      This if-else block controls the toggle effect - observe it carefully to understand 
+      the role of each line of code.
+      */
         if (elt.className == "reveal") {
           elt.className = "revealed";
           } 
