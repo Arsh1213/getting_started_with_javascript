@@ -107,4 +107,15 @@ should_i_learn_js(infoMatrix);
   </tr>
 </table>
 
+
 ## Loops
+
+One of the key motivators behind writing programs is to automate processes. In other words, significant amount of programming effort goes into thinking about the repitions and redundancies involved in a process. Once we know what repeats, we can employ computers that are excellent at doing repititive tasks without any error. 
+
+Loops are programming/algorithmic constructs that provide us a framework to concisely express the action that must be taken as long as the condition for repeating the task is met. Think of a scenario where you are watching a Formula 1 race - every time your favourite driver completes on lap, you add `1` to the number of laps completed. If the race consists of 50 laps, your algorithm to get the correct lap count would be:
+  1. Let the counter be `num_of_laps`. Initially, `num_of_laps = 0`.
+  2. As long as `num_of_laps` is less than or equal to `50`:
+    1. Add `1` to `num_of_laps`.
+    2. Stop incrementing the counter when `num_of_laps` is equal to `50`.
+  3. Get the final count, i.e. the final value of `num_of_laps`
+
