@@ -100,4 +100,4 @@ EXERCISE
 </html>
 ```
 
-![]()
+![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/revealHideTextToggle.png)
