@@ -8,7 +8,7 @@
 // Any change in the values of the object's properties will affect the decision.
 var infoMatrix = {
   programmingAptitude : true,
-  interestInWeb: true
+  interestInWeb: false
 };
 
 // A logic bundle that helps us arrive at a good decision.
@@ -19,15 +19,17 @@ function should_i_learn_js(infoMatrix) {
   if ((infoMatrix.programmingAptitude == true) && (infoMatrix.interestInWeb == true)) {
     focusOnJavaScript = "Yes";
   }
+  /* Commenting out the else block
   else {
     focusOnJavaScript = "No";
   }
+  */
   return focusOnJavaScript;
 };
 
 
 
 // Call the function
-make_decision(infoMatrix);
+should_i_learn_js(infoMatrix);
 
 
