@@ -102,7 +102,7 @@ The code will be heavily commented to help you understand the parts that are not
 </html>
 ```
 
-![]()
+![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/digitalClock.png)
 
 ```
 EXERCISE
