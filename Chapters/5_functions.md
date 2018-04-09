@@ -21,7 +21,7 @@ In real life, the process of making decisions involves considering each of the f
     <td>
       I should learn JavaScript if I satisfy bothe the following conditions:
       <ul>
-        <li>I have some amount of aptitude to think methodically and logically<li>
+        <li>I have some amount of aptitude to think methodically and logically</li>
         <li>I have an interest in the World Wide Web.</li>
       </ul>
       Otherwise I should learn something else apart from JavaScript.
