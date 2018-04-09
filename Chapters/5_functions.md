@@ -51,6 +51,12 @@ else {
 }
 ```
 
+> __Switch-Case Statements__: Instead of using chained `if-else` statements, you can also use another powerful method - the `switch-case` statements. Although not covered as part of this book, you can learn about it from the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch) or [W3Schools](https://www.w3schools.com/js/js_switch.asp).
+
 ### NOTE on the Importance of "else" 
 
-It is often observed that programmers omit the `else` statements - they only include the `if` statement and think that else statement is not required. It's an awfully bad practice, and you must never develop that habit. The most important reason behind including the `else` statement is that you control the outcome of the program when the `if` condition is not true.For example, see what happens when you omit the `else` statement in the should_
+It is often observed that programmers omit the `else` statements - they only include the `if` statement and think that else statement is not required. It's an awfully bad practice, and you must never develop that habit. The most important reason behind including the `else` statement is that you control the outcome of the program when the `if` condition is not true. For example, see what happens when you omit the `else` statement in the `should_i_learn_js()` function:
+
+![]()
+
+### Example of Nested Conditional Statements
