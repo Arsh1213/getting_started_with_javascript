@@ -29,6 +29,7 @@ In this example, we shall see how you can script an html element to produce aler
   - We pass on a JavaScript statement containing the function `alert()` (notice the `;` at the end) as the the value of the `onclick` attribute.
   - The `alert()` function accepts a string as an argument - in our case it's `"You are learning!`.    
   - When the button is clicked, the browser executes the value for the `onclick` attribute, thus producing an alert.
-  ![]()
+  ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/alert.png)
+  > Screenshot taken from the Chrome browser; actual rendering may vary depending on your chosen browser and its version.
 
 Let's consider a practical use-case of this code-snippet. When you do Internet Banking and right-click on a certain html element, a pop-up/warning is displayed, saying that `"For security reasons, right-click is disabled"`. Bank websites, and many other web pages, use simlar techniques to create meaningful alerts. 
