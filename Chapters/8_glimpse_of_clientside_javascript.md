@@ -54,3 +54,9 @@ EXERCISE
    in JavaScript. 
 5. What is the relationship between a "window" and "alert()"?
 ```
+
+## Example - Element Manipulation in context of Revealing Content
+
+```html
+
+```
