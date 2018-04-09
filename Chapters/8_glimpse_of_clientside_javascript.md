@@ -58,5 +58,44 @@ EXERCISE
 ## Example - Element Manipulation in context of Revealing Content
 
 ```html
-
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Reveal Content</title>
+	<style type="text/css">
+		/* CSS styles for this page */
+		.reveal * {display: none;} /* Children of class="reveal" are not shown */
+		.reveal *.handle {display: block;} /* Except for the class="handle" child */
+	</style>
+	<script type="text/javascript">
+		// The "onload" method tells the browser what to do when the webpage has been completely loaded.
+		// It is not executed before the page is fully loaded on the browser.
+		window.onload = function() {
+			// Find all container elements with the class "reveal"
+			var elements = document.getElementsByClassName("reveal");
+			for (var i = 0; i < elements.length; i++) {
+				var elt = elements[i];
+				// Find the "handle" element for each container
+				var title = elt.getElementsByClassName("handle")[0];
+				// When the element is clicked, reveal the rest of the content that was hidden initially
+				title.onclick = function() {
+					if (elt.className == "reveal") {
+						elt.className = "revealed";
+					} 
+					else if (elt.className == "revealed") {
+						elt.className = "reveal";
+					}
+				}
+			}
+		};
+	</script>
+</head>
+<body>
+	<div class="reveal">
+		<button class="handle">Toggle me to reveal and hide text</button>
+		<p>This paragraph is hidden. It appears when you click on the title.</p>
+	</div>
+</body>
+</html>
 ```
