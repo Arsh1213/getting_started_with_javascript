@@ -61,7 +61,7 @@ It is often observed that programmers omit the `else` statements - they only inc
 
 Our function returned `null`, because the default value of the variable `focusOnJavaScript` was `null`, and when the conditions failed to pass the `if` statement, our program had no specific instructions for assigning any meaningful value to the variable `focusOnJavaScript`.
 
-In a world of connected programs, where output of one function often becomes input to another, imagine what would happen if the output of `should_i_learn_js()` is passed on to a function that displays the result as HTML in a webpage! The end . user sees the cryptic `null`, which does not add value to his quest of making a solid decision!
+In a world of connected programs, where output of one function often becomes input to another, imagine what would happen if the output of `should_i_learn_js()` is passed on to a function that displays the result as HTML in a webpage! The end user sees the cryptic `null`, which does not add value to his quest of making a career choice!
 
 
 ### Example of Nested Conditional Statements
@@ -137,13 +137,4 @@ var num_of_laps = 0; // start condition
 while (num_of_laps <= 50) { // continuation, or end condition
   num_of_laps = num_of_laps + 1; // repititive action
 }
-
-/*
-There are two alternate ways to express the same thing:
-1. num_of_laps++
-2. num_of_laps += 1
-All the three ways mean the same thing - "Increase the value 
-contained in the memory location of the variable num_of_laps 
-by 1".
-*/
 ```
