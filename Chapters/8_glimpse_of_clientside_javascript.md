@@ -55,7 +55,55 @@ EXERCISE
 5. Write code to send the user to an external webpage when a button is clicked.
 ```
 
-## Example - Element Manipulation in context of Revealing Content
+## Example - Create a Simple Digital Clock
+
+In this example, we will create a simple digital clock. Along the process, we will learn how to access the date and time of the client machine and use it to accomplish our objective.
+
+This example consists of three parts:
+  - The HTML elements, representing the bare minimum content necessary
+  - The JavaScript code to access the date and time, and also manipulate the page content
+  - The inline CSS style, so that our clock looks decent
+
+The code will be heavily commented to help you understand the parts that are not very obvious for a beginner. In the end, we shall take some time to gawk at our creation and appreciate it!
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Digital Clock</title>
+	<script type="text/javascript">
+		// Define a function to display the current time
+		function displayTime() {
+			var elt = document.getElementById("clock"); // find the element with the id="clock"
+			var now = new Date(); // get current time as an instance of the Date() object
+			elt.innerHTML = now.toLocaleTimeString(); // make elt display the time 
+			// The next line is responsible for updating the time every second.
+			setInterval(displayTime, 1000); // The second argument represents milliseconds
+		}	
+		window.onload = displayTime; // start displaying the time when the document loads
+	</script>
+	<style type="text/css">		
+		#clock {
+			font: bold 24pts sans;
+			background: #ddf;
+			padding: 10px;
+			border: solid black 2px;
+			border-radius: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Digital Clock</h1>		
+	<span id="clock"></span>	<!--The time gets inserted here-->
+</body>
+</html>
+```
+
+![]()
+  
+
+## Example - Manipulate Page Elements to Reveal Content
 
 This example demonstrates how you can use JavaScript to hide and reveal content. One very common application of the technique demonstrated in the code is to create toggle buttons that reveals and hides content on the page. 
 
