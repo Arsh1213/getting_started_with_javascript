@@ -116,13 +116,15 @@ EXERCISE
 1. Create a webpage that:
 
    (i) Has an html form to take your date of birth as an input (DDMMYYYY).
-   (ii) A checkbox named "Provide Future Date" that, when checked, displays another html form asking for a future date   (DDMMYYYY).
+   (ii) A checkbox named "Provide Future Date" that, when checked, displays another html 
+   form asking for a future date (DDMMYYYY).
    (iii) A button that says "Calculate Age"
    
-   If the user does not check "Provide Future Date" and clicks "Calculate Age", a JavaScript program should 
-   calculate and return the age based on the current date. 
-   Else if the user checks "Provide Future Date" and provides the future date from the then displayed form 
-   correctly, the age should be calculated based on the furure date.
+   If the user does not check "Provide Future Date" and clicks "Calculate Age", a 
+   JavaScript program should calculate and return the age based on the current date. 
+   
+   Else if the user checks "Provide Future Date" and provides the future date from 
+   the then displayed form correctly, the age should be calculated based on the furure date.
    
    The result, in either case, should be displayed back in the webpage.
    
