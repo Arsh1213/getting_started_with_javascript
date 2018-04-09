@@ -125,6 +125,24 @@ If you observe carefully, there are __three fundamental aspects of looping algor
   3. A repititive task to be performed within the boundaries of _start_ and _end_ conditions. In this example, it's increasing the value of `num_of_laps` by `1`, every time a lap is completed.
 
 Let's write a JavaScript statement to implement the algorithm:
+
 ```javascript
+// Empty braces {} means "don't do anything"
 for (var num_of_laps = 0; num_of_laps <= 50; num_of_laps++) {};
+```
+
+Isn't it a very compact way of representing the concept? Let's explore another approach which is slightly verbose:
+```javascript
+var num_of_laps = 0; // start condition
+while (num_of_laps <= 50) { // continuation, or end condition
+  num_of_laps = num_of_laps + 1; // repititive action
+  /*
+  There are two alternate ways to express the same thing:
+  1. num_of_laps++
+  2. num_of_laps += 1
+  All the three ways mean the same thing - "Increase the value 
+  contained in the memory location of the variable num_of_laps 
+  by 1".
+  */
+}
 ```
