@@ -18,7 +18,10 @@ In real life, the process of making decisions involves considering each of the f
     <td><strong>How a program can mimic the process</strong></td>
   </tr>
   <tr>
-    <td><img src="" /></td>
-    <td><img src="" /></td>
+    <td>
+    </td>
+    <td>
+      <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/ifelsedecisioncode.png" />
+    </td>
   </tr>
 </table>
