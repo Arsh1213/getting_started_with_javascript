@@ -117,5 +117,11 @@ Loops are programming/algorithmic constructs that provide us a framework to conc
   2. As long as `num_of_laps` is less than or equal to `50`:
       1. Add `1` to `num_of_laps`.
       2. Stop incrementing the counter when `num_of_laps` is equal to `50`.
-  3. Get the final count, i.e. the final value of `num_of_laps`
+  3. Get the final count, i.e., the final value of `num_of_laps`.
 
+If you observe carefully, there are __three fundamental aspects of looping algorithm__:
+  1. An entity on the basis of which you determine the repititive task. In this case, it's the variable `num_of_laps`.
+  2. A set of _start_ and _end_ conditions - we have `num_of_laps = 0` and `num_of_laps = 50` respectively.
+  3. A repititive task to be performed within the boundaries of _start_ and _end_ conditions. In this example, it's increasing the value of `num_of_laps` by `1`, every time a lap is completed.
+
+l
