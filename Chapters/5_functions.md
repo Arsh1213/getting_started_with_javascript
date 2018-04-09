@@ -124,4 +124,7 @@ If you observe carefully, there are __three fundamental aspects of looping algor
   2. A set of _start_ and _end_ conditions - we have `num_of_laps = 0` and `num_of_laps = 50` respectively.
   3. A repititive task to be performed within the boundaries of _start_ and _end_ conditions. In this example, it's increasing the value of `num_of_laps` by `1`, every time a lap is completed.
 
-l
+Let's write a JavaScript statement to implement the algorithm:
+```javascript
+for (var num_of_laps = 0; num_of_laps <= 50; num_of_laps++) {};
+```
