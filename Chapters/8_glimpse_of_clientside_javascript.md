@@ -48,14 +48,18 @@ EXERCISE
 1. What are the other possible attributes for a "button" element?
 2. Apart from creating alerts, what else can you do with the "onclick" attribute?
    Is there a difference between "onclick" and "onClick"?  
-3. Write code to send the user to an external webpage when a button is clicked.
-4. The "alert()" function create something on the web page. In the JavaScript world, 
+3. The "alert()" function create something on the web page. In the JavaScript world, 
    the webpage is often called "window". Find out as much as you can about the "window"
    in JavaScript. 
-5. What is the relationship between a "window" and "alert()"?
+4. What is the relationship between a "window" and "alert()"?
+5. Write code to send the user to an external webpage when a button is clicked.
 ```
 
 ## Example - Element Manipulation in context of Revealing Content
+
+This example demonstrates how you can use JavaScript to hide and reveal content. One very common application of the technique demonstrated in the code is to create toggle buttons that reveals and hides content on the page. 
+
+Also, by now you should be in a position to read and understand the code just with the help of the comments. Therefore, this example is devoid of any explanation accompanying it. In your life as a pprogrammer, you will spend more time reading and understanding other people's code than writing new ones. Thus, the often underrated ability of reading and understanding code is extremenly important for good programming.
 
 ```html
 <!DOCTYPE html>
