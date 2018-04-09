@@ -31,4 +31,4 @@ Do so to your heart's content, for it is the natural way humans learn. Never let
 
 __*Enjoy programming, and good luck!*__
 
-[]()
+[__<<= Glimpse of Client-side JavaScript__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/8_glimpse_of_clientside_javascript.md)
