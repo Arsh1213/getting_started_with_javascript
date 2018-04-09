@@ -194,3 +194,8 @@ EXERCISE
     - The age calculating program in a seperate JavaScript file
     - Write unit test for the age calculation program.
 ```
+
+
+[__<<= Constructors and Inheritance__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/7_constructors_and_inheritance.md)
+
+[__Further Reading =>>__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/9_further_reading.md)
