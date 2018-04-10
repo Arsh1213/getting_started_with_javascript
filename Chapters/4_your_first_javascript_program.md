@@ -4,7 +4,8 @@ If you have read the previous chapters carefully, then you should know the follo
   - Some generic programming best practices    
   - Variables    
   - Memory locations, maniplation and management     
-  - Data Types - general as well as in context of JavaScript   
+  - Data Types - general as well as in context of JavaScript  
+  - Functions
   - Utility of comments, and how comments are given in JavaScript    
   - Console mode of the interpreter   
 
