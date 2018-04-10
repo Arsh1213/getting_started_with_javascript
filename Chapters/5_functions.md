@@ -191,4 +191,26 @@ The syntax of `for` loops, with clear distinction between the different componen
 
 `while` loops simply translate into this - "As long as a certain condition is satisfied, continue doing what I have asked for". This sort of instruction to computers can lead to never-ending or infinite loops, thus consuming large chunks of memory or even system crashes. Now let's consider an example where a careless implementation can lead to devastation.
 
+```javascript
+// Modify our function to calculate square root
+function calcsqRoot(num) {
+  while (typeof(num) == "number") { // The danger looms!
+    if (num >= 0) {
+      console.log(Math.sqrt(num));
+    }
+    else {
+      console.log("Not a good input!");
+    }
+  }
+}
+
+// Next step - call the function and pass an input to it.
+// calcSqRoot(your_input_here);
+```
+
+Copy the function and paste it on the browser's console. Then call the function and pass any real number as an input to.
+
+Take a coffee break for 10 minutes. 
+
+When you return to your computer and try to do something useful, tell me how it feels!
  
