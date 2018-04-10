@@ -5,7 +5,8 @@ In this chapter you will learn:
   - Loops (`for` and `while` loops)
   - Recursions - how it's different from loops and functions
 
-Except the last item, you probably have already encountered others earlier in this book. In this chapter, we shall strengthen the concepts by writing slightly more complex code that demonstrates the key ideas. From this chapter onward, there will be less textual explanation that what you have seen before in this book. Instead, you are expected to learn from the code and the comments. Building this habit will serve you extremely well, no matter you are writing code or writing about code. As an author, I will give my best to make the code self-explanatory in terms of structure, names, and comments.
+Except the last item, you probably have already encountered others earlier in this book. In this chapter, we shall strengthen the concepts by writing slightly more complex code that demonstrates the key ideas. 
+
 
 ## Conditionals
 
@@ -213,3 +214,33 @@ Take a coffee break for 10 minutes.
 
 When you return to your computer and try to do something useful, tell me how it feels. Hmm... lesson learned!
  
+
+## Recursion
+
+There are two ways of solving the problem of repitition - `iteration` and `recursion`. We have discussed `iteration` without introducing the concept formally. In this sub-section, you will learn about the core concepts of `iteration` and `recursion`, and understand how these two concepts compliment each other for writing elegant code.
+
+> The `for` and `while` loops are agents of `iteration`, where an `iterator` is an entity that traverses the journey of loops by shifting it's association with different items of the `iterable`. 
+
+The above definition, although correct, is quite abstract and difficult to understand. Let's consider an example that illustrates the concepts.
+
+```javascript
+// Example to understand the concept of iteration
+
+/*
+Consider an array, which is nothing but an indexed list of item.
+Unlike lists, each item in an array has an index.
+
+In JavaScript and many other programming languages, the starting 
+index is 0 (zero). To generalise, the 'k'th item has index (k-1).
+Thus if an array has N items:
+  - The first item has an index 0
+  - The second item has an index 1
+  - The third item has an index 2
+  .
+  .
+  .
+  - The (N-1)th item has an index (N-2)
+  - The Nth item has an index (N-1)
+*/
+
+var dataVizLib = ["FusionCharts", "HighCharts", "D3"]; // An array with 3 items.
