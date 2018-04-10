@@ -349,3 +349,7 @@ EXERCISE
     * http://larc.unt.edu/ian/TowersOfHanoi/index64.html
     * https://www.codechef.com/problems/CDWY02
 ```
+
+[__<<= Your First JavaScript Program__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/4_your_first_javascript_program.md)
+
+[__Objects and Arrays =>>__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/6_objects_and_arrays.md)
