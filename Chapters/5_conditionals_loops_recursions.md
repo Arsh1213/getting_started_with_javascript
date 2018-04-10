@@ -303,4 +303,6 @@ function factorial(num) {
 
 ```
 
-> You can __learn more__ about recursive functions in the [Microsoft documentation](https://docs.microsoft.com/en-us/scripting/javascript/advanced/recursion-javascript). If you want to grasp the mathematics behind it (which I wholeheartedly recommend), read the first chapter of Donald Knuth's book [Concrete Mathematics]().
+> You can __learn more__ about recursive functions in the [Microsoft documentation](https://docs.microsoft.com/en-us/scripting/javascript/advanced/recursion-javascript). If you want to grasp the mathematics behind it (which I wholeheartedly recommend), read the first chapter of Donald Knuth's book [Concrete Mathematics](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/Concrete_Mathematics_2e.pdf).
+
+
