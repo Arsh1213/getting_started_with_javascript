@@ -318,7 +318,7 @@ function factorial(num) {
   } 
   else {
     // See how a function is calling itself!
-    fact = n * factorial(n - 1) // Crux of recursion - a function calls a lower version of it.
+    fact = num * factorial(num - 1) // Crux of recursion - a function calls a lower version of it.
   }
   return fact;
 }
@@ -326,6 +326,16 @@ function factorial(num) {
 ```
 
 > You can __learn__ about implementing the `factorial()` function using the `while` loop in the [Microsoft documentation page](https://docs.microsoft.com/en-us/scripting/javascript/advanced/recursion-javascript), and also a bit about __how people react to bad code__ from a comment at the bottom of the page. If you want to grasp the mathematics behind it (which I wholeheartedly recommend), read the first chapter of Donald Knuth's book [Concrete Mathematics](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/Concrete_Mathematics_2e.pdf).
+
+<table>
+  <tr>
+    <td>
+      <img src=""/>
+    </td>
+  </tr>
+</table>
+
+> __Errors are important__ clues to lern more about programming and the language you are using. In the above image, I deliberately included some errors by passing a negative integer to the function. You can see all hell breaks loose when you don't implement mechanisms to do the sanity check of inputs.
 
 ```
 EXERCISE
