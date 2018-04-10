@@ -213,7 +213,10 @@ Copy the function and paste it on the browser's console. Then call the function 
 Take a coffee break for 10 minutes. 
 
 When you return to your computer and try to do something useful, tell me how it feels. Hmm... lesson learned!
- 
+
+### Notes on Increment/Decrement Operations
+
+lorem ipsum
 
 ## Recursion
 
@@ -244,3 +247,5 @@ Thus if an array has N items:
 */
 
 var dataVizLib = ["FusionCharts", "HighCharts", "D3"]; // An array with 3 items.
+
+for (var indx = 0; indx <= dataVizLib.length, indx++)
