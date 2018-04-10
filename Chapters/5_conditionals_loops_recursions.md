@@ -214,7 +214,19 @@ Take a coffee break for 10 minutes. When you return to your computer and try to 
 
 ### Notes on Increment/Decrement Operations
 
-lorem ipsum
+  - `some_var = some_var + 2` means:
+      - Read the value from the memory allocated for `some_var`.
+      - Add `2` to that value.
+      - Overwrite the allocated memory with the new value.
+  - `some_var += 2` means the same thing as explained above - read current value, increment the current value by 2, overwrite the new value! 
+  - Similar things happen for `some_var = some_var * 2` and `some_var *= 2` - the only difference is multiplication.
+  - `some_var++` is a shorthand for `some_var = some_var + 1` or `some_var += 1`.
+  - `++some_var` is a different beast. It means that:
+      - First increase the value by 1
+      - Then Read the value.
+
+
+> __Operator Overloading__: This is a complex concept for a beginner, and you can't really understand the "why" behind it until you develop a deep understanding of programming abstractions like `class`, `inheritance`, `object`, `constructor` and `method`. However, it doesn't stops you from getting a glimpse of it, which we shall do by illustrating an example. You might have observed that the `+` operator adds real numbers, _concatenates_ strings (like `"My " + "name"` yields `"My name"`), and so on. Now think about it - how is it possible that the same `+` operator performs different things on different data types? Such behaviours are outcome of what we call _operator overloading_! in languages other than JavaScript. __*Please note that although the ECMA6 standard have proposals for operator overloading, JavaScript did not supported the generalised concept of Operator Overloading*__. Advanced readers can see [this](https://stackoverflow.com/questions/19620667/javascript-operator-overloading) and [that](https://www.keithcirkel.co.uk/proposal-operator-overloading/) for some more information (I know "this and that" is wrong English, so suck your lecture back). 
 
 ### Notes on Iteration
 
