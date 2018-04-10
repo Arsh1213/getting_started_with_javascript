@@ -127,7 +127,7 @@ If you observe carefully, there are __three fundamental aspects of looping algor
   3. A repititive task to be performed within the boundaries of _start_ and _end_ conditions, i.e, as long as the _continuation_ condition is satisfied. In this example, it's increasing the value of `num_of_laps` by `1`, every time a lap is completed.
 
 
-### "for" Loop
+### "for" loop
 
 Let's write a JavaScript statement to implement the algorithm:
 
@@ -169,7 +169,7 @@ Understand the above code snippet very carefully, because it conveys the essence
       - No further instructions! Thanks to the programmer... Oh, I almost forgot, I need to perform the last repititive action that I skipped earlier!
           - I just have to add `1` to the current value of `num_of_points`. That's easy... I have done similar thing just now! I read that the current value of `num_of_laps` is `0`, and I add `1` to it. So the new value of `num_of_laps` is `1`. The next time I come here, I will see 1 and make it 2, and then 3, and then 4, and so on. I will have to do this till I reach the 50th lap, when I will make it `51`. When I read the value `51` and check it against the condition `num_of_laps <= 50`, it's bound to fail and I will exit the loop!
 
-### "while" Loop
+### "while" loop
 
 Let's explore another approach which is slightly verbose:
 ```javascript
