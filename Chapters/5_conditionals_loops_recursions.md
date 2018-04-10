@@ -233,6 +233,10 @@ The above definition, although correct, is quite abstract and difficult to under
 Consider an array, which is nothing but an indexed list of item.
 Unlike lists, each item in an array has an index.
 
+++++++++++++++++++++++++++++++++++
+An array is an iterable entity, since we can iterate through its different elements
+++++++++++++++++++++++++++++++++++
+
 In JavaScript and many other programming languages, the starting 
 index is 0 (zero). To generalise, the 'k'th item has index (k-1).
 Thus if an array has N items:
@@ -246,6 +250,25 @@ Thus if an array has N items:
   - The Nth item has an index (N-1)
 */
 
+function itemLengthCalculator(someArray) {
+  var nameLengths = {}; // This empty object will eventually be filled with items and their lengths.
+  for (var indx = 0; indx < someArray.length; indx++) { // indx is our iterator
+    // The general syntax to access an item is "array[index_of_item]"
+    var itemString = someArray[indx]; // Array is an iterable entity    
+    // "itemString" contains a string, which has 'length' method
+    var noOfCharsInString = itemString.length.toString();   
+    // Adds a property and its value to the object, or modifies for an existing property
+    // The general syntax is object[property] = value
+    nameLengths[itemString] = noOfCharsInString;
+  }
+  return nameLengths;
+}
+
+
 var dataVizLib = ["FusionCharts", "HighCharts", "D3"]; // An array with 3 items.
 
-for (var indx = 0; indx <= dataVizLib.length, indx++)
+itemLengthCalculator(dataVizLib); // Call the function and pass the array "dataVizLib"
+
+```
+
+![]()
