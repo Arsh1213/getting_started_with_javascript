@@ -121,19 +121,30 @@ Loops are programming/algorithmic constructs that provide us a framework to conc
 
 If you observe carefully, there are __three fundamental aspects of looping algorithm__:
   1. An entity on the basis of which you determine the repititive task. In this case, it's the variable `num_of_laps`.
-  2. A set of _start_ and _end_ conditions - we have `num_of_laps = 0` and `num_of_laps = 50` respectively.
-  3. A repititive task to be performed within the boundaries of _start_ and _end_ conditions. In this example, it's increasing the value of `num_of_laps` by `1`, every time a lap is completed.
+  2. A set of _start_, _continuation_, and _end_ conditions - we have `num_of_laps = 0`, `num_of_laps < 50` and `num_of_laps = 50` respectively.
+  3. A repititive task to be performed within the boundaries of _start_ and _end_ conditions, i.e, as long as the _continuation_ condition is satisfied. In this example, it's increasing the value of `num_of_laps` by `1`, every time a lap is completed.
 
 Let's write a JavaScript statement to implement the algorithm:
 
 ```javascript
+// This is called a "for" loop
 // Empty braces {} mean "don't do anything"
 for (var num_of_laps = 0; num_of_laps <= 50; num_of_laps++) {};
-```
 
-Isn't it a very compact way of representing the concept? Let's explore another approach which is slightly verbose:
+/*
+The entity on the basis of which we loop, and the start condition, is "var num_of_laps = 0".
+The continuation condition is "num_of_laps < 50".
+The end condition is "num_of_laps = 50". It is clubbed with the continuation condition.
+The repititive action is "num_of_laps++". It means increase the value of the variable by 1.
+*/
+```
+Isn't it a very succint way of representing the concept? 
+
+Let's explore another approach which is slightly verbose:
 ```javascript
 var num_of_laps = 0; // start condition
+
+// This is called a "while" loop
 while (num_of_laps <= 50) { // continuation, or end condition
   num_of_laps = num_of_laps + 1; // repititive action
 }
