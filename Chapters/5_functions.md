@@ -128,17 +128,24 @@ Let's write a JavaScript statement to implement the algorithm:
 
 ```javascript
 // This is called a "for" loop
-// Empty braces {} mean "don't do anything"
 for (var num_of_laps = 0; num_of_laps <= 50; num_of_laps++) {};
-
-/*
-The entity on the basis of which we loop, and the start condition, is "var num_of_laps = 0".
-The continuation condition is "num_of_laps < 50".
-The end condition is "num_of_laps = 50". It is clubbed with the continuation condition.
-The repititive action is "num_of_laps++". It means increase the value of the variable by 1.
-*/
 ```
-Isn't it a very succint way of representing the concept? 
+
+Isn't it a very succint way of representing the concept? However, this small snippet deserves some explanation for you to clearly understand each of it's components.
+
+  - The entity on the basis of which we loop, and the start condition, is `var num_of_laps = 0`.
+  - The continuation condition is `num_of_laps <= 50`.
+  - The end condition is `num_of_laps = 51`. It is clubbed with the continuation condition.
+  - The last repititive action is `num_of_laps++`. It means increase the value of the variable by `1`.
+  - Empty braces `{}` means don't do anything, but jump directly to `num_of_laps++` - the last action.
+  - Generally you will write code within the `{}` to perform repititive tasks.
+  - For example, if you want to add `10` points for each lap completed, the code will be:
+  ```javascript
+  var points = 0;
+  for (var num_of_laps = 0; num_of_laps <= 50; num_of_laps++) {
+    points += 10; // Increase the point by 10 before incrementing the counter.
+  }
+  ```
 
 Let's explore another approach which is slightly verbose:
 ```javascript
