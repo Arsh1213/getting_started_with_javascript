@@ -222,7 +222,7 @@ We have already discussed discussed different facets of `iteration` informally. 
 
 > The `for` and `while` loops are agents of `iteration`, where an `iterator` is an entity that traverses the journey of loops by shifting it's association with different items of the `iterable`. 
 
-The above statement, although correct, is quite abstract and difficult to understand. Let's consider an example that illustrates the concepts.
+The above statement, although correct, is quite abstract and difficult to understand. Let's consider an example that illustrates the concepts. __Read the comments accompanying the code__ carefully - the explanations are embedded there.
 
 ```javascript
 // Example to understand the concept of iteration
@@ -281,4 +281,26 @@ itemLengthCalculator(dataVizLib); // Call the function and pass the array "dataV
 
 ## Recursion
 
-There are two ways of solving the problem of repitition - `iteration` and `recursion`.
+There are two ways of solving the problem of repitition - `iteration` and `recursion`. If implemented carefully (_without falling into the trap of infinite loops or never-ending recursive calls_), recursions produce elegant and concise solutions to many complicated problems.
+
+```javascript
+function factorial(num) {
+  /*
+  For the sake of simplicity, we skip the input sanity check
+  Instead, we assume that the argument will be a no-negative integer
+  For production quality code, such shortcuts are not at all recommended
+  */
+  var fact = null;
+  if (num === 0) {
+    fact = 1;
+  } 
+  else {
+    // See how a function is calling itself!
+    fact = n * factorial(n - 1) // Crux of recursion - a function calls a lower version of it.
+  }
+  return fact;
+}
+
+```
+
+> You can __learn more__ about recursive functions in the [Microsoft documentation](https://docs.microsoft.com/en-us/scripting/javascript/advanced/recursion-javascript). If you want to grasp the mathematics behind it (which I wholeheartedly recommend), read the first chapter of Donald Knuth's book [Concrete Mathematics]().
