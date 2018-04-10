@@ -208,9 +208,9 @@ function calcsqRoot(num) {
 // calcSqRoot(your_input_here);
 ```
 
-Copy the function and paste it on the browser's console. Then call the function and pass any real number as an input to.
+Copy the function and paste it on the browser's console. Then call the function and pass any real number as an argument to it.
 
 Take a coffee break for 10 minutes. 
 
-When you return to your computer and try to do something useful, tell me how it feels!
+When you return to your computer and try to do something useful, tell me how it feels. Hmm... lesson learned!
  
