@@ -335,7 +335,7 @@ function factorial(num) {
   </tr>
 </table>
 
-> __Errors are important__ clues to lern more about programming and the language you are using. In the above image, I deliberately included some errors by passing a negative integer to the function. You can see all hell breaks loose when you don't implement mechanisms to do the sanity check of inputs.
+> __Errors are important__ clues to learn more about programming and the language you are using. In the above image, I deliberately included some errors by passing a negative integer to the function. You can see all hell breaks loose when you don't implement mechanisms to do the sanity check of inputs.
 
 ```
 EXERCISE
