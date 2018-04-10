@@ -272,4 +272,10 @@ itemLengthCalculator(dataVizLib); // Call the function and pass the array "dataV
 
 ```
 
-![]()
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/iterationExample.png"/>
+    </td>
+  </tr>
+</table>
