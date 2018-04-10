@@ -160,7 +160,7 @@ Understand the above code snippet very carefully, because it conveys the essence
       - Associate the block with the string `points`
       - Put `0` inside the allocated memory block
   - Ah, it's a `for` loop... Let me see what I need to do.
-      - Set the variable `num_of_laps` to `0`, just like I did for the first line of code. Pretty straight forward! Oh, I see   something even after `;`. Smells like either a counter or an iterator! Let me confirm...
+      - Set the variable `num_of_laps` to `0`, just like I did for the first line of code. Pretty straight forward! Oh, I see   something even after `;` - it smells like a counter! Let me confirm...
       - I was right - a counter it is! There is a _continuation_ condition `num_of_laps <= 50`. Cool, I will keep that in mind and  check this condition every time I iterate (start over again) through this loop. I know there will be a "last repititive action" after this, but I will look into it later. Let me check what else I need to do. I'm sure I will get further instructions within the `{}`.
       - Hmm... doesn't seem to be much of heavy lifting - all I need to do is:
           - Read the current value of the variable `points`. Since this is my first iteration, the value will be same as the initial value `0`.
@@ -169,14 +169,26 @@ Understand the above code snippet very carefully, because it conveys the essence
       - No further instructions! Thanks to the programmer... Oh, I almost forgot, I need to perform the last repititive action that I skipped earlier!
           - I just have to add `1` to the current value of `num_of_points`. That's easy... I have done similar thing just now! I read that the current value of `num_of_laps` is `0`, and I add `1` to it. So the new value of `num_of_laps` is `1`. The next time I come here, I will see 1 and make it 2, and then 3, and then 4, and so on. I will have to do this till I reach the 50th lap, when I will make it `51`. When I read the value `51` and check it against the condition `num_of_laps <= 50`, it's bound to fail and I will exit the loop!
 
+
 ### "while" loop
 
 Let's explore another approach which is slightly verbose:
 ```javascript
 var num_of_laps = 0; // start condition
+var points = 0;
 
 // This is called a "while" loop
 while (num_of_laps <= 50) { // continuation, or end condition
-  num_of_laps = num_of_laps + 1; // repititive action
+  points += 10 // Increase points by 10
+  num_of_laps = num_of_laps + 1; // last repititive action
 }
 ```
+
+The `while` loop expresses the same idea as that of a `for` loop, but with a different syntax. Almost all `for` loop statements can be expressed as `while` loops and vice-versa. For some, the `for` loop is intuitive to grasp, while for others it's the `while` loop. However, `while` loops can be disastrous if not handled carefully, as explained in the next sub-section.
+
+#### The danger of "while" loops
+The syntax of `for` loops, with clear distinction between the different components of the `start-continue-repeat-end` paradigm, provides a safety net for the less careful programmer. But not the `while` loops! The `while` loop hands over the control to the programmer, and waits for the opportunity to devastate a program. 
+
+`while` loops simply translate into this - "As long as a certain condition is satisfied, continue doing what I have asked for". This sort of instruction to computers can lead to never-ending or infinite loops, thus consuming large chunks of memory or even system crashes. Now let's consider an example where a careless implementation can lead to devastation.
+
+ 
