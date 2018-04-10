@@ -302,4 +302,4 @@ The next step would be to call the unit test function so that it can tell us abo
 
 [__<<= Primitive and Reference Types__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/3_primitive_and_reference_types.md)    
 
-[__Functions =>>__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/5_functions.md)
+[__Conditionals, Loops, and Recursions =>>__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/5_conditionals_loops_recursions.md)
