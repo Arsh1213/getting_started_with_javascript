@@ -283,6 +283,16 @@ itemLengthCalculator(dataVizLib); // Call the function and pass the array "dataV
 
 There are two ways of solving the problem of repitition - `iteration` and `recursion`. If implemented carefully (_without falling into the trap of infinite loops or never-ending recursive calls_), recursions produce elegant and concise solutions to many complicated problems.
 
+Let's understand recursion by revising our high school mathematics! I'm sure you remember _factorials_, and if don't, here's the reminder:
+
+> __Factorial__ of positive integer N is defined as the consecutive product of all other non-zero positive integers starting from 1 and leading all the way up to N. In other words, `factorial N = 1 x 2 x 3 x 4 x ... x N`. If you observe carefully, you will find that we can rewrite the expression as `1 x 2 x 3 x ... x (N - 1) x N`. The first `N - 1` terms is, by definition, `factorial (N - 1)`. Thus we obtain a very powerful way of expressing the whole thing: `factorial N = factorial(N - 1) X N`. _As a special case, `factorial 0` is defined as `1`_. Interestingly, `factorial 1` is also `1`!
+
+__Recursive functions involve two aspects__:
+  - One or more __base cases__, which does not conform to any pattern. In case of factorials, it is the factorial of `0` and `1`.
+  - A __pattern__ that underlies the rest of the cases. In most cases, the pattern can be clearly expressed as lower instances of the same function, and as such, the function is dependent on it's lower versions. For factorials, it is `factorial N = factorial(N - 1) X N`.
+
+Now let's delve into the code for implementing the recursive function of factorials.
+
 ```javascript
 function factorial(num) {
   /*
@@ -303,6 +313,17 @@ function factorial(num) {
 
 ```
 
-> You can __learn__ about implementing the `factorial()` function using the `while` loop in the [Microsoft documentation page](https://docs.microsoft.com/en-us/scripting/javascript/advanced/recursion-javascript), and also a bit about people react to bad code from a comment at the bottom of the page. If you want to grasp the mathematics behind it (which I wholeheartedly recommend), read the first chapter of Donald Knuth's book [Concrete Mathematics](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/Concrete_Mathematics_2e.pdf).
+> You can __learn__ about implementing the `factorial()` function using the `while` loop in the [Microsoft documentation page](https://docs.microsoft.com/en-us/scripting/javascript/advanced/recursion-javascript), and also a bit about __how people react to bad code__ from a comment at the bottom of the page. If you want to grasp the mathematics behind it (which I wholeheartedly recommend), read the first chapter of Donald Knuth's book [Concrete Mathematics](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/Concrete_Mathematics_2e.pdf).
 
-
+```
+EXERCISE
+========
+1. Write a function "fib(num)" to get all the Fibbonacci Numbers appearing before a given number. The function should discard    any input apart from the valid ones. You can learn about Fibbonacci Numbers from Wikipedia: 
+   https://en.wikipedia.org/wiki/Fibonacci_number
+   
+2. BONUS PROBLEM - Write a function "steps()" to solve the Tower of Hanoi puzzle. You can learn more about it from Wikipedia:
+   https://en.wikipedia.org/wiki/Tower_of_Hanoi
+   There are further legends along the same line, which you can explore:
+    * http://larc.unt.edu/ian/TowersOfHanoi/index64.html
+    * https://www.codechef.com/problems/CDWY02
+```
