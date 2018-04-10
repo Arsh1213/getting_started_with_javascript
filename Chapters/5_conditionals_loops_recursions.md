@@ -254,7 +254,8 @@ function itemLengthCalculator(someArray) {
   var nameLengths = {}; // This empty object will eventually be filled with items and their lengths.
   for (var indx = 0; indx < someArray.length; indx++) { // "indx" is our iterator
     // The general syntax to access an item is "array[index_of_item]"
-    var itemString = someArray[indx]; // Array is an iterable entity; "indx" iterates through each element of the array    
+    // "indx" iterates through each element of the array
+    var itemString = someArray[indx]; // Array is an iterable entity;     
     // "itemString" contains a string, which has 'length' method
     var noOfCharsInString = itemString.length;   
     // Adds a property and its value to the object, or modifies for an existing property
