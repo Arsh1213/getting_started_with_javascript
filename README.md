@@ -29,7 +29,7 @@ This book is meant to be read sequentially, as each chapter depends on the found
   2. [Programming 101](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/2_programming101.md)
   3. [Primitive and Reference Types](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/3_primitive_and_reference_types.md)
   4. [Your First JavaScript Program](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/4_your_first_javascript_program.md)
-  5. [Functions](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/5_functions.md)
+  5. [Conditionals, Loops, and Recursions](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/5_conditionals_loops_recursions.md)
   6. [Objects and Arrays](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/6_objects_and_arrays.md)
   7. [Constructors and Inheritance](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/7_constructors_and_inheritance.md)
   8. [Glimpse of Client-side JavaScript](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/8_glimpse_of_clientside_javascript.md)    
