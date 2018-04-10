@@ -3,8 +3,7 @@
 In this chapter you will learn:
   - Conditionals (`if-else` statements)
   - Loops (`for` and `while` loops)
-  - Functions - how to combine and apply them to solve different problems
-  - Recursions, and how it is different from loops
+  - Recursions - how it's different from loops and functions
 
 Except the last item, you probably have already encountered others earlier in this book. In this chapter, we shall strengthen the concepts by writing slightly more complex code that demonstrates the key ideas. From this chapter onward, there will be less textual explanation that what you have seen before in this book. Instead, you are expected to learn from the code and the comments. Building this habit will serve you extremely well, no matter you are writing code or writing about code. As an author, I will give my best to make the code self-explanatory in terms of structure, names, and comments.
 
