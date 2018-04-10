@@ -330,7 +330,7 @@ function factorial(num) {
 <table>
   <tr>
     <td>
-      <img src=""/>
+      <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/factorial.png"/>
     </td>
   </tr>
 </table>
