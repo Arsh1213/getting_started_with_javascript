@@ -208,23 +208,21 @@ function calcsqRoot(num) {
 // calcSqRoot(your_input_here);
 ```
 
-Copy the function and paste it on the browser's console. Then call the function and pass any real number as an argument to it.
+Save any work that you have been doing. Copy the function and paste it on the browser's console. Then call the function and pass any real number as an argument to it.
 
-Take a coffee break for 10 minutes. 
-
-When you return to your computer and try to do something useful, tell me how it feels. Hmm... lesson learned!
+Take a coffee break for 10 minutes. When you return to your computer and try to do something useful, tell me how it feels. Hmm... lesson learned!
 
 ### Notes on Increment/Decrement Operations
 
 lorem ipsum
 
-## Recursion
+### Notes on Iteration
 
-There are two ways of solving the problem of repitition - `iteration` and `recursion`. We have discussed `iteration` without introducing the concept formally. In this sub-section, you will learn about the core concepts of `iteration` and `recursion`, and understand how these two concepts compliment each other for writing elegant code.
+We have already discussed discussed different facets of `iteration` informally. In this sub-section, you will learn about the core concepts of `iteration`.
 
 > The `for` and `while` loops are agents of `iteration`, where an `iterator` is an entity that traverses the journey of loops by shifting it's association with different items of the `iterable`. 
 
-The above definition, although correct, is quite abstract and difficult to understand. Let's consider an example that illustrates the concepts.
+The above statement, although correct, is quite abstract and difficult to understand. Let's consider an example that illustrates the concepts.
 
 ```javascript
 // Example to understand the concept of iteration
@@ -279,3 +277,8 @@ itemLengthCalculator(dataVizLib); // Call the function and pass the array "dataV
     </td>
   </tr>
 </table>
+
+
+## Recursion
+
+There are two ways of solving the problem of repitition - `iteration` and `recursion`.
