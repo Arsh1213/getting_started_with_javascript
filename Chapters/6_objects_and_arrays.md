@@ -96,7 +96,7 @@ The code snippets below demonstrates some of the most common actions that are ap
   - __`Add properties and values`__
       ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/addProperty.png)
   - __`Query values of properties`__
-      ![]()
+      ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/queryProperty.png)
   - __`Set/Modify values of properties`__
       ![]()
   - __`Enumerate properties`__
