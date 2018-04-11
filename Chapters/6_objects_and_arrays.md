@@ -196,7 +196,14 @@ You have already seen and written code involving arrays, and is expected to know
 
   - __`Creating Array`__
   ```javascript
+  var emptyArray = [];
+  var anotherEmptyArray = new Array();
   
+  // This array, when filled, will allow only upto 10 elements
+  var emptyArrayOfFixedLength = new Array(10); 
+  
+  // Arrays can be heterogenous
+  var myArray = [99, "billion", true, null, ["JavaScript", -7], {prop : "val"}];
   ```
   
   - __`Reading and Writing Array Elements`__
