@@ -96,8 +96,8 @@ The code snippets below demonstrates some of the most common actions that are ap
       
   - __`Add properties and values`__
       ```javascript
-      // General Syntax
-      object.property = value
+      // General syntax
+      object.property = value; // The value might be anything permissible in JavaScript
       ```
       ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/addProperty.png)
       
@@ -105,15 +105,27 @@ The code snippets below demonstrates some of the most common actions that are ap
       
   - __`Query values of properties`__
       ```javascript
+      // Genral syntax
+      
       // For console mode
       object.property;
       
       // When used in full-fledged programs
       var propVal = object.property;
+      console.log(propVal); // Optional; only if you want the value to be printed on the console
       ```
       ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/queryProperty.png)
       
   - __`Set/Modify values of properties`__
+      ```javascript
+      // General syntax
+      
+      /*
+      Remember that for modifying a property's value, the property must exist.
+      If not, the code will be interpreted as "a new property and its value must be added.
+      */
+      object.property = newValue;
+      ```
       ![]()
       
   - __`Enumerate properties`__
