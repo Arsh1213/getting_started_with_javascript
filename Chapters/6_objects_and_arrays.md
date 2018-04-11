@@ -170,9 +170,7 @@ The first method is the generalised syntax using the `.` (dot) notation, and you
 
 Such limitations can be dealt with by using the second notation, which is essentially the `[]` (array) notation. In this notation, __*the property name is expressed as a string, which is a javaScript data type and is therefore amenable to programmatic manipulation*__. In this sense, JavaScript objects are similar to __associative arrays__ or __hash maps__ in other programming languages. 
 
-See the example below that clarifies the difference between the two approaches.
-
-<table>
+<!--table>
   <tr>
     <td><strong>The limitation of the . notation</strong></td>
     <td><strong>How to make properties amenable to programmatic manipulation</strong></td>
@@ -185,4 +183,4 @@ See the example below that clarifies the difference between the two approaches.
       <img src=""/>
     </td>
   </tr>
-</table>
+</table-->
