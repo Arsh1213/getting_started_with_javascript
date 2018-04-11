@@ -141,7 +141,7 @@ The code snippets below demonstrates some of the most common actions that are ap
       ![]()
 
 
-- __`Enumerate properties`__
+  - __`Enumerate properties`__
       ```javascript
       // General syntax
       l
