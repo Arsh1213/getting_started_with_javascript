@@ -194,7 +194,7 @@ Such limitations can be dealt with by using the second notation, which is essent
 
 You have already seen and written code involving arrays, and is expected to know the basics. In this section, we will primarily discuss about the various actions that involves arrays. The material is presented in a code-centric approach, where the code and the comments speak for themselves. Also, the console screenshots are absent in this section. Instead, you are expected to run the code snippets and see the results for yourself in the console.
 
-  - __`Creating Array`__
+  - __`Create Array`__
   ```javascript
   var emptyArray = [];
   var anotherEmptyArray = new Array();
@@ -206,7 +206,7 @@ You have already seen and written code involving arrays, and is expected to know
   var myArray = [99, "billion", true, null, ["JavaScript", -7], {prop : "val"}];
   ```
   
-  - __`Reading and Writing Array Elements`__
+  - __`Read and Write Array Elements`__
   ```javascript
   
   ```  
@@ -216,12 +216,12 @@ You have already seen and written code involving arrays, and is expected to know
   
   ```  
   
-  - __`Adding and Deleting Array Elements`__
+  - __`Add and Delete Array Elements`__
    ```javascript
   
   ``` 
   
-  - __`Iterating an Array`__
+  - __`Iterate an Array`__
   ```javascript
   
   ```  
@@ -231,17 +231,17 @@ You have already seen and written code involving arrays, and is expected to know
   
   ``` 
   
-  - __`Joining and Spliting Arrays`__
+  - __`Join and Split Array`__
   ```javascript
   
   ```  
   
-  - __`Reversing Arrays`__
+  - __`Reverse an Array`__
   ```javascript
   
   ```  
   
-  - __`Sorting Arrays`__
+  - __`Sort Array`__
   ```javascript
   
   ```  
