@@ -116,6 +116,8 @@ The code snippets below demonstrates some of the most common actions that are ap
       ```
       ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/queryProperty.png)
       
+      > __Find out what happens when you query a property that does not exist.__
+      
   - __`Set/Modify values of properties`__
       ```javascript
       // General syntax
