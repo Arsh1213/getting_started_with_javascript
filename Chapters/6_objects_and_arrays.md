@@ -91,13 +91,20 @@ Try it out in the console and think about the error.
 ### Most Common Actions for Object Manipulation
 
 The code snippets below demonstrates some of the most common actions that are applicable for JavaScript objects. To fit the purpose of illustration, we shall use an empty object `var human = {};`.
-
+  - __`The Big Bang Moment`__ 
+      ![]()
   - __`Add properties and values`__
+      ![]()
   - __`Query values of properties`__
+      ![]()
   - __`Set/Modify values of properties`__
+      ![]()
   - __`Enumerate properties`__
+      ![]()
   - __`Test properties and values`__
+      ![]()
   - __`Delete properties`__
+      ![]()
 
 
 ### Objects as Associative Arrays for Programmatic Manipulation
