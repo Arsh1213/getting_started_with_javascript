@@ -19,7 +19,8 @@ In JavaScript, the most common ways to initialize an object are:
 var emptyObject = {}
 
 // Using the "new" keyword
-var anotherEmptyObject = new Object(); // Explanation for this is available in the next chapter
+// Find the "Behind the scenes" for this statement in the next chapter
+var anotherEmptyObject = new Object(); 
 
 // Most common way to write objects
 var human = {num_of_limbs : 4, num_of_sense_organs : 5}
