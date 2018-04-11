@@ -146,11 +146,15 @@ The code snippets below demonstrates some of the most common actions that are ap
 EXERCISE
 ========
 
-1. Although not explicitly demonstrated above, you can also write code to test existence of properties and also to enumerate properties. Find out how.
+1. Although not explicitly demonstrated above, you can also write code to test existence 
+   of properties and also to enumerate properties. Find out how.
 
-2. Is any of the actions mentioned above any different for inherited properties versus own properties? Prepare your own comparative analysis.
+2. Is any of the actions mentioned above any different for inherited properties versus own 
+   properties? Prepare your own comparative analysis.
 
-3. We discussed a bit about properties, but what about methods? Can we perform those actions on methods associated with an object? Does the results differ for inherited versus own methods (for example, toString() is a method that every object inherits)?
+3. We discussed a bit about properties, but what about methods? Can we perform those actions 
+   on methods associated with an object? Does the results differ for inherited versus own 
+   methods (for example, toString() is a method that every object inherits)?
 ```
 
 
