@@ -30,7 +30,7 @@ Objects can be _nested_ and _heterogenous_, i.e., an object can have multiple le
 ```javascript
 /*
 The general syntax of object is: 
-
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 var some_object = { // Indentation not part of syntax, but contributes to readability
                     property_1 : value_1,
                     property_2 : value_2,
@@ -40,6 +40,7 @@ var some_object = { // Indentation not part of syntax, but contributes to readab
                     // Don't put "," (comma) at the end of last property's value
                     property_n : value_n  
                   };
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 */
 
 // Notice the indentation; good indentation is similar to good handwriting!
