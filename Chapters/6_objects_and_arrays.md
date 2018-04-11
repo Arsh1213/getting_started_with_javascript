@@ -126,15 +126,27 @@ The code snippets below demonstrates some of the most common actions that are ap
       */
       object.property = newValue;
       ```
-      ![]()
+      ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/modifyProperty.png)
       
   - __`Enumerate properties`__
+      ```javascript
+      // General syntax
+      
+      ```
       ![]()
       
   - __`Test properties and values`__
+      ```javascript
+      // General syntax
+      
+      ```
       ![]()
       
   - __`Delete properties`__
+      ```javascript
+      // General syntax
+      
+      ```
       ![]()
 
 
