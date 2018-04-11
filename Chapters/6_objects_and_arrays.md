@@ -157,7 +157,7 @@ EXERCISE
    methods (for example, toString() is a method that every object inherits)?
    
 4. Write a function "merger(object_1, object_2)" that takes two objects as arguments and merges
-   them. for example, if objects are {prop1 : "val1"} and {prop2 : "val2"}, then the resultant 
+   them. For example, if objects are {prop1 : "val1"} and {prop2 : "val2"}, then the resultant 
    should be {prop1 : "val1", prop2 : "val2"}.
 ```
 
