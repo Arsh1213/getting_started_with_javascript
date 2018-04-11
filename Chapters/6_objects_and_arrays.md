@@ -87,3 +87,6 @@ In an object, a property and its value is demarcated by " : " (spaceCOLONspace).
 What happens when you erroneously put "=" instead of " : "?
 Try it out in the console and think about the error.
 ```
+
+### Most Common Actions for Object Manipulation
+The code snippets below demonstrates some of the most common actions that are applicable for JavaScript objects.
