@@ -142,7 +142,7 @@ Isn't it a very succint way of representing the concept? However, this small sni
   - The continuation condition is `num_of_laps <= 50`.
   - The end condition is `num_of_laps = 51`. 
   - The last repititive action is `num_of_laps++`. It means increase the value of the variable by `1`.
-  - Empty braces `{}` means don't do anything, but jump directly to `num_of_laps++` - the last action.
+  - Empty braces `{}` means _"don't do anything"_, but jump directly to `num_of_laps++` - the last action.
   
 Generally you will write code within the `{}` to perform repititive tasks.
 For example, if you want to add `10` points for each lap completed, the code will be:
