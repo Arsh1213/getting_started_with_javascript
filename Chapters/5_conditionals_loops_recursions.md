@@ -340,11 +340,12 @@ function factorial(num) {
 ```
 EXERCISE
 ========
-1. Write a function "fib(num)" to get all the Fibbonacci Numbers appearing before a given number. The function should discard    any input apart from the valid ones. You can learn about Fibbonacci Numbers from Wikipedia: 
-   https://en.wikipedia.org/wiki/Fibonacci_number
+1. Write a function "fib(num)" to get all the Fibbonacci Numbers appearing before a given number. 
+   The function should discard    any input apart from the valid ones. You can learn about 
+   Fibbonacci Numbers from Wikipedia: https://en.wikipedia.org/wiki/Fibonacci_number
    
-2. BONUS PROBLEM - Write a function "steps()" to solve the Tower of Hanoi puzzle. You can learn more about it from Wikipedia:
-   https://en.wikipedia.org/wiki/Tower_of_Hanoi
+2. BONUS PROBLEM - Write a function "steps()" to solve the Tower of Hanoi puzzle. You can learn 
+   more about it from Wikipedia: https://en.wikipedia.org/wiki/Tower_of_Hanoi
    There are further legends along the same line, which you can explore:
     * http://larc.unt.edu/ian/TowersOfHanoi/index64.html
     * https://www.codechef.com/problems/CDWY02
