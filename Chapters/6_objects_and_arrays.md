@@ -116,7 +116,7 @@ The code snippets below demonstrates some of the most common actions that are ap
       ```
       ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/queryProperty.png)
       .......................................................................................................
-      ![]()
+      ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/queryNestedValueForArray.png)
       
       > __Find out what happens when you query a property that does not exist.__
       
@@ -139,7 +139,7 @@ The code snippets below demonstrates some of the most common actions that are ap
       // General syntax
       delete object.property;
       ```
-      ![]()
+      ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/deleteProperty.png)
 
 
 ```
