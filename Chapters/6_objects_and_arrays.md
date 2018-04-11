@@ -92,7 +92,7 @@ Try it out in the console and think about the error.
 
 The code snippets below demonstrates some of the most common actions that are applicable for JavaScript objects. To fit the purpose of illustration, we shall use an empty object `var human = {};`.
   - __`The Big Bang Moment`__ 
-      ![]()
+      ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/emptyObjectBigBang.png)
   - __`Add properties and values`__
       ![]()
   - __`Query values of properties`__
