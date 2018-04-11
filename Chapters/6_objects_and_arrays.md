@@ -158,7 +158,7 @@ EXERCISE
 ```
 
 
-### Objects as Associative Arrays for Programmatic Manipulation
+##### Objects as Associative Arrays for Programmatic Manipulation
 
 The value of a property in a JavaScript object can be accessed using any one of the following notations:
   - __`object.property;`__
