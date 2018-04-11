@@ -94,7 +94,7 @@ The code snippets below demonstrates some of the most common actions that are ap
   - __`The Big Bang Moment`__ 
       ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/emptyObjectBigBang.png)
   - __`Add properties and values`__
-      ![]()
+      ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/addProperty.png)
   - __`Query values of properties`__
       ![]()
   - __`Set/Modify values of properties`__
