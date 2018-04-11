@@ -208,8 +208,49 @@ You have already seen and written code involving arrays, and is expected to know
   
   - __`Read and Write Array Elements`__
   ```javascript
+  /* 
+  // General Syntax
+  someArray[index_is_n]; // reading; evaluates to the (n+1)th element
+  someArray[index_is_n] = N; // writing; the (n+1)th element will be N
+  */
   
-  ```  
+  // Read the 3rd element of the array "myArray"
+  myArray[2]; // Evaluates to true, which is the 3rd value
+  
+  // Read elements of nested arrays
+  // For example, the 5th element of "myArray" is also an array
+  myArray[4][0] // Evaluates to "JavaScript" - the 1st element of the nested array
+  
+  // Read values of properties of objects, when objects are array elements
+  // For example, the 6th element of "myArray" is an object
+  // In both the ways shown below, the evaluated value is the same - "val"
+  myArray[5].prop // Using the dot notation
+  myArray[5]["prop"] // Using the array notation; this is preffered
+  
+  
+  
+  
+  // Write the 3rd element of the array "myArray"
+  myArray[2] = false; // The new 3rd element will be false
+  
+  // Write elements of nested arrays
+  myArray[4][0] = "My favourite language is JavaScript"; // Element at the index 0 of the nested array
+  myArray[4][2] = "Programming is cool"; // A new element gets added in the nested array
+  
+  // Write values of properties of objects, when objects are array elements
+  myArray[5]["prop"] = "new_value"; // Overwriting the value of the object's existing property
+  myArray[5]["another_prop"] = "another_value" // Adding an new property and it's value
+  
+  ``` 
+  
+  ```
+  EXERCISE
+  ========
+  1. What happens when you try to read an element by passing an index that does not exist? 
+     For example, for myArray, what will happen if you try to read myArray[20]? 
+  
+  2. What happens when you try to read myArray[-2], and myArray[-12]?
+  ```
   
   - __`Array Length`__
   ```javascript
