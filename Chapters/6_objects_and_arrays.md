@@ -25,9 +25,49 @@ var anotherEmptyObject = new Object(); // Explanation for this is available in t
 var human = {num_of_limbs : 4, num_of_sense_organs : 5}
 ```
 
-Objects can be _nested_ and _heterogenous_, i.e., an object can have multiple levels of other objects and arrays.
+Objects can be _nested_ and _heterogenous_, i.e., an object can have multiple levels of other objects and arrays as values.
 
 ```javascript
+// Notice the indentation; good indentation is similar to good handwriting!
 var human = {
+              states : ["alive", "dead", "not_born_yet"],
+              gender : ["transgender", "female", "male"],
+              senses : {
+                          num : 5,
+                          names : [                  // This is an array
+                                    {eyes : 2},      // The array has objects as items.
+                                    {ears : 2},
+                                    {nose : 1},
+                                    {tongue : 1},
+                                    {skin : "not_quantifiable"}                                      
+                                  ]
+                        }
+            };
+            
+/*
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Although you can write properties of objects just like any other ordinary word,
+if you use any of the JavaScript keywords as a property, you must place it within
+quotes, like you would write a string literal. The example below demonstrates the 
+concept.
 
+Off course, you can wrap any other non-conflicting property within the quotes.
+However, when the object containing such a property is printed on the console,
+the property within quotes is treated just like any other property.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+var book = {
+            topic : "JavaScript", // normal property without quotes
+            "for" : "beginners", // keyword used within ""
+           };
+            
+```
+
+```
+EXERCISE
+========
+In an object, a property and its value is demarcated by " : " (spaceCOLONspace).
+What happens when you erroneously put "=" instead of " : "?
+Try it out in the console and think about the error.
 ```
