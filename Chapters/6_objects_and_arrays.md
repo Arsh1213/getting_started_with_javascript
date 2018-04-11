@@ -159,3 +159,30 @@ EXERCISE
 
 
 ### Objects as Associative Arrays for Programmatic Manipulation
+
+The value of a property in a JavaScript object can be accessed using any one of the following notations:
+  - __`object.property;`__
+  - __`object["property"];`__
+
+The first method is the generalised syntax using the `.` (dot) notation, and you are quite familiar with it. When you use this notation, the name of the property is accessed as an __*identifier*__. As with identifiers, they have to be handled manually as they are not amenable to programmatic manipulation. This poses a severe bottleneck for programmatic manipulation of objects and their properties.
+
+> You can learn more about __identifiers__ and other syntactic details of JavaScript from this [page on W3Schools](https://www.w3schools.com/js/js_syntax.asp).
+
+Such limitations can be dealt with by using the second notation, which is essentially the `[]` (array) notation. In this notation, __*the property name is expressed as a string, which is a javaScript data type and is therefore amenable to programmatic manipulation*__. In this sense, JavaScript objects are similar to __associative arrays__ or __hash maps__ in other programming languages. 
+
+See the example below that clarifies the difference between the two approaches.
+
+<table>
+  <tr>
+    <td><strong>The limitation of the . notation</strong></td>
+    <td><strong>How to make properties amenable to programmatic manipulation</strong></td>
+  </tr>
+  <tr>
+    <td>
+      <img src=""/>
+    </td>
+    <td>
+      <img src=""/>
+    </td>
+  </tr>
+</table>
