@@ -124,7 +124,7 @@ The code snippets below demonstrates some of the most common actions that are ap
       
       /*
       Remember that for modifying a property's value, the property must exist.
-      If not, the code will be interpreted as "a new property and its value must be added.
+      If not, the code will be interpreted as "a new property and its value must be added".
       */
       object.property = newValue;
       ```
