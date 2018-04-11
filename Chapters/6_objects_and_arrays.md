@@ -130,6 +130,8 @@ The code snippets below demonstrates some of the most common actions that are ap
       ```
       ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/modifyProperty.png)
       
+      > __Observe in the output there are lines like `states : Array(4)`, followed by lines like `0: "unborn"`, `1: "alive"`, etc. What do they mean? Keep your eyes and ears open for such information that the console often provides.__
+      
   - __`Enumerate properties`__
       ```javascript
       // General syntax
