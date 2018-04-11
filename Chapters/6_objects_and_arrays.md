@@ -111,10 +111,12 @@ The code snippets below demonstrates some of the most common actions that are ap
       object.property;
       
       // When used in full-fledged programs
-      var propVal = object.property;
+      var propVal = object.property; // Value of property gets stored in the variable
       console.log(propVal); // Optional; only if you want the value to be printed on the console
       ```
       ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/queryProperty.png)
+      .......................................................................................................
+      ![]()
       
       > __Find out what happens when you query a property that does not exist.__
       
@@ -130,31 +132,26 @@ The code snippets below demonstrates some of the most common actions that are ap
       ```
       ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/modifyProperty.png)
       
-      > __Observe in the output there are lines like `states : Array(4)`, followed by lines like `0: "unborn"`, `1: "alive"`, etc. What do they mean? Keep your eyes and ears open for such information that the console often provides.__
-
-
-  - __`Test properties and values`__
-      ```javascript
-      // General syntax
-      
-      ```
-      ![]()
-
-
-  - __`Enumerate properties`__
-      ```javascript
-      // General syntax
-      l
-      ```
-      ![]()
-      
+      > __Observe in the output there are lines like `states : Array(4)`, followed by lines like `0: "unborn"`, `1: "alive"`, etc. What do they mean? Keep your eyes and ears open for such information that the console often provides.__      
       
   - __`Delete properties`__
       ```javascript
       // General syntax
-      l
+      delete object.property;
       ```
       ![]()
+
+
+```
+EXERCISE
+========
+
+1. Although not explicitly demonstrated above, you can also write code to test existence of properties and also to enumerate properties. Find out how.
+
+2. Is any of the actions mentioned above any different for inherited properties versus own properties? Prepare your own comparative analysis.
+
+3. We discussed a bit about properties, but what about methods? Can we perform those actions on methods associated with an object? Does the results differ for inherited versus own methods (for example, toString() is a method that every object inherits)?
+```
 
 
 ### Objects as Associative Arrays for Programmatic Manipulation
