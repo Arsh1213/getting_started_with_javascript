@@ -93,16 +93,35 @@ Try it out in the console and think about the error.
 The code snippets below demonstrates some of the most common actions that are applicable for JavaScript objects. To fit the purpose of illustration, we shall use an empty object `var human = {};`.
   - __`The Big Bang Moment`__ 
       ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/emptyObjectBigBang.png)
+      
   - __`Add properties and values`__
+      ```javascript
+      // General Syntax
+      object.property = value
+      ```
       ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/addProperty.png)
+      
+      > __Find out what happens when you try to add a property that already exists in the object.__
+      
   - __`Query values of properties`__
+      ```javascript
+      // For console mode
+      object.property;
+      
+      // When used in full-fledged programs
+      var propVal = object.property;
+      ```
       ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/queryProperty.png)
+      
   - __`Set/Modify values of properties`__
       ![]()
+      
   - __`Enumerate properties`__
       ![]()
+      
   - __`Test properties and values`__
       ![]()
+      
   - __`Delete properties`__
       ![]()
 
