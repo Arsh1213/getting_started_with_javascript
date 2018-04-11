@@ -17,7 +17,7 @@ No matter how many books and tutorials you read, or how many videos you watch, a
 
 ## Offline Resources/Books
 
-  - [__JavaScript - The Definite Guide__](https://drive.google.com/open?id=0B9b7udMzxMHndHI1UEpKTFNmNU0) - People who prefer learning from books consider this as the single source of truth for the fundamentals of JavaScript. David Flaganan gives you an exposition of the subject that shows his absolute mastery. In other words, the author knows what he is talking about, and you can rely on him. However, _this book is for people with some amount of programming experience_.    
+  - [__JavaScript - The Definite Guide__](https://drive.google.com/open?id=0B9b7udMzxMHndHI1UEpKTFNmNU0) - People who prefer learning from books consider this as the single source of truth for the fundamentals of JavaScript. David Flanagan gives you an exposition of the subject that shows his absolute mastery. In other words, the author knows what he is talking about, and you can rely on him. However, _this book is for people with some amount of programming experience_.    
 
   - [__JavaScript - The Good Parts__](https://drive.google.com/open?id=0B9b7udMzxMHndmZrbmg4RFVjWDA) - JavaScript as a language was designed in only 10 days. As with any work of haste, the development that piled on top of the plagued foundation suffered tremendously. Modern JavaScript, as we know, is cursed and walks with the crutches called frameworks. However, hidden deep within this mess is a beautiful programing language. The author Douglas Crockford unearths the hidden gems of the language and teaches us how to keep your sanity when you develop software in JavaScript.      
 
