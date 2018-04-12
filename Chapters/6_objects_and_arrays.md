@@ -308,8 +308,8 @@ At the physical plane, arrays are series of memory locations. You have already s
   var arr = ["zero", "one", "two", "three", "four", "five", 6, 7, 89];
   var lengthOfElements = []; // This empty array will eventually store the length of elements of arr
   for (var i = 0; i < arr.length; i++) { // The for loop - face of iteration
-    l = arr[i].length;
-    lengthOfElements[i] = l;
+    var l = arr[i].length; // Length of the element with which the iterator is associated
+    lengthOfElements[i] = l; // Add the length of the element to another array
   }
   lengthOfElements; // Call the array to check it - [4, 3, 3, 5, 4, 4, undefined, undefined, undefined]
   
