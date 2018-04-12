@@ -192,7 +192,7 @@ Such limitations can be dealt with by using the second notation, which is essent
 
 ## Arrays
 
-At the physical plane, arrays are series of memory locations. You have already seen and written code involving arrays, and is expected to know the basics. In this section, we will primarily discuss about the various actions that involves arrays. The material is presented in a code-centric approach, where the code and the comments speak for themselves. Also, the console screenshots are absent in this section. Instead, you are expected to run the code snippets and see the results for yourself in the console.
+At the physical level, an array is a series of memory locations. You have already seen and written code involving arrays, and is expected to know the basics. In this section, we will primarily discuss about the various actions that involves arrays. The material is presented in a code-centric approach, where the code and the comments speak for themselves. Also, the console screenshots are absent in this section. Instead, you are expected to run the code snippets and see the results for yourself in the console.
 
   - __`Create Array`__
   ```javascript
