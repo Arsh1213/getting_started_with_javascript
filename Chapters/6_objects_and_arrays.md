@@ -321,6 +321,7 @@ At the physical plane, arrays are series of memory locations. You have already s
   /*
   JavaScript doesn't provide native data structures for multidimensional arrays or matrices.
   However, you can construct an array whose elements themselves are arrays of same length.
+  */
   
   // General Syntax
   
@@ -332,7 +333,13 @@ At the physical plane, arrays are series of memory locations. You have already s
                   ["Ja", "va", "Script"],
                   [true, false, null]
                 ];
-  */
+  
+  // How to access elements of an array within an array? The consecutive [][] notation!
+  // In the example below, the first [] has 1, which is for the 2nd element of the parent array.
+  // Similarly, the second [] contains 2, which stands for the 3rd element of the 2nd element.
+  var third_elem_of_second_array_in_another = another[1][2];
+  third_elem_of_second_array_in_another; // Evaluates to "Script"
+  
   ``` 
   
   - __`Join and Split Array`__
