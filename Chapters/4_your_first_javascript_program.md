@@ -300,6 +300,45 @@ The next step would be to call the unit test function so that it can tell us abo
   </tr>
 </table>
 
+#### Functions as First Class Citizens
+In JavaScript, functions can be passed as arguments to other functions, and are therefore colloquially called first-class citizens. The code snippet below illustrates the point.
+
+```javascript
+// The functions written below are really stupid and does not make much sense.
+// They exist only for the purpose of illustration.
+// Please come up with smarter examples of your own.
+
+
+// This function takes the x, y, and z coordinates of a point as arguments, and returns an array.
+function point(x, y, z) {
+  var arr = []; // This array will finally contain the coordinate values
+  arr[0] = x; // The first element is the x coordinate; similarly 2nd for y, and 3rd for z
+  arr[1] = y;
+  arr[2] = z;
+  return arr;
+}
+
+// This function takes an array (containing 3 real numbers as elements) as argument, and returns
+// the distance of the point from the origin.
+function distance_from_origin(suitable_array) {
+  var x_coord = suitable_array[0];
+  var y_coord = suitable_array[1];
+  var z_coord = suitable_array[2];
+  var distance = Math.sqrt(
+                            (x_coord * x_coord)
+                          + (y_coord * y_coord)
+                          + (z_coord * z_coord)
+                          );
+  return distance;
+}
+
+
+// Call the function for distance and pass the function for point as its argument.
+var dist = distance_from_origin(point(-1, 3, 8));
+dist; // Evaluates to 8.602325267042627
+```
+
+
 
 [__<<= Primitive and Reference Types__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/3_primitive_and_reference_types.md)    
 
