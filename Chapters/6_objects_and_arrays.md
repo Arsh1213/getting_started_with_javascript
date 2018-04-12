@@ -424,11 +424,18 @@ At the physical plane, arrays are series of memory locations. You have already s
   a.slice(-3,-2); // Returns [3]  
   ```    
   
-  - __`Index of an Array Element`__
-  ```javascript
-  
-  ```  
-  
+```
+EXERCISE
+========
+1. Suppose you are given an array [1, 2, 11, 99, 9, 1, 7, 8, 66, 66, 8, 1]
+   Your task is to write a function that:
+   (i) Takes an array and one of its element as arguments.
+   (ii) Returns another array that has all the positions (not index) of the specified element.
+      (a) If the element is not present in the array given as argument, it returns "Not Found".
+   
+   In this task, two ECMAScript5 array methods indexOf() and lastIndexOf() can help.
+   Research about those two methods and code up the solution.
+```  
 
 ## Reminder on Mutation
 
