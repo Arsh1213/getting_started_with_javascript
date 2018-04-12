@@ -192,7 +192,7 @@ Such limitations can be dealt with by using the second notation, which is essent
 
 ## Arrays
 
-You have already seen and written code involving arrays, and is expected to know the basics. In this section, we will primarily discuss about the various actions that involves arrays. The material is presented in a code-centric approach, where the code and the comments speak for themselves. Also, the console screenshots are absent in this section. Instead, you are expected to run the code snippets and see the results for yourself in the console.
+At the physical plane, arrays are series of memory locations. You have already seen and written code involving arrays, and is expected to know the basics. In this section, we will primarily discuss about the various actions that involves arrays. The material is presented in a code-centric approach, where the code and the comments speak for themselves. Also, the console screenshots are absent in this section. Instead, you are expected to run the code snippets and see the results for yourself in the console.
 
   - __`Create Array`__
   ```javascript
@@ -226,7 +226,6 @@ You have already seen and written code involving arrays, and is expected to know
   // In both the ways shown below, the evaluated value is the same - "val"
   myArray[5].prop // Using the dot notation
   myArray[5]["prop"] // Using the array notation; this is preffered
-  
   
   
   
@@ -304,6 +303,17 @@ You have already seen and written code involving arrays, and is expected to know
   - __`Iterate an Array`__
   ```javascript
   
+  // You have already encountered iteration using arrays; here's another example
+  
+  var arr = ["zero", "one", "two", "three", "four", "five", 6, 7, 89];
+  var lengthOfElements = []; // This empty array will eventually store the length of elements of arr
+  for (var i = 0; i < arr.length; i++) { // The for loop - face of iteration
+    l = arr[i].length;
+    lengthOfElements[i] = l;
+  }
+  lengthOfElements; // Call the array to check it - [4, 3, 3, 5, 4, 4, undefined, undefined, undefined]
+  
+  // The undefined appears because that's the value returned when the length method operated on numbers.
   ```  
   
   - __`Multidimensional Array`__
