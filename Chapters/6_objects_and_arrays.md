@@ -342,10 +342,12 @@ At the physical plane, arrays are series of memory locations. You have already s
   
   ``` 
   
-  - __`Join and Split Array`__
+  - __`Join Array`__
   ```javascript
   // JOIN Arrays
   /*
+  // General syntax
+  some_array.join() // Returns a string containing all the elements of some_array
   */
   
   // Simple joining
@@ -357,6 +359,7 @@ At the physical plane, arrays are series of memory locations. You have already s
   // Elements that are arrays or objects are simply interpreted as objects
   var myArray = [99, "billion", true, null, ["JavaScript", -7], {prop : "val"}];
   myarray.join(); // Returns the string "99; billion; true; ; JavaScript,-7; [object Object]"
+  
   ```  
   
   - __`Reverse an Array`__
