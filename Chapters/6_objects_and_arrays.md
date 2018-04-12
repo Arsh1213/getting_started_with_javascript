@@ -317,8 +317,22 @@ At the physical plane, arrays are series of memory locations. You have already s
   ```  
   
   - __`Multidimensional Array`__
-   ```javascript
+  ```javascript
+  /*
+  JavaScript doesn't provide native data structures for multidimensional arrays or matrices.
+  However, you can construct an array whose elements themselves are arrays of same length.
   
+  // General Syntax
+  
+  var a_matrix = [[1, 2, 3], ["Ja", "va", "Script"], [true, false, null]]; // Ugly indentation
+  
+  // Another matrix with good indentation, representing a 3 x 3 matrix
+  var another = [ // Observe that each of the elements that are array themselves are of same length - 3.
+                  [1, 2, 3],
+                  ["Ja", "va", "Script"],
+                  [true, false, null]
+                ];
+  */
   ``` 
   
   - __`Join and Split Array`__
