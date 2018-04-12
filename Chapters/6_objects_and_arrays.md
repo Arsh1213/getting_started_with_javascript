@@ -255,7 +255,9 @@ At the physical level, an array is a series of memory locations. You have alread
   ```javascript
   /*
   // General Syntax
-  // length is the method for this job, and is accessible to all arrays, apart from some other data types.
+  // length is the property to be used for this job, and is accessible to all arrays, 
+  apart from some other data types.
+  
   array.length; // array can be a literal ([]) or a variable (var myArray = [1, 2, 3])
   */
   
