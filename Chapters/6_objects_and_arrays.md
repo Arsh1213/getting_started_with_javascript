@@ -254,7 +254,24 @@ You have already seen and written code involving arrays, and is expected to know
   
   - __`Array Length`__
   ```javascript
+  /*
+  // General syntax
+  // length is the method for this job, and is accessible to all arrays, apart from some other data types.
+  array.length; // array can be a literal ([]) or a variable (var myArray = [1, 2, 3])
+  */
   
+  [].length; // length of an empty array; evaluates to zero
+  
+  [1, 2, "JavaScript"].length; // Evaluates to 3
+  
+  myArray.length; // Evaluates to 6.
+  
+  /*
+  Relationship between array length and last index:
+  ++++++++++++++++++++++++++++++++
+  last_index = array.length - 1
+  ++++++++++++++++++++++++++++++++
+  */
   ```  
   
   - __`Add and Delete Array Elements`__
