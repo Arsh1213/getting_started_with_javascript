@@ -287,8 +287,6 @@ At the physical plane, arrays are series of memory locations. You have already s
   */
   arr[4] = "four"; // The array will be returned as ["zero", empty, empty, empty, "four"]
   
-  // Array elements can also be added using the push() method, which will be demonstrated later.
-  
   
   
   // DELETE elements
@@ -364,33 +362,40 @@ At the physical plane, arrays are series of memory locations. You have already s
   
   - __`Reverse an Array`__
   ```javascript
-  
-  ```  
-  
-  - __`Sort Array`__
-  ```javascript
-  
+  var some_array = ["javaScript", "CoffeeScript", -99, true];
+  some_array.reverse(); // Returns an array with elements in the reverse order
   ```  
   
   - __`Concatenate Arrays`__
   ```javascript
-  
+  /*
+  The Array.concat() method creates and returns a new array that contains the elements 
+  of the original array on which concat() was invoked, followed by each of the arguments 
+  to concat(). 
+
+  If any of these arguments is itself an array, then it is the array elements 
+  that are concatenated, not the array itself. 
+
+  Note, however, that concat() does not recursively flatten arrays of arrays. 
+
+  The method concat() does not modify the array on which it is invoked. 
+  */
+
+  var a = [1,2,3];
+
+  a.concat(4, 5) // Returns [1,2,3,4,5]
+
+  a.concat([4,5]); // Returns [1,2,3,4,5]
+
+  a.concat([4,5],[6,7]) // Returns [1,2,3,4,5,6,7]
+
+  a.concat(4, [5,[6,7]]) // Returns [1,2,3,4,5,[6,7]]
   ```  
   
   - __`Slice Arrays`__
   ```javascript
   
-  ```  
-  
-  - __`Splice Arrays`__
-  ```javascript
-  
-  ```  
-  
-  - __`Push and Pop Array Elements`__
-  ```javascript
-  
-  ```  
+  ```    
   
   - __`Index of an Array Element`__
   ```javascript
