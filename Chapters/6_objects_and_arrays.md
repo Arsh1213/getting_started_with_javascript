@@ -344,7 +344,19 @@ At the physical plane, arrays are series of memory locations. You have already s
   
   - __`Join and Split Array`__
   ```javascript
+  // JOIN Arrays
+  /*
+  */
   
+  // Simple joining
+  var arr = [1, 2, "javascript", true];
+  arr.join() // Returns the string "1,2,javascript,true"
+  arr.join("; ") // Returns the string "1; 2; "javascript"; true" because of the delimiter "; " as argument
+  
+  // What happens when we try to join heterogenous arrays?
+  // Elements that are arrays or objects are simply interpreted as objects
+  var myArray = [99, "billion", true, null, ["JavaScript", -7], {prop : "val"}];
+  myarray.join(); // Returns the string "99; billion; true; ; JavaScript,-7; [object Object]"
   ```  
   
   - __`Reverse an Array`__
