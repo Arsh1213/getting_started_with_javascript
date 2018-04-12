@@ -295,7 +295,10 @@ You have already seen and written code involving arrays, and is expected to know
   // DELETE elements
   /*
   // General Syntax
+  delete array[index_of_element];
   */
+  
+  delete myArray[2]; // The 3rd element of myArray, true, gets deleted and the position becomes empty.
   ``` 
   
   - __`Iterate an Array`__
