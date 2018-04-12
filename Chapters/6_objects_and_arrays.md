@@ -255,7 +255,7 @@ You have already seen and written code involving arrays, and is expected to know
   - __`Array Length`__
   ```javascript
   /*
-  // General syntax
+  // General Syntax
   // length is the method for this job, and is accessible to all arrays, apart from some other data types.
   array.length; // array can be a literal ([]) or a variable (var myArray = [1, 2, 3])
   */
@@ -275,8 +275,27 @@ You have already seen and written code involving arrays, and is expected to know
   ```  
   
   - __`Add and Delete Array Elements`__
-   ```javascript
+  ```javascript
+  // ADD elements
   
+  // Adding elements by specifying the index
+  var arr = []; // Starting with an empty array for demonstration
+  arr[0] = "zero"; // Adding an element at index 0
+  
+  /*
+  You may pass indexes without maintaining any serial.
+  For example, you can add arr[2] = "whatever" after you executed arr[0] = "zero".
+  */
+  arr[4] = "four"; // The array will be returned as ["zero", empty, empty, empty, "four"]
+  
+  // Array elements can also be added using the push() method, which will be demonstrated later.
+  
+  
+  
+  // DELETE elements
+  /*
+  // General Syntax
+  */
   ``` 
   
   - __`Iterate an Array`__
