@@ -196,6 +196,6 @@ EXERCISE
 ```
 
 
-[__<<= Constructors and Inheritance__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/7_constructors_and_inheritance.md)
+[__<<= Objects and Arrays__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/6_objects_and_arrays.md)
 
-[__Further Reading =>>__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/9_further_reading.md)
+[__Further Reading =>>__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/8_further_reading.md)
