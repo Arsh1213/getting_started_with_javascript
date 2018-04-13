@@ -4,12 +4,12 @@
 ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/cover.gif)
 
 ## Why this book?
-There are plenty of awesome tutorials and books on the internet that promises to help you get started with JavaScript. I neither claim to be at par with them, nor do I intend to. I wrote this booklet for two reasons:
+There are plenty of awesome tutorials and books on the internet that promises to help you get started with JavaScript. I neither claim to be at par with them, nor do I intend to. I wrote this book for two reasons:
   - I wanted to express my understanding of the basics of programming and JavaScript. I kept in mind the confusion and frustration newbies face, and the writing reflects my personal struggle to overcome them. I hope my empathy towards my fellow learners will strike the right chord.
   - My technical mentor wanted me to write such a piece as my first assignment ;-).
 
 ## Coverage
-The material in this booklet is _skin deep_. The intended audience are people with absolutely _no programming experience_, except familiarity with the basics of the web like HTML and CSS. If you are an experienced programmer who wants to learn JavaScript, you will be disappointed by the lack of coverage.  
+The material in this book is _skin deep_. The intended audience are people with absolutely _no programming experience_, except familiarity with the basics of the web like HTML and CSS. If you are an experienced programmer who wants to learn JavaScript, you will be disappointed by the lack of coverage.  
 
 ## Approach
 The concepts are presented using a _bottom-up_ approach. The core concepts of programming are prioritized over the JavaScript syntax. Programming is presented as the main activity, and JavaScript as a tool to express your thoughts. In fact, the best way to learn programming is to practice language-agnostic thinking. An advantage of this approach is that you can transfer the same concepts when you use other programming languages.
