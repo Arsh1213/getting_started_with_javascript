@@ -57,7 +57,13 @@ else {
 
 It is often observed that programmers omit the `else` statements - they only include the `if` statement and think that else statement is not required. It's an awfully bad practice, and you must never develop that habit. The most important reason behind including the `else` statement is that you control the outcome of the program when the `if` condition is not true. For example, see what happens when you omit the `else` statement in the `should_i_learn_js()` function:
 
-![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/shouldIlearnJS_returnsNull.png)
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/shouldIlearnJS_returnsNull.png"/>
+    </td>
+  </tr>
+</table>
 
 Our function returned `null`, because the default value of the variable `focusOnJavaScript` was `null`, and when the conditions failed to pass the `if` statement, our program had no specific instructions for assigning any meaningful value to the variable `focusOnJavaScript`.
 
