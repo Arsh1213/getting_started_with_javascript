@@ -1,15 +1,12 @@
 # Programming 101
 
-In this chapter, you will learn the following basics of programming:
+In this chapter you will learn the some of the basic concepts of programming:
   - Why programming is more about thinking and less about typing    
   - Computer architecture and memory in context of data types                 
   - Best practices of programming and software engineering                   
    
 
 ```
-NOTE TO READER:
-===============
-
 It's tempting to skip chapters when you see large chunks of text. 
 
 When (not if) this happens - do one simple exercise:
@@ -28,7 +25,7 @@ are the ones that are most important in having a complete understanding.
 
 ## Think more, type less     
 
-[Bill Atkinson](https://en.wikipedia.org/wiki/Bill_Atkinson), one of the main contributors to Apple's GUI, once reported his accomplishment as `"... deleted more than 21,000 lines of code..."`. As a result, the code ran much faster. Most importantly, the nice round cornered rectangular GUI objects that Apple pioneered was achieved after minor tweaks in the remaining code. Although what Bill did is more of an exception than norm, it teaches us something very important - programming has as much relation with typing, as mathematics has with chalk or pencil.    
+[Bill Atkinson](https://en.wikipedia.org/wiki/Bill_Atkinson), one of the main contributors to Apple's GUI, once reported his accomplishment as `"... deleted more than 21,000 lines of code..."`. As a result, the code ran much faster. Most importantly, the nice rounded rectangular GUI objects that Apple pioneered was achieved after minor tweaks in the remaining code. Although what Bill did is more of an exception than norm, it teaches us something very important - programming has as much relation with typing, as mathematics has with chalk or pencil.    
 
 At it's core, programming involves the following steps:
   1. __What's the problem?__ - Given a problem, translate the vague requirements into concrete statements, which is essentially defining the problem with precision. The difficulty involved in this step is often under-appreciated. For industry problems, this is perhaps the most difficult steps that require tonnes of experience.   
