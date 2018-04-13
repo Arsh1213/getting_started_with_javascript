@@ -30,10 +30,23 @@ Based on the situation you will be in, you might write JavaScript code in one or
 Although all modern browsers provide a console, in this booklet we shall follow the console provided by Google Chrome. I have no particular reason for adopting it, except that it is highly popular and has a very nice interface for other tasks involved with JavaScript programming. I would recommend that you use it too, but ultimately it's upto you to decide. 
 
 To find the console on Google Chrome:
-  1. From Chrome's Menu (the three vertical dots at the same level of the URL bar), navigate to __More Tools > Developer Tools__.    
-  ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/chromeMenu.png)
+  1. From Chrome's Menu (the three vertical dots at the same level of the URL bar), navigate to __More Tools > Developer Tools__.
+  <table>
+    <tr>
+      <td>
+        <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/chromeMenu.png"/>
+      </td>
+    </tr>
+  </table>
   2. Click the __Console__ tab.
-  ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/consoleImageChrome.png)    
+  <table>
+    <tr>
+      <td>
+        <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/consoleImageChrome.png"/>
+      </td>
+    </tr>
+  </table> 
+  > __NOTE__: When you get any error on the console and need to debug, navigate to the __`Source`__ tab beside __`Console`__.
   
 ### HTML file
 There are two ways to include JavaScript code in a `.html` file - _inline_, and _pointer to another `.js` file_. Both the approaches are shown in the following snippet:
@@ -146,7 +159,14 @@ Keeping the tradition intact, write your first JavaScript program.
       console.log("Hello, World!");
       ```
   2. You will see that the console returns the string `Hello, World!`.
-      ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/consoleLog.png)
+      <table>
+        <tr>
+          <td>
+            <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/consoleLog.png"/>
+          </td>
+        </tr>
+      </table>
+ 
       > `console.log()` is just like the `print` or equivalent statements found in almost all major programming languages. All it does is printing the value you have passed to it (within the parenthesis) on the console. Experiment with `console.log` as much as you want. I have done some for you - see the image above.
       
 The single lines of code that you wrote just now might be trivial, but it is powerful enough to illustrate some of the key concepts in JavaScript, and programming in general. We shall disect each and every element of the code to understand what they do, and how they fit in the big picture. You will learn more about the elements in the subsequent chapters dedicated to the concepts they represent.
@@ -181,14 +201,20 @@ Let's break down our little function and inspect it's different components, espe
       };
   ```
   3. The `Math` object has a property `sqrt`, which computes the square root of real number passed on to it.
-  4. By definition, functions in JavaScript must produce an output (except when it is in the form of a method associated with a constructor definition - a topic you will learn in the chapter [Constructors and Inheritance](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/8_constructors_and_inheritance.md)). In technical parlance, it must return a value. The `return` keyword, followed by a suitable entity, determines what should the function yield as an output. In our example, the function returns the square root of the number we pass on to it.
+  4. By definition, functions in JavaScript must produce an output (except when it is in the form of a method associated with a constructor definition). In technical parlance, it must return a value. The `return` keyword, followed by a suitable entity, determines what should the function yield as an output. In our example, the function returns the square root of the number we pass on to it.
 
 #### Calling a Function 
 Once we write our function, we can _call_(invoke) it and pass a value corresponding to the _parameter_. Here's an example:
 ```javascript
 calSqRoot(41); // Evaluates to 6.4031242374328485
 ```
-![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/sqRootFunction.png)    
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/sqRootFunction.png"/>
+    </td>
+  </tr>
+</table>   
 
 ```
 EXERCISE
@@ -211,7 +237,13 @@ Where do they live, or how/from which layer of abstraction can we access them?
 #### Testing a Function
 Now that we haved defined and called our function while passing a legitimate input (a real number), let us experiment other kinds of inputs as well! While pure computer science gives you mathematical frameworks to prove that your code is correct and robust, testing your code with myriad inputs is the practical way to ensure that your code works _reliably_. 
 
-![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/testingFunction.png)
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/testingFunction.png"/>
+    </td>
+  </tr>
+</table>
 
 > Seems like we are done here - we have tested our functions with all possible types of inputs, and have tried to understand the results. Also, we have made some interesting observations and raised some good questions. Always do such things with your code - this is the only way to learn about programming, and the programming language as well.    
 
@@ -242,7 +274,13 @@ function calcSqRoot(num) {
 
 Although there are some usages of _conditionals_ (the __if-else__ blocks) to which you haven't been formally introduced, the code is quite self-explanatory and you should be able to understand the logic we are trying to build. Let's see how our improvement fares against the different possible inputs.
 
-![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/improvedFunction.png)    
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/improvedFunction.png"/>
+    </td>
+  </tr>
+</table>  
 
 We are doing good, aren't we! Our function has improved quite a bit - it is gracefully filtering out all inputs except a non-negative number, and is also returning meaningful error message instead of the cryptic `NaN`.     
 
