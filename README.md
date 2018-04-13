@@ -27,8 +27,8 @@ Also, please __don't ignore the questions I ask you to think about, and the dril
   4. [Your First JavaScript Program](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/4_your_first_javascript_program.md)
   5. [Conditionals, Loops, and Recursions](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/5_conditionals_loops_recursions.md)
   6. [Objects and Arrays](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/6_objects_and_arrays.md)
-  7. [Glimpse of Client-side JavaScript](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/8_glimpse_of_clientside_javascript.md)    
-  8. [Further Reading](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/9_further_reading.md)     
+  7. [Glimpse of Client-side JavaScript](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/7_glimpse_of_clientside_javascript.md)    
+  8. [Further Reading](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/8_further_reading.md)     
 
 
 [__Welcome to JavaScript =>>__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/1_welcome_to_javascript.md) 
