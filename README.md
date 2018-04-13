@@ -31,4 +31,4 @@ Also, please __don't ignore the questions I ask you to think about, and the dril
   8. [Further Reading](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/9_further_reading.md)     
 
 
-[__Welcome to JavaScript =>>__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/1_welcome_to_javascript.md)
+[__Welcome to JavaScript =>>__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/1_welcome_to_javascript.md) 
