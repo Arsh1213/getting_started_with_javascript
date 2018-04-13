@@ -4,7 +4,13 @@ If you have read the previous chapter [Programming 101](https://github.com/datas
 
 ## Data Types in JavaScript
 
-![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/dataTypes.png)    
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/dataTypes.png"/>
+    </td>
+  </tr>
+</table>   
 
 To get a feel of what these data types are, and what they look like, go through the following code snippet:    
 
@@ -145,7 +151,13 @@ If you look closely at the code illustrations in the section for __mutation__, y
   ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/undefinedSelfCorrection.png)      
   
 > __NOTE__: In the console mode, the interpreter even handles __null__ the same way it would handle other data types.
-![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/nullUndefined%20Console.png)     
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/nullUndefined%20Console.png"/>
+    </td>
+  </tr>
+</table>    
 
 
 ## Notes on =, ==, and ===
