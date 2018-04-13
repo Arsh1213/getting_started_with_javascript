@@ -442,3 +442,9 @@ EXERCISE
 ## Reminder on Mutation
 
 As you might remember, objects and arrays are __Reference__ types, and are therefore mutable. Before you move on to the next chapter, it's high time to revise the concepts learned [__here__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/3_primitive_and_reference_types.md#mutation-in-javascript). 
+
+
+
+[__<<= Conditionals, Loops, and Recursions__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/5_conditionals_loops_recursions.md)
+
+[__Glimpse of Client-side JavaScript =>>__](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Chapters/7_glimpse_of_clientside_javascript.md)
