@@ -92,14 +92,26 @@ Try it out in the console and think about the error.
 
 The code snippets below demonstrates some of the most common actions that are applicable for JavaScript objects. To fit the purpose of illustration, we shall use an empty object `var human = {};`.
   - __`The Big Bang Moment`__ 
-      ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/emptyObjectBigBang.png)
+      <table>
+        <tr>
+          <td>
+            <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/emptyObjectBigBang.png"/>
+          </td>
+        </tr>
+      </table>
       
   - __`Add properties and values`__
       ```javascript
       // General syntax
       object.property = value; // The value might be anything permissible in JavaScript
       ```
-      ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/addProperty.png)
+      <table>
+        <tr>
+          <td>
+            <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/addProperty.png"/>
+          </td>
+        </tr>
+      </table>
       
       > __Find out what happens when you try to add a property that already exists in the object.__
       
@@ -114,9 +126,21 @@ The code snippets below demonstrates some of the most common actions that are ap
       var propVal = object.property; // Value of property gets stored in the variable
       console.log(propVal); // Optional; only if you want the value to be printed on the console
       ```
-      ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/queryProperty.png)
-      .......................................................................................................
-      ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/queryNestedValueForArray.png)
+      <table>
+        <tr>
+          <td>
+            <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/queryProperty.png"/>
+          </td>
+        </tr>
+      </table>
+
+      <table>
+        <tr>
+          <td>
+            <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/queryNestedValueForArray.png"/>
+          </td>
+        </tr>
+      </table>
       
       > __Find out what happens when you query a property that does not exist.__
       
@@ -130,7 +154,13 @@ The code snippets below demonstrates some of the most common actions that are ap
       */
       object.property = newValue;
       ```
-      ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/modifyProperty.png)
+      <table>
+        <tr>
+          <td>
+            <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/modifyProperty.png"/>
+          </td>
+        </tr>
+      </table>      
       
       > __Observe in the output there are lines like `states : Array(4)`, followed by lines like `0: "unborn"`, `1: "alive"`, etc. What do they mean? Keep your eyes and ears open for such information that the console often provides.__      
       
@@ -139,7 +169,13 @@ The code snippets below demonstrates some of the most common actions that are ap
       // General syntax
       delete object.property;
       ```
-      ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/deleteProperty.png)
+      <table>
+        <tr>
+          <td>
+            <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/deleteProperty.png"/>
+          </td>
+        </tr>
+      </table>      
 
 
 ```
@@ -371,14 +407,14 @@ At the physical level, an array is a series of memory locations. You have alread
   - __`Concatenate Arrays`__
   ```javascript
   /*
-  The Array.concat() method creates and returns a new array that contains the elements 
+  The concat() method creates and returns a new array that contains the elements 
   of the original array on which concat() was invoked, followed by each of the arguments 
   to concat(). 
 
   If any of these arguments is itself an array, then it is the array elements 
   that are concatenated, not the array itself. 
 
-  Note, however, that concat() does not recursively flatten arrays of arrays. 
+  concat() does not recursively flatten arrays of arrays. 
 
   The method concat() does not modify the array on which it is invoked. 
   */
@@ -397,9 +433,9 @@ At the physical level, an array is a series of memory locations. You have alread
   - __`Slice Arrays`__
   ```javascript
   /*
-  The Array.slice() method returns a slice, or subarray, of the specified array. 
+  The slice() method returns a slice, or subarray, of the specified array. 
   Its two arguments specify the start and end of the slice to be returned.  
-  Note that slice() does not modify the array on which it is invoked.
+  slice() does not modify the array on which it is invoked.
   */ 
   var a = [1,2,3,4,5];
 
