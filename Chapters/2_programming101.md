@@ -51,7 +51,14 @@ Most modern computers are manufactured using the [Von Neumann architecture](http
 Globally, numerical quantities are expressed by the decimal number system. Standards defined by [ASCII](https://en.wikipedia.org/wiki/ASCII) and [Unicode](https://en.wikipedia.org/wiki/Unicode) gives us a way to represent non-numerical characters as decimal numbers. Thus, we have an agreed way to represent everything as decimal numbers, and convert them uniformly into binary numbers. Although such standardisation is a good first step, it still does not solves our problem. To appreciate the problem, let's take a bottom-up approach and understand what's happening at a hardware level.    
 
 ### Electrical Engineering and Programming
-![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/ABasicComputer.gif)    
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/ABasicComputer.gif"/>
+    </td>
+  </tr>
+</table>
+
 
 ```
 Block diagram of a basic computer with uniprocessor CPU. 
@@ -78,7 +85,13 @@ If the circuits are incapable of handling abstractions, then it must be the enti
 
 Although not a complete list, given below are some tasks that compilers and interpreters perform when they are invoked:    
 
-![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/roleOfCompilers.png)    
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/roleOfCompilers.png"/>
+    </td>
+  </tr>
+</table>   
 
 Although not technically accurate, what interests is the 3rd item on the list. To understand what the 3rd item means, let's write two lines of code:
 ```javascript
@@ -96,8 +109,14 @@ As with most interpreted languages, the JavaScript interpreter goes through a so
   3. The line is parsed for lexical sanity, which our code passes with flying colours.    
   4. Once the syntactical correctness is ensured, the interpreter starts deciphering it's meaning.     
       1. The first word it encounters is `var`, which triggers an anticipation that a variable is on the way! You can visualize variables as entities in a program that occupies a certain range of memory locations, based on the type of the value it contains.     
-      2. In our first legitimate line of code, the name of the variable is `name`, and it contains a value `John`. Since the value `John` is enclosed within `""`, the interpreter knows that the value is a string, which is a continuous chain of characters. On recieving these information, the interpreter lays out a __memory map__. A schematic and truncated view of the map is  illustrated below:     
-      ![](https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/pointer_illustration.png)    
+      2. In our first legitimate line of code, the name of the variable is `name`, and it contains a value `John`. Since the value `John` is enclosed within `""`, the interpreter knows that the value is a string, which is a continuous chain of characters. On recieving these information, the interpreter lays out a __memory map__. A schematic and truncated view of the map is  illustrated below:   
+      <table>
+        <tr>
+          <td>
+            <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/pointer_illustration.png"/>
+          </td>
+        </tr>
+      </table>   
       
       ```
       For each of the characters "J", "o", "h", and "n", the size of the memory chunk
@@ -117,13 +136,19 @@ As with most interpreted languages, the JavaScript interpreter goes through a so
 As with most human endeavours, the solution finally emerges from cooperation between different layers of software.    
 
 Most modern programming and software engineering is based on the philosophy of "_standing on the shoulders of the giants..._". In other words, from the bare hardware to the browser (which contains the JavaScript interpreter), there are multiple layers of abstraction. Each of these layers provide a service to the layer above by exposing an Application Programming Interface (API). The chain of abstraction/programmatic services starting from the uppermost layer (the part of the stack where a __call__ generates) to the layer who finally ends the call by responding to it without passing the buck further, is called __call stack__. Let's take a look the call stack involved for most JavaScript code that starts in a browser environment:    
-
-<img
-  src = "https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/callstack.png"  
-  height = 500px  
-  weight = 250px  
-  align = center 
-/>    
+<table>
+  <tr>
+    <td>
+      <img
+        src = "https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/callstack.png"  
+        height = 500px  
+        weight = 250px  
+        align = center 
+      />
+    </td>
+  </tr>
+</table>
+    
 
 ```
   - When the interpreter is handed the job of laying out and managing the memory map, 
