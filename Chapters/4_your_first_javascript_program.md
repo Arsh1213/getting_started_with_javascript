@@ -46,7 +46,8 @@ To find the console on Google Chrome:
         <img src="https://github.com/datasouvik/getting_started_with_javascript/blob/master/Assets/consoleImageChrome.png"/>
       </td>
     </tr>
-  </table> 
+  </table>
+  
   > __NOTE__: When you get any error on the console and need to debug, navigate to the __`Source`__ tab beside __`Console`__.
   
 ### HTML file
