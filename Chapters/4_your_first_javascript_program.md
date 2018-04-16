@@ -48,7 +48,7 @@ To find the console on Google Chrome:
     </tr>
   </table>
   
-  > __NOTE__: When you get any error on the console and need to debug, navigate to the __`Source`__ tab beside __`Console`__.
+  > __NOTE__: When you get any error on the console and need to debug, navigate to the __`Sources`__ tab beside __`Console`__.
   
 ### HTML file
 There are two ways to include JavaScript code in a `.html` file - _inline_, and _pointer to another `.js` file_. Both the approaches are shown in the following snippet:
