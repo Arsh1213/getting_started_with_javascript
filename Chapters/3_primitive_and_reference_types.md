@@ -109,7 +109,7 @@ Do such exercises often, especially whenever you encounter a concept that is dif
 ## Notes on "null" and "undefined"
 We haven't discussed much about these two mysterious data types, although you might have seen enough clues that indicate they are somewhat special and different than the others. In the subsequent chapters we will see some usage of these two data types, but this is a nice opportunity to give a basic explanation of what they are, and how they work.
 
-__null__ and __undefined__ are unique values themselves, and not a data types per se - not at least like _Number_ and _String_ data types. For example, 2 and -5.7 are both numbers, and although they belong to the same data type, they are different in their magnitude, and hence their possible effects on the program. However, __null__ and __undefined__ are unique values themselves, and a type in their own right since JavaScript interpreters handle them differently than other kids on the block.    
+__null__ and __undefined__ are unique values themselves, and not a data types per se - not at least like _Number_ and _String_ data types. For example, 2 and -5.7 are both numbers, and although they belong to the same data type, they are different in their magnitude, and hence their possible effects on the program. However, __null__ and __undefined__ are unique values themselves, and a type in their own right since JavaScript interpreters handle them differently than the other kids on the block.    
 
 ### null
 
@@ -119,7 +119,7 @@ __null__ is a special value that we assign to variables when our intention is to
 var empty_variable = null; // We deliberately want the variable to be empty.
 
 /* 
-This is a way telling the interpreter that we know exactly what we want to do - 
+This is a way of telling the interpreter that we know exactly what we want to do - 
 keep the memory location of the variable empty when it is declared and initialized.
 
 Remember that null is not a string.
@@ -145,7 +145,7 @@ var age; // This is an undefined variable.
 If you look closely at the code illustrations in the section for __mutation__, you will observe that even for perfectly valid and complete statements like `var a_number = 9;`, the JavaScript console (the interactive mode of the interpreter) _returns_ `undefined`. But why does the interpreter returns `undefined`, even when there is nothing wrong? To understand the reason, we should follow our technique of thinking like the interpreter.    
 
   1. When the interpreter first sees the term `var`, it anticipates that a variable is on the way. Apart from that, it has no other information at all. However, it knows that it should encounter a break in the form of whitespace character, followed by a string.    
-  2. As expected, it next sees a whitespace and ignores it. It keeps looking on for a string and gets `a_number`. It now knows what to do next - allocate a memory for the newly minted variable, and it does exactly that. However, just after it allocates the memory without having any idea what kind of a variable (based on data type) it is handling, it becomes curious and looks inside the memory locations. Sure enough, it finds nothing there, because it has not got anything to put inside it yet! But being the impatient kid it is in the _console_ mode (when it's interactive), it jumps to a conclusion - the variabe has not been defined properly!     
+  2. As expected, it next sees a whitespace and ignores it. It keeps looking on for a string and gets `a_number`. It now knows what to do next - allocate a memory for the newly minted variable, and it does exactly that. However, just after it allocates the memory without having any idea what kind of a variable (based on data type) it is handling, it becomes curious and looks inside the memory locations. Sure enough, it finds nothing there, because it has not got anything to put inside it yet! But being the impatient kid it is in the _console_ mode (when it's interactive), it jumps to a conclusion - the variable has not been defined properly!     
   3. Next thing you know, it spits out `undefined` on the console.    
   4. Then it goes on looking for other things till it encounters `;`, which indicates _end of statement_. As we are the programmers who can do no wrong, we have given it food for thought - the `=` operator that indicates __assignment__, and then a number `9` that indicates the __assigned value__. The interpreter realizes it's mistake and puts the value `9` inside the memory location allocated for `a_number`, keeping it ready for subsequent instructions. However, the egoistic personality it is, it never bothers to tell us that it had done a mistake of jumping to conclusion too quickly! But when asked again, it corrects its mistake and reveals the correct value of a well-defined variable.
   <table>
