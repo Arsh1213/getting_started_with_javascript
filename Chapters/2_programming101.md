@@ -12,7 +12,7 @@ It's tempting to skip chapters when you see large chunks of text.
 When (not if) this happens - do one simple exercise:
   1. Read the next chapters and get a feel of your understanding.
   2. Come back to this chapter, internalise the material presented here, 
-     and the revisit the subsequent chapters. I bet that you will experience 
+     and then revisit the subsequent chapters. I bet that you will experience 
      the difference.
 
 I guarantee that preparing a strong foundation by internalising the material
