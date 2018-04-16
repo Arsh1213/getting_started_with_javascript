@@ -109,7 +109,7 @@ Which part of the code does what? How can you modify the behaviour of the button
 
 Outsourcing the JavaScript code to a file and the referencing it from the `.html` file using the `<script></script>` tag makes sense, because it keeps the `.html` file clean and readable. An example of such usage is given below:
 ```html
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <!-- This html file contains just a button.
   It refernces a JavaScript file called "main.js"-->
